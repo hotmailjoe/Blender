@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\space_text\space_text.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\space_text\text_autocomplete.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\space_text\text_draw.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\space_text\text_format.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\space_text\text_format_osl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\space_text\text_format_pov.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\space_text\text_format_pov_ini.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\space_text\text_format_py.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\space_text\text_header.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\space_text\text_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\space_text\text_undo.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\space_text\text_format.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\space_text\text_intern.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\blender\source\blender\editors\space_text\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DCA61805-858F-3339-AB48-23982FF4ADDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EC3EFCE8-AD0A-3455-BDD6-6E7F392CC298}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

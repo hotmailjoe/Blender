@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\object\add_modifier_assets.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\object\object_add.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\object\object_bake.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\object\object_bake_api.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\object\object_bake_simulation.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\object\object_collection.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\object\object_constraint.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\object\object_data_transfer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\object\object_data_transform.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\object\object_edit.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\object\object_gpencil_modifier.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\object\object_hook.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\object\object_light_linking_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\object\object_modes.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\object\object_modifier.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\object\object_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\object\object_random.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\object\object_relations.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\object\object_remesh.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\object\object_select.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\object\object_shader_fx.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\object\object_shapekey.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\object\object_transform.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\object\object_utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\object\object_vgroup.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\object\object_volume.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\object\object_warp.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\object\object_intern.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\blender\source\blender\editors\object\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DCA61805-858F-3339-AB48-23982FF4ADDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EC3EFCE8-AD0A-3455-BDD6-6E7F392CC298}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

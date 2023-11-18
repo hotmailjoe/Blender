@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\blender\source\blender\render\intern\bake.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\render\intern\compositor.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\render\intern\engine.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\render\intern\initrender.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\render\intern\multires_bake.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\render\intern\pipeline.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\render\intern\render_result.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\render\intern\render_types.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\render\intern\texture_image.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\render\intern\texture_margin.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\render\intern\texture_pointdensity.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\render\intern\texture_procedural.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\render\intern\tile_highlight.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\render\intern\zbuf.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\blender\source\blender\render\RE_bake.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\render\RE_compositor.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\render\RE_engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\render\RE_multires_bake.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\render\RE_pipeline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\render\RE_texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\render\RE_texture_margin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\render\intern\pipeline.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\render\intern\render_result.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\render\intern\render_types.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\render\intern\texture_common.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\render\intern\tile_highlight.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\render\intern\zbuf.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\blender\source\blender\render\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DCA61805-858F-3339-AB48-23982FF4ADDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern">
+      <UniqueIdentifier>{4EDE82D4-1D12-38C7-B105-AB6CAFF912B4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\screen\area.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\screen\area_query.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\screen\area_utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\screen\glutil.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\screen\screen_context.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\screen\screen_draw.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\screen\screen_edit.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\screen\screen_geometry.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\screen\screen_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\screen\screen_user_menu.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\screen\screendump.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\screen\workspace_edit.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\screen\workspace_layout_edit.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\screen\workspace_listen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\screen\screen_intern.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\blender\source\blender\editors\screen\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DCA61805-858F-3339-AB48-23982FF4ADDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EC3EFCE8-AD0A-3455-BDD6-6E7F392CC298}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

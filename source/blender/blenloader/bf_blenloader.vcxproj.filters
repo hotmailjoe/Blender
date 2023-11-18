@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\blender\release\datafiles\userdef\userdef_default_theme.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\blenloader\intern\blend_validate.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\blenloader\intern\readblenentry.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\blenloader\intern\readfile.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\blenloader\intern\readfile_tempload.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\blenloader\intern\undofile.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\blenloader\intern\versioning_250.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\blenloader\intern\versioning_260.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\blenloader\intern\versioning_270.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\blenloader\intern\versioning_280.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\blenloader\intern\versioning_290.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\blenloader\intern\versioning_300.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\blenloader\intern\versioning_400.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\blenloader\intern\versioning_common.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\blenloader\intern\versioning_defaults.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\blenloader\intern\versioning_dna.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\blenloader\intern\versioning_legacy.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\blenloader\intern\versioning_userdef.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\blenloader\intern\writefile.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\blender\source\blender\blenloader\BLO_blend_defs.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\blenloader\BLO_blend_validate.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\blenloader\BLO_read_write.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\blenloader\BLO_readfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\blenloader\BLO_undofile.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\blenloader\BLO_writefile.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\blenloader\intern\readfile.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\blenloader\intern\versioning_common.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\blender\source\blender\blenloader\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DCA61805-858F-3339-AB48-23982FF4ADDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EC3EFCE8-AD0A-3455-BDD6-6E7F392CC298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern">
+      <UniqueIdentifier>{4EDE82D4-1D12-38C7-B105-AB6CAFF912B4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

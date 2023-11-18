@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\blender\source\blender\sequencer\intern\animation.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\sequencer\intern\channels.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\sequencer\intern\clipboard.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\sequencer\intern\disk_cache.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\sequencer\intern\effects.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\sequencer\intern\image_cache.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\sequencer\intern\iterator.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\sequencer\intern\modifier.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\sequencer\intern\multiview.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\sequencer\intern\prefetch.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\sequencer\intern\proxy.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\sequencer\intern\proxy_job.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\sequencer\intern\render.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\sequencer\intern\sequence_lookup.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\sequencer\intern\sequencer.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\sequencer\intern\sound.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\sequencer\intern\strip_add.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\sequencer\intern\strip_edit.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\sequencer\intern\strip_relations.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\sequencer\intern\strip_retiming.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\sequencer\intern\strip_select.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\sequencer\intern\strip_time.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\sequencer\intern\strip_transform.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\sequencer\intern\utils.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\blender\source\blender\sequencer\SEQ_add.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\sequencer\SEQ_animation.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\sequencer\SEQ_channels.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\sequencer\SEQ_clipboard.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\sequencer\SEQ_edit.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\sequencer\SEQ_effects.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\sequencer\SEQ_iterator.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\sequencer\SEQ_modifier.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\sequencer\SEQ_prefetch.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\sequencer\SEQ_proxy.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\sequencer\SEQ_relations.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\sequencer\SEQ_render.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\sequencer\SEQ_retiming.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\sequencer\SEQ_select.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\sequencer\SEQ_sequencer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\sequencer\SEQ_sound.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\sequencer\SEQ_time.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\sequencer\SEQ_transform.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\sequencer\SEQ_utils.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\sequencer\intern\disk_cache.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\sequencer\intern\effects.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\sequencer\intern\image_cache.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\sequencer\intern\multiview.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\sequencer\intern\prefetch.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\sequencer\intern\proxy.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\sequencer\intern\render.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\sequencer\intern\sequencer.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\sequencer\intern\strip_time.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\sequencer\intern\utils.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\blender\source\blender\sequencer\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DCA61805-858F-3339-AB48-23982FF4ADDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern">
+      <UniqueIdentifier>{4EDE82D4-1D12-38C7-B105-AB6CAFF912B4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

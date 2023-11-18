@@ -1,0 +1,767 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\kernel\device\cpu\kernel.cpp">
+      <Filter>device\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\kernel\device\cpu\kernel_sse2.cpp">
+      <Filter>device\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\kernel\device\cpu\kernel_sse41.cpp">
+      <Filter>device\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\kernel\device\cpu\kernel_avx2.cpp">
+      <Filter>device\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\kernel\device\hip\kernel.cpp">
+      <Filter>device\hip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\kernel\device\hiprt\kernel.cpp">
+      <Filter>device\hiprt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\bake\bake.h">
+      <Filter>bake</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\bvh\bvh.h">
+      <Filter>bvh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\bvh\nodes.h">
+      <Filter>bvh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\bvh\shadow_all.h">
+      <Filter>bvh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\bvh\local.h">
+      <Filter>bvh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\bvh\traversal.h">
+      <Filter>bvh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\bvh\types.h">
+      <Filter>bvh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\bvh\util.h">
+      <Filter>bvh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\bvh\volume.h">
+      <Filter>bvh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\bvh\volume_all.h">
+      <Filter>bvh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\camera\camera.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\camera\projection.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\closure\alloc.h">
+      <Filter>closure</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\closure\bsdf.h">
+      <Filter>closure</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\closure\bsdf_ashikhmin_velvet.h">
+      <Filter>closure</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\closure\bsdf_diffuse.h">
+      <Filter>closure</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\closure\bsdf_diffuse_ramp.h">
+      <Filter>closure</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\closure\bsdf_microfacet.h">
+      <Filter>closure</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\closure\bsdf_oren_nayar.h">
+      <Filter>closure</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\closure\bsdf_phong_ramp.h">
+      <Filter>closure</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\closure\bsdf_sheen.h">
+      <Filter>closure</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\closure\bsdf_toon.h">
+      <Filter>closure</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\closure\bsdf_transparent.h">
+      <Filter>closure</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\closure\bsdf_util.h">
+      <Filter>closure</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\closure\bsdf_ashikhmin_shirley.h">
+      <Filter>closure</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\closure\bsdf_hair.h">
+      <Filter>closure</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\closure\bssrdf.h">
+      <Filter>closure</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\closure\emissive.h">
+      <Filter>closure</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\closure\volume.h">
+      <Filter>closure</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\closure\bsdf_principled_hair_chiang.h">
+      <Filter>closure</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\closure\bsdf_principled_hair_huang.h">
+      <Filter>closure</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\film\adaptive_sampling.h">
+      <Filter>film</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\film\aov_passes.h">
+      <Filter>film</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\film\data_passes.h">
+      <Filter>film</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\film\denoising_passes.h">
+      <Filter>film</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\film\cryptomatte_passes.h">
+      <Filter>film</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\film\light_passes.h">
+      <Filter>film</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\film\read.h">
+      <Filter>film</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\film\write.h">
+      <Filter>film</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\geom\geom.h">
+      <Filter>geom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\geom\attribute.h">
+      <Filter>geom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\geom\curve.h">
+      <Filter>geom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\geom\curve_intersect.h">
+      <Filter>geom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\geom\motion_curve.h">
+      <Filter>geom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\geom\motion_point.h">
+      <Filter>geom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\geom\motion_triangle.h">
+      <Filter>geom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\geom\motion_triangle_intersect.h">
+      <Filter>geom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\geom\motion_triangle_shader.h">
+      <Filter>geom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\geom\object.h">
+      <Filter>geom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\geom\patch.h">
+      <Filter>geom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\geom\point.h">
+      <Filter>geom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\geom\point_intersect.h">
+      <Filter>geom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\geom\primitive.h">
+      <Filter>geom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\geom\shader_data.h">
+      <Filter>geom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\geom\subd_triangle.h">
+      <Filter>geom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\geom\triangle.h">
+      <Filter>geom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\geom\triangle_intersect.h">
+      <Filter>geom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\geom\volume.h">
+      <Filter>geom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\integrator\displacement_shader.h">
+      <Filter>integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\integrator\init_from_bake.h">
+      <Filter>integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\integrator\init_from_camera.h">
+      <Filter>integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\integrator\intersect_dedicated_light.h">
+      <Filter>integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\integrator\intersect_closest.h">
+      <Filter>integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\integrator\intersect_shadow.h">
+      <Filter>integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\integrator\intersect_subsurface.h">
+      <Filter>integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\integrator\intersect_volume_stack.h">
+      <Filter>integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\integrator\guiding.h">
+      <Filter>integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\integrator\megakernel.h">
+      <Filter>integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\integrator\mnee.h">
+      <Filter>integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\integrator\path_state.h">
+      <Filter>integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\integrator\shade_background.h">
+      <Filter>integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\integrator\shade_light.h">
+      <Filter>integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\integrator\shade_shadow.h">
+      <Filter>integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\integrator\shade_surface.h">
+      <Filter>integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\integrator\shade_volume.h">
+      <Filter>integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\integrator\shade_dedicated_light.h">
+      <Filter>integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\integrator\shadow_catcher.h">
+      <Filter>integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\integrator\shadow_linking.h">
+      <Filter>integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\integrator\shadow_state_template.h">
+      <Filter>integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\integrator\state_flow.h">
+      <Filter>integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\integrator\state.h">
+      <Filter>integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\integrator\state_template.h">
+      <Filter>integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\integrator\state_util.h">
+      <Filter>integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\integrator\subsurface_disk.h">
+      <Filter>integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\integrator\subsurface.h">
+      <Filter>integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\integrator\subsurface_random_walk.h">
+      <Filter>integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\integrator\surface_shader.h">
+      <Filter>integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\integrator\volume_shader.h">
+      <Filter>integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\integrator\volume_stack.h">
+      <Filter>integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\light\area.h">
+      <Filter>light</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\light\background.h">
+      <Filter>light</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\light\common.h">
+      <Filter>light</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\light\distant.h">
+      <Filter>light</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\light\distribution.h">
+      <Filter>light</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\light\light.h">
+      <Filter>light</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\light\point.h">
+      <Filter>light</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\light\sample.h">
+      <Filter>light</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\light\spot.h">
+      <Filter>light</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\light\tree.h">
+      <Filter>light</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\light\triangle.h">
+      <Filter>light</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\osl\osl.h">
+      <Filter>osl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\osl\closures_setup.h">
+      <Filter>osl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\osl\closures_template.h">
+      <Filter>osl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\osl\services_gpu.h">
+      <Filter>osl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\osl\types.h">
+      <Filter>osl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\sample\lcg.h">
+      <Filter>sample</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\sample\mapping.h">
+      <Filter>sample</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\sample\mis.h">
+      <Filter>sample</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\sample\pattern.h">
+      <Filter>sample</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\sample\sobol_burley.h">
+      <Filter>sample</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\sample\tabulated_sobol.h">
+      <Filter>sample</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\sample\util.h">
+      <Filter>sample</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\svm.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\ao.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\aov.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\attribute.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\bevel.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\blackbody.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\bump.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\camera.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\clamp.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\closure.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\convert.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\checker.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\color_util.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\brick.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\displace.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\fresnel.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\wireframe.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\wavelength.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\gamma.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\brightness.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\geometry.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\gradient.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\hsv.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\ies.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\image.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\invert.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\light_path.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\magic.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\map_range.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\mapping.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\mapping_util.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\math.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\math_util.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\mix.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\musgrave.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\node_types_template.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\noise.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\noisetex.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\normal.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\ramp.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\ramp_util.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\sepcomb_color.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\sepcomb_hsv.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\sepcomb_vector.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\sky.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\tex_coord.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\fractal_noise.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\types.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\value.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\vector_rotate.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\vector_transform.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\voronoi.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\voxel.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\wave.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\white_noise.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\svm\vertex_color.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\data_arrays.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\data_template.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\tables.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\types.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\util\color.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\util\differential.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\util\lookup_table.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\util\profiling.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\cpu\bvh.h">
+      <Filter>device\cpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\cpu\compat.h">
+      <Filter>device\cpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\cpu\image.h">
+      <Filter>device\cpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\cpu\globals.h">
+      <Filter>device\cpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\cpu\kernel.h">
+      <Filter>device\cpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\cpu\kernel_arch.h">
+      <Filter>device\cpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\cpu\kernel_arch_impl.h">
+      <Filter>device\cpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\gpu\image.h">
+      <Filter>device\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\gpu\kernel.h">
+      <Filter>device\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\gpu\parallel_active_index.h">
+      <Filter>device\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\gpu\parallel_prefix_sum.h">
+      <Filter>device\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\gpu\parallel_sorted_index.h">
+      <Filter>device\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\gpu\work_stealing.h">
+      <Filter>device\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\cuda\compat.h">
+      <Filter>device\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\cuda\config.h">
+      <Filter>device\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\cuda\globals.h">
+      <Filter>device\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\hip\compat.h">
+      <Filter>device\hip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\hip\config.h">
+      <Filter>device\hip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\hip\globals.h">
+      <Filter>device\hip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\hiprt\bvh.h">
+      <Filter>device\hiprt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\hiprt\common.h">
+      <Filter>device\hiprt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\hiprt\globals.h">
+      <Filter>device\hiprt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\hiprt\hiprt_kernels.h">
+      <Filter>device\hiprt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\optix\bvh.h">
+      <Filter>device\optix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\optix\compat.h">
+      <Filter>device\optix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\optix\globals.h">
+      <Filter>device\optix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\metal\bvh.h">
+      <Filter>device\metal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\metal\compat.h">
+      <Filter>device\metal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\metal\context_begin.h">
+      <Filter>device\metal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\metal\context_end.h">
+      <Filter>device\metal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\metal\function_constants.h">
+      <Filter>device\metal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\metal\globals.h">
+      <Filter>device\metal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\oneapi\compat.h">
+      <Filter>device\oneapi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\oneapi\context_begin.h">
+      <Filter>device\oneapi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\oneapi\context_end.h">
+      <Filter>device\oneapi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\oneapi\context_intersect_begin.h">
+      <Filter>device\oneapi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\oneapi\context_intersect_end.h">
+      <Filter>device\oneapi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\oneapi\globals.h">
+      <Filter>device\oneapi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\oneapi\image.h">
+      <Filter>device\oneapi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\oneapi\kernel.h">
+      <Filter>device\oneapi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\kernel\device\oneapi\kernel_templates.h">
+      <Filter>device\oneapi</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\blender\intern\cycles\kernel\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\blender-git\blender\intern\cycles\kernel\device\cuda\kernel.cu">
+      <Filter>device\cuda</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\intern\cycles\kernel\device\optix\kernel.cu">
+      <Filter>device\optix</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\intern\cycles\kernel\device\optix\kernel_shader_raytrace.cu">
+      <Filter>device\optix</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\intern\cycles\kernel\osl\services_optix.cu">
+      <Filter>device\optix</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\intern\cycles\kernel\device\optix\kernel_osl.cu">
+      <Filter>device\optix</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\intern\cycles\kernel\device\metal\kernel.metal">
+      <Filter>device\metal</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="bake">
+      <UniqueIdentifier>{453D518E-DD93-3D28-8BA8-C536D7535931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bvh">
+      <UniqueIdentifier>{01E195AE-C557-3C2F-BDDC-F0FA0786BF69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="camera">
+      <UniqueIdentifier>{2A4E02D6-3E3F-38D0-AACB-950F53FD61A5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="closure">
+      <UniqueIdentifier>{1D4975DC-452E-33DD-A397-4D8C9677A93C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="device">
+      <UniqueIdentifier>{06BB092D-D672-3A22-A4C8-7FC67962181D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="device\cpu">
+      <UniqueIdentifier>{E07C8F85-0441-318A-9DF4-D075E9C38C91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="device\cuda">
+      <UniqueIdentifier>{D39C080E-01CA-3CCC-B5AE-01AB61E4F7DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="device\gpu">
+      <UniqueIdentifier>{042C6B72-58D6-388E-8F3C-9A815342F736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="device\hip">
+      <UniqueIdentifier>{65C04F91-9AA2-3E0D-9EA2-3F9FA912DAA5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="device\hiprt">
+      <UniqueIdentifier>{3B1DB6D7-BEA2-39E3-BA43-95E2005D0E79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="device\metal">
+      <UniqueIdentifier>{38741E54-9C3D-3DF6-B67C-D51FD9E63284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="device\oneapi">
+      <UniqueIdentifier>{AB23BF78-42B1-3B6F-B239-8BE2269C2C49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="device\optix">
+      <UniqueIdentifier>{0BCA9724-2E83-3A1D-84D0-FCBDEBD968F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="film">
+      <UniqueIdentifier>{E8F76A8D-8EAA-329D-AF2D-0BC2F2B16D14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geom">
+      <UniqueIdentifier>{5E2DCC51-15B8-39B2-AA99-B7F06E3946FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="integrator">
+      <UniqueIdentifier>{221975AB-9924-3586-988C-BF34C159DB96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kernel">
+      <UniqueIdentifier>{8F69DFA1-C8EA-3EA1-B8D5-2BC6CF0FD3A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="light">
+      <UniqueIdentifier>{B2C49559-CFC3-3DE6-AB4D-70DCFA183CAE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="osl">
+      <UniqueIdentifier>{8D67B855-E584-34DF-9DE7-3AFFA57D081F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sample">
+      <UniqueIdentifier>{A147116E-CE34-3B24-A9DF-3F297CE3188B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="svm">
+      <UniqueIdentifier>{1E7ED5AF-A1BD-33BC-90A8-D27C51ABD5AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{0BD8DA60-A167-3D2F-A2FE-A1D93A77FB73}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

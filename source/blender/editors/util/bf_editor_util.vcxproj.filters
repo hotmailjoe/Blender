@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\util\ed_draw.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\util\ed_transverts.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\util\ed_util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\util\ed_util_imbuf.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\util\ed_util_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\util\ed_viewer_path.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\util\gizmo_utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\util\numinput.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\editors\util\select_utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\BIF_glutil.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_anim_api.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_armature.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_asset.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_asset_menu_utils.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_buttons.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_clip.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_curve.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_curves.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_curves_sculpt.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_datafiles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_file_indexer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_fileselect.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_geometry.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_gizmo_library.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_gizmo_utils.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_gpencil_legacy.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_grease_pencil.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_image.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_info.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_keyframes_draw.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_keyframes_edit.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_keyframes_keylist.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_keyframing.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_lattice.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_markers.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_mask.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_mball.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_mesh.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_node.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_node_c.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_node_preview.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_numinput.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_object.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_outliner.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_paint.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_particle.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_physics.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_render.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_scene.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_screen.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_screen_types.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_sculpt.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_select_utils.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_sequencer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_sound.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_space_api.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_spreadsheet.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_text.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_time_scrub_ui.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_transform.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_transform_snap_object_context.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_transverts.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_undo.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_userpref.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_util.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_util_imbuf.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_uvedit.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_view3d.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_view3d_offscreen.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\ED_viewer_path.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\UI_abstract_view.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\UI_grid_view.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\UI_icons.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\UI_interface.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\UI_interface_c.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\UI_interface_icons.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\UI_resources.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\UI_string_search.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\UI_tree_view.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\editors\include\UI_view2d.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\blender\source\blender\editors\util\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DCA61805-858F-3339-AB48-23982FF4ADDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EC3EFCE8-AD0A-3455-BDD6-6E7F392CC298}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

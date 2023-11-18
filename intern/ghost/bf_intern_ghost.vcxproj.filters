@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_Buttons.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_C-api.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_CallbackEventConsumer.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_Context.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_ContextNone.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_DisplayManager.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_EventManager.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_ISystem.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_ISystemPaths.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_ModifierKeys.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_Path-api.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_PathUtils.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_Rect.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_System.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_TimerManager.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_Window.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_WindowManager.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_ContextVK.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_NDOFManager.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_ContextD3D.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_DisplayManagerWin32.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_DropTargetWin32.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_SystemWin32.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_TrackpadWin32.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_WindowWin32.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_Wintab.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_ContextWGL.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_ImeWin32.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_NDOFManagerWin32.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_SystemPathsWin32.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_Xr.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_XrAction.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_XrContext.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_XrControllerModel.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_XrEvent.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_XrGraphicsBinding.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_XrSession.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\ghost\intern\GHOST_XrSwapchain.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\GHOST_C-api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\GHOST_IContext.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\GHOST_IEvent.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\GHOST_IEventConsumer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\GHOST_ISystem.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\GHOST_ISystemPaths.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\GHOST_ITimerTask.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\GHOST_IWindow.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\GHOST_Path-api.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\GHOST_Rect.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\GHOST_Types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_Buttons.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_CallbackEventConsumer.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_Context.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_ContextNone.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_Debug.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_DisplayManager.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_Event.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_EventButton.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_EventCursor.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_EventDragnDrop.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_EventKey.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_EventManager.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_EventString.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_EventTrackpad.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_EventWheel.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_ModifierKeys.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_PathUtils.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_System.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_SystemPaths.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_TimerManager.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_TimerTask.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_Util.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_Window.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_WindowManager.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_utildefines.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_utildefines_variadic.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_ContextVK.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_EventNDOF.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_NDOFManager.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_DisplayManagerNULL.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_SystemHeadless.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_WindowNULL.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_ContextD3D.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_DisplayManagerWin32.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_DropTargetWin32.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_SystemWin32.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_TaskbarWin32.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_TrackpadWin32.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_WindowWin32.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_Wintab.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_ContextWGL.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_ImeWin32.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_NDOFManagerWin32.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_SystemPathsWin32.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\GHOST_IXrContext.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_IXrGraphicsBinding.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_XrAction.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_XrContext.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_XrControllerModel.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_XrException.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_XrSession.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_XrSwapchain.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_Xr_intern.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\ghost\intern\GHOST_Xr_openxr_includes.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\tinygltf\tiny_gltf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\blender\intern\ghost\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DCA61805-858F-3339-AB48-23982FF4ADDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern">
+      <UniqueIdentifier>{4EDE82D4-1D12-38C7-B105-AB6CAFF912B4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

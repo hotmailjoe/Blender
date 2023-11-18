@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_armature.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_array.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_bevel.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_boolean.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_build.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_cast.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_cloth.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_collision.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_correctivesmooth.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_curve.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_datatransfer.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_decimate.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_displace.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_dynamicpaint.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_edgesplit.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_explode.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_fluid.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_hook.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_laplaciandeform.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_laplaciansmooth.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_lattice.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_mask.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_mesh_to_volume.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_meshcache.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_meshcache_mdd.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_meshcache_pc2.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_meshcache_util.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_meshdeform.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_meshsequencecache.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_mirror.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_multires.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_nodes.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_none.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_normal_edit.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_ocean.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_particleinstance.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_particlesystem.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_remesh.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_screw.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_shapekey.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_shrinkwrap.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_simpledeform.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_skin.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_smooth.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_softbody.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_solidify.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_solidify_extrude.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_solidify_nonmanifold.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_subsurf.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_surface.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_surfacedeform.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_triangulate.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_ui_common.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_util.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_uvproject.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_uvwarp.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_volume_displace.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_volume_to_mesh.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_warp.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_wave.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_weighted_normal.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_weightvg_util.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_weightvgedit.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_weightvgmix.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_weightvgproximity.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_weld.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_wireframe.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\blender\source\blender\modifiers\MOD_modifiertypes.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\modifiers\MOD_nodes.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_meshcache_util.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_solidify_util.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_ui_common.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_util.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\modifiers\intern\MOD_weightvg_util.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\blender\source\blender\modifiers\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DCA61805-858F-3339-AB48-23982FF4ADDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern">
+      <UniqueIdentifier>{4EDE82D4-1D12-38C7-B105-AB6CAFF912B4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

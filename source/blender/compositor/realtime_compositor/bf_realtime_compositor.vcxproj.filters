@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\intern\compile_state.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\intern\context.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\intern\conversion_operation.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\intern\domain.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\intern\evaluator.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\intern\input_single_value_operation.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\intern\node_operation.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\intern\operation.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\intern\realize_on_domain_operation.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\intern\reduce_to_single_value_operation.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\intern\result.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\intern\scheduler.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\intern\shader_node.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\intern\shader_operation.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\intern\simple_operation.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\intern\static_cache_manager.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\intern\texture_pool.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\intern\utilities.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\algorithms\intern\jump_flooding.cc">
+      <Filter>algorithms\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\algorithms\intern\morphological_distance.cc">
+      <Filter>algorithms\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\algorithms\intern\morphological_distance_feather.cc">
+      <Filter>algorithms\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\algorithms\intern\parallel_reduction.cc">
+      <Filter>algorithms\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\algorithms\intern\realize_on_domain.cc">
+      <Filter>algorithms\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\algorithms\intern\smaa.cc">
+      <Filter>algorithms\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\algorithms\intern\summed_area_table.cc">
+      <Filter>algorithms\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\algorithms\intern\symmetric_separable_blur.cc">
+      <Filter>algorithms\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\algorithms\intern\transform.cc">
+      <Filter>algorithms\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\cached_resources\intern\cached_mask.cc">
+      <Filter>cached_resources\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\cached_resources\intern\cached_shader.cc">
+      <Filter>cached_resources\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\cached_resources\intern\cached_texture.cc">
+      <Filter>cached_resources\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\cached_resources\intern\distortion_grid.cc">
+      <Filter>cached_resources\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\cached_resources\intern\keying_screen.cc">
+      <Filter>cached_resources\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\cached_resources\intern\morphological_distance_feather_weights.cc">
+      <Filter>cached_resources\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\cached_resources\intern\ocio_color_space_conversion_shader.cc">
+      <Filter>cached_resources\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\cached_resources\intern\smaa_precomputed_textures.cc">
+      <Filter>cached_resources\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\cached_resources\intern\symmetric_blur_weights.cc">
+      <Filter>cached_resources\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\cached_resources\intern\symmetric_separable_blur_weights.cc">
+      <Filter>cached_resources\intern</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\COM_compile_state.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\COM_context.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\COM_conversion_operation.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\COM_domain.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\COM_evaluator.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\COM_input_descriptor.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\COM_input_single_value_operation.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\COM_node_operation.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\COM_operation.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\COM_realize_on_domain_operation.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\COM_reduce_to_single_value_operation.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\COM_result.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\COM_scheduler.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\COM_shader_node.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\COM_shader_operation.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\COM_simple_operation.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\COM_static_cache_manager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\COM_texture_pool.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\COM_utilities.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\algorithms\COM_algorithm_jump_flooding.hh">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\algorithms\COM_algorithm_morphological_distance.hh">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\algorithms\COM_algorithm_morphological_distance_feather.hh">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\algorithms\COM_algorithm_parallel_reduction.hh">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\algorithms\COM_algorithm_realize_on_domain.hh">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\algorithms\COM_algorithm_smaa.hh">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\algorithms\COM_algorithm_summed_area_table.hh">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\algorithms\COM_algorithm_symmetric_separable_blur.hh">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\algorithms\COM_algorithm_transform.hh">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\cached_resources\COM_cached_mask.hh">
+      <Filter>cached_resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\cached_resources\COM_cached_resource.hh">
+      <Filter>cached_resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\cached_resources\COM_cached_shader.hh">
+      <Filter>cached_resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\cached_resources\COM_cached_texture.hh">
+      <Filter>cached_resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\cached_resources\COM_distortion_grid.hh">
+      <Filter>cached_resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\cached_resources\COM_keying_screen.hh">
+      <Filter>cached_resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\cached_resources\COM_morphological_distance_feather_weights.hh">
+      <Filter>cached_resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\cached_resources\COM_ocio_color_space_conversion_shader.hh">
+      <Filter>cached_resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\cached_resources\COM_smaa_precomputed_textures.hh">
+      <Filter>cached_resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\cached_resources\COM_symmetric_blur_weights.hh">
+      <Filter>cached_resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\cached_resources\COM_symmetric_separable_blur_weights.hh">
+      <Filter>cached_resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\glsl_compositor_source_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DCA61805-858F-3339-AB48-23982FF4ADDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="algorithms">
+      <UniqueIdentifier>{983991E5-11E1-3AA3-A099-CA8F756AD591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="algorithms\intern">
+      <UniqueIdentifier>{8A37647C-614E-3560-B9DD-4C8973AAAA53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cached_resources">
+      <UniqueIdentifier>{97C94BBA-E5F4-3D0E-8092-B80F7DC27A27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cached_resources\intern">
+      <UniqueIdentifier>{EA953E0C-C97D-3585-BC08-8E7787A69E2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern">
+      <UniqueIdentifier>{4EDE82D4-1D12-38C7-B105-AB6CAFF912B4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

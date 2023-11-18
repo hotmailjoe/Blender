@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/CMake/share/cmake-3.28/Modules/CMakeDependentOption.cmake
+C:/blender-git/blender/extern/audaspace/CMakeLists.txt
+C:/blender-git/blender/extern/audaspace/blender_config.cmake
+C:/blender-git/blender/extern/audaspace/config/Audaspace.h.in
+C:/blender-git/blender/extern/audaspace/src/fx/HRTFLoaderWindows.cpp
+C:/blender-git/blender/extern/audaspace/src/plugin/PluginManagerWindows.cpp.in

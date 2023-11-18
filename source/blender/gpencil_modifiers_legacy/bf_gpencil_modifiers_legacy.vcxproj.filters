@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\MOD_gpencil_legacy_ui_common.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\MOD_gpencil_legacy_armature.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\MOD_gpencil_legacy_array.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\MOD_gpencil_legacy_build.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\MOD_gpencil_legacy_color.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\MOD_gpencil_legacy_dash.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\MOD_gpencil_legacy_envelope.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\MOD_gpencil_legacy_hook.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\MOD_gpencil_legacy_lattice.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\MOD_gpencil_legacy_length.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\MOD_gpencil_legacy_lineart.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\MOD_gpencil_legacy_mirror.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\MOD_gpencil_legacy_multiply.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\MOD_gpencil_legacy_noise.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\MOD_gpencil_legacy_offset.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\MOD_gpencil_legacy_opacity.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\MOD_gpencil_legacy_outline.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\MOD_gpencil_legacy_shrinkwrap.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\MOD_gpencil_legacy_simplify.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\MOD_gpencil_legacy_smooth.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\MOD_gpencil_legacy_subdiv.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\MOD_gpencil_legacy_texture.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\MOD_gpencil_legacy_thick.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\MOD_gpencil_legacy_time.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\MOD_gpencil_legacy_tint.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\MOD_gpencil_legacy_util.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\MOD_gpencil_legacy_weight_angle.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\MOD_gpencil_legacy_weight_proximity.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\lineart\lineart_chain.cc">
+      <Filter>intern\lineart</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\lineart\lineart_cpu.cc">
+      <Filter>intern\lineart</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\lineart\lineart_ops.cc">
+      <Filter>intern\lineart</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\lineart\lineart_shadow.cc">
+      <Filter>intern\lineart</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\lineart\lineart_util.cc">
+      <Filter>intern\lineart</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\MOD_gpencil_legacy_lineart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\MOD_gpencil_legacy_modifiertypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\MOD_gpencil_legacy_ui_common.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\MOD_gpencil_legacy_util.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\lineart\MOD_lineart.h">
+      <Filter>intern\lineart</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\intern\lineart\lineart_intern.h">
+      <Filter>intern\lineart</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\blender\source\blender\gpencil_modifiers_legacy\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DCA61805-858F-3339-AB48-23982FF4ADDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern">
+      <UniqueIdentifier>{4EDE82D4-1D12-38C7-B105-AB6CAFF912B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\lineart">
+      <UniqueIdentifier>{47AA2DC4-8CFD-3AD8-8D4E-4D46E8276040}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

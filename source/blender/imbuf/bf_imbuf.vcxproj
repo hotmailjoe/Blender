@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{02B84A31-4901-3240-B708-247DF509BF75}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>bf_imbuf</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\blender-git\build_windows_x64_vc17_Release\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">bf_imbuf.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">bf_imbuf</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\blender-git\build_windows_x64_vc17_Release\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">bf_imbuf.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">bf_imbuf</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\blender-git\build_windows_x64_vc17_Release\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">bf_imbuf.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">bf_imbuf</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\blender-git\build_windows_x64_vc17_Release\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">bf_imbuf.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">bf_imbuf</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\blender\source\blender\imbuf;C:\blender-git\blender\source\blender\blenkernel;C:\blender-git\blender\source\blender\blenloader;C:\blender-git\blender\source\blender\gpu;C:\blender-git\blender\source\blender\makesrna;C:\blender-git\blender\source\blender\sequencer;C:\blender-git\blender\intern\memutil;C:\blender-git\blender\source\blender\io\avi;C:\blender-git\blender\intern\ffmpeg;C:\blender-git\blender\intern\opencolorio;C:\blender-git\blender\intern\utfconv;C:\blender-git\blender\source\blender\blenlib;C:\blender-git\blender\source\blender\makesdna;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesdna\intern;C:\blender-git\blender\intern\guardedalloc;C:\blender-git\blender\extern\nanosvg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/blender/../lib/win64_vc15/pthreads/include" /external:I "C:/blender-git/lib/win64_vc15/jpeg/include" /external:I "C:/blender-git/lib/win64_vc15/zlib/include" /external:I "C:/blender-git/lib/win64_vc15/OpenImageIO/include" /external:I "C:/blender-git/lib/win64_vc15/openjpeg/include/openjpeg-2.5" /external:I "C:/blender-git/lib/win64_vc15/ffmpeg/include" /external:I "C:/blender-git/lib/win64_vc15/ffmpeg/include/msvc" /external:I "C:/blender-git/lib/win64_vc15/webp/include" /external:I "C:/blender-git/lib/win64_vc15/tbb/include" /w34062 /w34100 /w34115 /w34189 /w35038 /J /bigobj /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/blender/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode>true</SupportJustMyCode>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431;4033</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;DEBUG;_DEBUG;BLENDER_WIN_APPID="blender.4.1";BLENDER_WIN_APPID_FRIENDLY_NAME="Blender 4.1";_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_ASSERT_ABORT;WITH_OPENEXR;WITH_OPENJPEG;OPJ_STATIC;WITH_AVI;WITH_FFMPEG;WITH_CINEON;WITH_WEBP;WITH_TBB;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;DEBUG;BLENDER_WIN_APPID=\"blender.4.1\";BLENDER_WIN_APPID_FRIENDLY_NAME=\"Blender 4.1\";_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_ASSERT_ABORT;WITH_OPENEXR;WITH_OPENJPEG;OPJ_STATIC;WITH_AVI;WITH_FFMPEG;WITH_CINEON;WITH_WEBP;WITH_TBB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\blender\source\blender\imbuf;C:\blender-git\blender\source\blender\blenkernel;C:\blender-git\blender\source\blender\blenloader;C:\blender-git\blender\source\blender\gpu;C:\blender-git\blender\source\blender\makesrna;C:\blender-git\blender\source\blender\sequencer;C:\blender-git\blender\intern\memutil;C:\blender-git\blender\source\blender\io\avi;C:\blender-git\blender\intern\ffmpeg;C:\blender-git\blender\intern\opencolorio;C:\blender-git\blender\intern\utfconv;C:\blender-git\blender\source\blender\blenlib;C:\blender-git\blender\source\blender\makesdna;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesdna\intern;C:\blender-git\blender\intern\guardedalloc;C:\blender-git\blender\extern\nanosvg;C:\blender-git\blender\..\lib\win64_vc15\pthreads\include;C:\blender-git\lib\win64_vc15\jpeg\include;C:\blender-git\lib\win64_vc15\zlib\include;C:\blender-git\lib\win64_vc15\OpenImageIO\include;C:\blender-git\lib\win64_vc15\openjpeg\include\openjpeg-2.5;C:\blender-git\lib\win64_vc15\ffmpeg\include;C:\blender-git\lib\win64_vc15\ffmpeg\include\msvc;C:\blender-git\lib\win64_vc15\webp\include;C:\blender-git\lib\win64_vc15\tbb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\blender\source\blender\imbuf;C:\blender-git\blender\source\blender\blenkernel;C:\blender-git\blender\source\blender\blenloader;C:\blender-git\blender\source\blender\gpu;C:\blender-git\blender\source\blender\makesrna;C:\blender-git\blender\source\blender\sequencer;C:\blender-git\blender\intern\memutil;C:\blender-git\blender\source\blender\io\avi;C:\blender-git\blender\intern\ffmpeg;C:\blender-git\blender\intern\opencolorio;C:\blender-git\blender\intern\utfconv;C:\blender-git\blender\source\blender\blenlib;C:\blender-git\blender\source\blender\makesdna;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesdna\intern;C:\blender-git\blender\intern\guardedalloc;C:\blender-git\blender\extern\nanosvg;C:\blender-git\blender\..\lib\win64_vc15\pthreads\include;C:\blender-git\lib\win64_vc15\jpeg\include;C:\blender-git\lib\win64_vc15\zlib\include;C:\blender-git\lib\win64_vc15\OpenImageIO\include;C:\blender-git\lib\win64_vc15\openjpeg\include\openjpeg-2.5;C:\blender-git\lib\win64_vc15\ffmpeg\include;C:\blender-git\lib\win64_vc15\ffmpeg\include\msvc;C:\blender-git\lib\win64_vc15\webp\include;C:\blender-git\lib\win64_vc15\tbb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\blender\source\blender\imbuf;C:\blender-git\blender\source\blender\blenkernel;C:\blender-git\blender\source\blender\blenloader;C:\blender-git\blender\source\blender\gpu;C:\blender-git\blender\source\blender\makesrna;C:\blender-git\blender\source\blender\sequencer;C:\blender-git\blender\intern\memutil;C:\blender-git\blender\source\blender\io\avi;C:\blender-git\blender\intern\ffmpeg;C:\blender-git\blender\intern\opencolorio;C:\blender-git\blender\intern\utfconv;C:\blender-git\blender\source\blender\blenlib;C:\blender-git\blender\source\blender\makesdna;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesdna\intern;C:\blender-git\blender\intern\guardedalloc;C:\blender-git\blender\extern\nanosvg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/blender/../lib/win64_vc15/pthreads/include" /external:I "C:/blender-git/lib/win64_vc15/jpeg/include" /external:I "C:/blender-git/lib/win64_vc15/zlib/include" /external:I "C:/blender-git/lib/win64_vc15/OpenImageIO/include" /external:I "C:/blender-git/lib/win64_vc15/openjpeg/include/openjpeg-2.5" /external:I "C:/blender-git/lib/win64_vc15/ffmpeg/include" /external:I "C:/blender-git/lib/win64_vc15/ffmpeg/include/msvc" /external:I "C:/blender-git/lib/win64_vc15/webp/include" /external:I "C:/blender-git/lib/win64_vc15/tbb/include" /w34062 /w34100 /w34115 /w34189 /w35038 /J /bigobj /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/blender/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431;4033</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BLENDER_WIN_APPID="blender.4.1";BLENDER_WIN_APPID_FRIENDLY_NAME="Blender 4.1";_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_ASSERT_ABORT;WITH_OPENEXR;WITH_OPENJPEG;OPJ_STATIC;WITH_AVI;WITH_FFMPEG;WITH_CINEON;WITH_WEBP;WITH_TBB;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BLENDER_WIN_APPID=\"blender.4.1\";BLENDER_WIN_APPID_FRIENDLY_NAME=\"Blender 4.1\";_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_ASSERT_ABORT;WITH_OPENEXR;WITH_OPENJPEG;OPJ_STATIC;WITH_AVI;WITH_FFMPEG;WITH_CINEON;WITH_WEBP;WITH_TBB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\blender\source\blender\imbuf;C:\blender-git\blender\source\blender\blenkernel;C:\blender-git\blender\source\blender\blenloader;C:\blender-git\blender\source\blender\gpu;C:\blender-git\blender\source\blender\makesrna;C:\blender-git\blender\source\blender\sequencer;C:\blender-git\blender\intern\memutil;C:\blender-git\blender\source\blender\io\avi;C:\blender-git\blender\intern\ffmpeg;C:\blender-git\blender\intern\opencolorio;C:\blender-git\blender\intern\utfconv;C:\blender-git\blender\source\blender\blenlib;C:\blender-git\blender\source\blender\makesdna;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesdna\intern;C:\blender-git\blender\intern\guardedalloc;C:\blender-git\blender\extern\nanosvg;C:\blender-git\blender\..\lib\win64_vc15\pthreads\include;C:\blender-git\lib\win64_vc15\jpeg\include;C:\blender-git\lib\win64_vc15\zlib\include;C:\blender-git\lib\win64_vc15\OpenImageIO\include;C:\blender-git\lib\win64_vc15\openjpeg\include\openjpeg-2.5;C:\blender-git\lib\win64_vc15\ffmpeg\include;C:\blender-git\lib\win64_vc15\ffmpeg\include\msvc;C:\blender-git\lib\win64_vc15\webp\include;C:\blender-git\lib\win64_vc15\tbb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\blender\source\blender\imbuf;C:\blender-git\blender\source\blender\blenkernel;C:\blender-git\blender\source\blender\blenloader;C:\blender-git\blender\source\blender\gpu;C:\blender-git\blender\source\blender\makesrna;C:\blender-git\blender\source\blender\sequencer;C:\blender-git\blender\intern\memutil;C:\blender-git\blender\source\blender\io\avi;C:\blender-git\blender\intern\ffmpeg;C:\blender-git\blender\intern\opencolorio;C:\blender-git\blender\intern\utfconv;C:\blender-git\blender\source\blender\blenlib;C:\blender-git\blender\source\blender\makesdna;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesdna\intern;C:\blender-git\blender\intern\guardedalloc;C:\blender-git\blender\extern\nanosvg;C:\blender-git\blender\..\lib\win64_vc15\pthreads\include;C:\blender-git\lib\win64_vc15\jpeg\include;C:\blender-git\lib\win64_vc15\zlib\include;C:\blender-git\lib\win64_vc15\OpenImageIO\include;C:\blender-git\lib\win64_vc15\openjpeg\include\openjpeg-2.5;C:\blender-git\lib\win64_vc15\ffmpeg\include;C:\blender-git\lib\win64_vc15\ffmpeg\include\msvc;C:\blender-git\lib\win64_vc15\webp\include;C:\blender-git\lib\win64_vc15\tbb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\blender\source\blender\imbuf;C:\blender-git\blender\source\blender\blenkernel;C:\blender-git\blender\source\blender\blenloader;C:\blender-git\blender\source\blender\gpu;C:\blender-git\blender\source\blender\makesrna;C:\blender-git\blender\source\blender\sequencer;C:\blender-git\blender\intern\memutil;C:\blender-git\blender\source\blender\io\avi;C:\blender-git\blender\intern\ffmpeg;C:\blender-git\blender\intern\opencolorio;C:\blender-git\blender\intern\utfconv;C:\blender-git\blender\source\blender\blenlib;C:\blender-git\blender\source\blender\makesdna;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesdna\intern;C:\blender-git\blender\intern\guardedalloc;C:\blender-git\blender\extern\nanosvg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/blender/../lib/win64_vc15/pthreads/include" /external:I "C:/blender-git/lib/win64_vc15/jpeg/include" /external:I "C:/blender-git/lib/win64_vc15/zlib/include" /external:I "C:/blender-git/lib/win64_vc15/OpenImageIO/include" /external:I "C:/blender-git/lib/win64_vc15/openjpeg/include/openjpeg-2.5" /external:I "C:/blender-git/lib/win64_vc15/ffmpeg/include" /external:I "C:/blender-git/lib/win64_vc15/ffmpeg/include/msvc" /external:I "C:/blender-git/lib/win64_vc15/webp/include" /external:I "C:/blender-git/lib/win64_vc15/tbb/include" /w34062 /w34100 /w34115 /w34189 /w35038 /J /bigobj /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/blender/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431;4033</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BLENDER_WIN_APPID="blender.4.1";BLENDER_WIN_APPID_FRIENDLY_NAME="Blender 4.1";_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_ASSERT_ABORT;WITH_OPENEXR;WITH_OPENJPEG;OPJ_STATIC;WITH_AVI;WITH_FFMPEG;WITH_CINEON;WITH_WEBP;WITH_TBB;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BLENDER_WIN_APPID=\"blender.4.1\";BLENDER_WIN_APPID_FRIENDLY_NAME=\"Blender 4.1\";_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_ASSERT_ABORT;WITH_OPENEXR;WITH_OPENJPEG;OPJ_STATIC;WITH_AVI;WITH_FFMPEG;WITH_CINEON;WITH_WEBP;WITH_TBB;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\blender\source\blender\imbuf;C:\blender-git\blender\source\blender\blenkernel;C:\blender-git\blender\source\blender\blenloader;C:\blender-git\blender\source\blender\gpu;C:\blender-git\blender\source\blender\makesrna;C:\blender-git\blender\source\blender\sequencer;C:\blender-git\blender\intern\memutil;C:\blender-git\blender\source\blender\io\avi;C:\blender-git\blender\intern\ffmpeg;C:\blender-git\blender\intern\opencolorio;C:\blender-git\blender\intern\utfconv;C:\blender-git\blender\source\blender\blenlib;C:\blender-git\blender\source\blender\makesdna;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesdna\intern;C:\blender-git\blender\intern\guardedalloc;C:\blender-git\blender\extern\nanosvg;C:\blender-git\blender\..\lib\win64_vc15\pthreads\include;C:\blender-git\lib\win64_vc15\jpeg\include;C:\blender-git\lib\win64_vc15\zlib\include;C:\blender-git\lib\win64_vc15\OpenImageIO\include;C:\blender-git\lib\win64_vc15\openjpeg\include\openjpeg-2.5;C:\blender-git\lib\win64_vc15\ffmpeg\include;C:\blender-git\lib\win64_vc15\ffmpeg\include\msvc;C:\blender-git\lib\win64_vc15\webp\include;C:\blender-git\lib\win64_vc15\tbb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\blender\source\blender\imbuf;C:\blender-git\blender\source\blender\blenkernel;C:\blender-git\blender\source\blender\blenloader;C:\blender-git\blender\source\blender\gpu;C:\blender-git\blender\source\blender\makesrna;C:\blender-git\blender\source\blender\sequencer;C:\blender-git\blender\intern\memutil;C:\blender-git\blender\source\blender\io\avi;C:\blender-git\blender\intern\ffmpeg;C:\blender-git\blender\intern\opencolorio;C:\blender-git\blender\intern\utfconv;C:\blender-git\blender\source\blender\blenlib;C:\blender-git\blender\source\blender\makesdna;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesdna\intern;C:\blender-git\blender\intern\guardedalloc;C:\blender-git\blender\extern\nanosvg;C:\blender-git\blender\..\lib\win64_vc15\pthreads\include;C:\blender-git\lib\win64_vc15\jpeg\include;C:\blender-git\lib\win64_vc15\zlib\include;C:\blender-git\lib\win64_vc15\OpenImageIO\include;C:\blender-git\lib\win64_vc15\openjpeg\include\openjpeg-2.5;C:\blender-git\lib\win64_vc15\ffmpeg\include;C:\blender-git\lib\win64_vc15\ffmpeg\include\msvc;C:\blender-git\lib\win64_vc15\webp\include;C:\blender-git\lib\win64_vc15\tbb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\blender\source\blender\imbuf;C:\blender-git\blender\source\blender\blenkernel;C:\blender-git\blender\source\blender\blenloader;C:\blender-git\blender\source\blender\gpu;C:\blender-git\blender\source\blender\makesrna;C:\blender-git\blender\source\blender\sequencer;C:\blender-git\blender\intern\memutil;C:\blender-git\blender\source\blender\io\avi;C:\blender-git\blender\intern\ffmpeg;C:\blender-git\blender\intern\opencolorio;C:\blender-git\blender\intern\utfconv;C:\blender-git\blender\source\blender\blenlib;C:\blender-git\blender\source\blender\makesdna;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesdna\intern;C:\blender-git\blender\intern\guardedalloc;C:\blender-git\blender\extern\nanosvg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/blender/../lib/win64_vc15/pthreads/include" /external:I "C:/blender-git/lib/win64_vc15/jpeg/include" /external:I "C:/blender-git/lib/win64_vc15/zlib/include" /external:I "C:/blender-git/lib/win64_vc15/OpenImageIO/include" /external:I "C:/blender-git/lib/win64_vc15/openjpeg/include/openjpeg-2.5" /external:I "C:/blender-git/lib/win64_vc15/ffmpeg/include" /external:I "C:/blender-git/lib/win64_vc15/ffmpeg/include/msvc" /external:I "C:/blender-git/lib/win64_vc15/webp/include" /external:I "C:/blender-git/lib/win64_vc15/tbb/include" /w34062 /w34100 /w34115 /w34189 /w35038 /J /bigobj /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/blender/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431;4033</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BLENDER_WIN_APPID="blender.4.1";BLENDER_WIN_APPID_FRIENDLY_NAME="Blender 4.1";_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_ASSERT_ABORT;WITH_OPENEXR;WITH_OPENJPEG;OPJ_STATIC;WITH_AVI;WITH_FFMPEG;WITH_CINEON;WITH_WEBP;WITH_TBB;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BLENDER_WIN_APPID=\"blender.4.1\";BLENDER_WIN_APPID_FRIENDLY_NAME=\"Blender 4.1\";_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_ASSERT_ABORT;WITH_OPENEXR;WITH_OPENJPEG;OPJ_STATIC;WITH_AVI;WITH_FFMPEG;WITH_CINEON;WITH_WEBP;WITH_TBB;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\blender\source\blender\imbuf;C:\blender-git\blender\source\blender\blenkernel;C:\blender-git\blender\source\blender\blenloader;C:\blender-git\blender\source\blender\gpu;C:\blender-git\blender\source\blender\makesrna;C:\blender-git\blender\source\blender\sequencer;C:\blender-git\blender\intern\memutil;C:\blender-git\blender\source\blender\io\avi;C:\blender-git\blender\intern\ffmpeg;C:\blender-git\blender\intern\opencolorio;C:\blender-git\blender\intern\utfconv;C:\blender-git\blender\source\blender\blenlib;C:\blender-git\blender\source\blender\makesdna;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesdna\intern;C:\blender-git\blender\intern\guardedalloc;C:\blender-git\blender\extern\nanosvg;C:\blender-git\blender\..\lib\win64_vc15\pthreads\include;C:\blender-git\lib\win64_vc15\jpeg\include;C:\blender-git\lib\win64_vc15\zlib\include;C:\blender-git\lib\win64_vc15\OpenImageIO\include;C:\blender-git\lib\win64_vc15\openjpeg\include\openjpeg-2.5;C:\blender-git\lib\win64_vc15\ffmpeg\include;C:\blender-git\lib\win64_vc15\ffmpeg\include\msvc;C:\blender-git\lib\win64_vc15\webp\include;C:\blender-git\lib\win64_vc15\tbb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\blender\source\blender\imbuf;C:\blender-git\blender\source\blender\blenkernel;C:\blender-git\blender\source\blender\blenloader;C:\blender-git\blender\source\blender\gpu;C:\blender-git\blender\source\blender\makesrna;C:\blender-git\blender\source\blender\sequencer;C:\blender-git\blender\intern\memutil;C:\blender-git\blender\source\blender\io\avi;C:\blender-git\blender\intern\ffmpeg;C:\blender-git\blender\intern\opencolorio;C:\blender-git\blender\intern\utfconv;C:\blender-git\blender\source\blender\blenlib;C:\blender-git\blender\source\blender\makesdna;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesdna\intern;C:\blender-git\blender\intern\guardedalloc;C:\blender-git\blender\extern\nanosvg;C:\blender-git\blender\..\lib\win64_vc15\pthreads\include;C:\blender-git\lib\win64_vc15\jpeg\include;C:\blender-git\lib\win64_vc15\zlib\include;C:\blender-git\lib\win64_vc15\OpenImageIO\include;C:\blender-git\lib\win64_vc15\openjpeg\include\openjpeg-2.5;C:\blender-git\lib\win64_vc15\ffmpeg\include;C:\blender-git\lib\win64_vc15\ffmpeg\include\msvc;C:\blender-git\lib\win64_vc15\webp\include;C:\blender-git\lib\win64_vc15\tbb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\blender\source\blender\imbuf\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/blender-git/blender/source/blender/imbuf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -SC:/blender-git/blender -BC:/blender-git/build_windows_x64_vc17_Release --check-stamp-file C:/blender-git/build_windows_x64_vc17_Release/source/blender/imbuf/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\blender-git\build_windows_x64_vc17_Release\source\blender\imbuf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/blender-git/blender/source/blender/imbuf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -SC:/blender-git/blender -BC:/blender-git/build_windows_x64_vc17_Release --check-stamp-file C:/blender-git/build_windows_x64_vc17_Release/source/blender/imbuf/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\blender-git\build_windows_x64_vc17_Release\source\blender\imbuf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/blender-git/blender/source/blender/imbuf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -SC:/blender-git/blender -BC:/blender-git/build_windows_x64_vc17_Release --check-stamp-file C:/blender-git/build_windows_x64_vc17_Release/source/blender/imbuf/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\blender-git\build_windows_x64_vc17_Release\source\blender\imbuf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/blender-git/blender/source/blender/imbuf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -SC:/blender-git/blender -BC:/blender-git/build_windows_x64_vc17_Release --check-stamp-file C:/blender-git/build_windows_x64_vc17_Release/source/blender/imbuf/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\blender-git\build_windows_x64_vc17_Release\source\blender\imbuf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\allocimbuf.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\anim_movie.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\colormanagement.cc" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\imbuf\intern\colormanagement_inline.h" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\divers.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\filetype.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\filter.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\format_bmp.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\format_dds.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\format_hdr.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\format_png.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\format_psd.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\format_svg.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\format_targa.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\format_tiff.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\imageprocess.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\indexer.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\iris.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\jpeg.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\metadata.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\module.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\moviecache.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\readimage.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\rectop.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\rotate.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\scaling.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\stereoimbuf.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\thumbs.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\thumbs_blend.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\thumbs_font.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\transform.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\util.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\util_gpu.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\writeimage.cc" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\imbuf\IMB_colormanagement.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\imbuf\IMB_imbuf.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\imbuf\IMB_imbuf_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\imbuf\IMB_metadata.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\imbuf\IMB_moviecache.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\imbuf\IMB_openexr.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\imbuf\IMB_thumbs.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\imbuf\intern\IMB_allocimbuf.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\imbuf\intern\IMB_anim.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\imbuf\intern\IMB_colormanagement_intern.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\imbuf\intern\IMB_filetype.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\imbuf\intern\IMB_filter.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\imbuf\intern\IMB_indexer.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\imbuf\intern\imbuf.h" />
+    <ClInclude Include="C:\blender-git\blender\intern\ffmpeg\ffmpeg_compat.h" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\jp2.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\format_dpx.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\imbuf\intern\webp.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\ZERO_CHECK.vcxproj">
+      <Project>{25603482-4DEA-3CCE-BBC8-38DB5ABD22C5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\bf_compositor_shaders.vcxproj">
+      <Project>{50D686FE-DB4C-3734-9328-95A6442E0256}</Project>
+      <Name>bf_compositor_shaders</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesdna\intern\bf_dna.vcxproj">
+      <Project>{61CC4962-B8C1-3D6A-AAE3-B32D2F361BC7}</Project>
+      <Name>bf_dna</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\draw\bf_draw_shaders.vcxproj">
+      <Project>{A9A81491-6FF6-369A-A5BD-E99343C4AD78}</Project>
+      <Name>bf_draw_shaders</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\datafiles\bf_editor_datafiles.vcxproj">
+      <Project>{4515D875-B834-3061-8236-C81F1320A36F}</Project>
+      <Name>bf_editor_datafiles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\gpu\bf_gpu_shaders.vcxproj">
+      <Project>{362265EA-5721-3798-813B-661B3F03DD1D}</Project>
+      <Name>bf_gpu_shaders</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\opensubdiv\bf_intern_opensubdiv.vcxproj">
+      <Project>{296FA468-24D5-325C-9C44-A386A3E9D8B4}</Project>
+      <Name>bf_intern_opensubdiv</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\nodes\function\bf_nodes_functions_generated.vcxproj">
+      <Project>{2D7B7A76-B8FC-3BB2-9635-B9E5649FD6DF}</Project>
+      <Name>bf_nodes_functions_generated</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\nodes\geometry\bf_nodes_geometry_generated.vcxproj">
+      <Project>{C90A632E-20E3-331E-9686-3398A3F972B7}</Project>
+      <Name>bf_nodes_geometry_generated</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\opencolorio\bf_ocio_shaders.vcxproj">
+      <Project>{222DA683-0303-35DB-A10A-58F86DADEA23}</Project>
+      <Name>bf_ocio_shaders</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

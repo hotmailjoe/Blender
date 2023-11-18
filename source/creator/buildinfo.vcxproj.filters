@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\583feffde3f808a5156e31dae7b1b783\buildinfo.h_fake.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\cc49821fc94dbd3c55c9ee592bda6c5d\buildinfo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\blender\source\creator\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\blender-git\build_windows_x64_vc17_Release\source\creator\CMakeFiles\buildinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D15A3CAF-CAB7-3597-833D-3C06FFB91F4D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

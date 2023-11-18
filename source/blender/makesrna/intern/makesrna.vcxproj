@@ -1,0 +1,606 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DC04A97D-D91B-3A8B-8F60-BB17B7EA3CEE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>makesrna</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\blender-git\build_windows_x64_vc17_Release\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">makesrna.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">makesrna</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\blender-git\build_windows_x64_vc17_Release\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">makesrna.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">makesrna</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\blender-git\build_windows_x64_vc17_Release\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">makesrna.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">makesrna</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\blender-git\build_windows_x64_vc17_Release\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">makesrna.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">makesrna</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\blender\source\blender\makesrna\intern;C:\blender-git\blender\source\blender\makesrna;C:\blender-git\blender\source\blender\asset_system;C:\blender-git\blender\source\blender\blenfont;C:\blender-git\blender\source\blender\blenkernel;C:\blender-git\blender\source\blender\blenlib;C:\blender-git\blender\source\blender\blenloader;C:\blender-git\blender\source\blender\blentranslation;C:\blender-git\blender\source\blender\bmesh;C:\blender-git\blender\source\blender\depsgraph;C:\blender-git\blender\source\blender\draw;C:\blender-git\blender\source\blender\gpu;C:\blender-git\blender\source\blender\ikplugin;C:\blender-git\blender\source\blender\imbuf;C:\blender-git\blender\source\blender\io\usd;C:\blender-git\blender\source\blender\modifiers;C:\blender-git\blender\source\blender\nodes;C:\blender-git\blender\source\blender\sequencer;C:\blender-git\blender\source\blender\simulation;C:\blender-git\blender\source\blender\windowmanager;C:\blender-git\blender\source\blender\editors\asset;C:\blender-git\blender\source\blender\editors\include;C:\blender-git\blender\source\blender\render;C:\blender-git\blender\intern\clog;C:\blender-git\blender\intern\cycles\blender;C:\blender-git\blender\intern\memutil;C:\blender-git\blender\intern\mantaflow\extern;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna;C:\blender-git\blender\source\blender\python;C:\blender-git\blender\intern\ffmpeg;C:\blender-git\blender\source\blender\io\alembic;C:\blender-git\blender\intern\rigidbody;C:\blender-git\blender\source\blender\freestyle;C:\blender-git\blender\intern\opensubdiv;C:\blender-git\blender\intern\openvdb;C:\blender-git\blender\source\blender\makesdna;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesdna\intern;C:\blender-git\blender\intern\atomic\.;C:\blender-git\blender\intern\guardedalloc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/blender/../lib/win64_vc15/pthreads/include" /external:I "C:/blender-git/blender/extern/audaspace/bindings/C" /external:I "C:/blender-git/build_windows_x64_vc17_Release/extern/audaspace" /external:I "C:/blender-git/lib/win64_vc15/ffmpeg/include" /external:I "C:/blender-git/lib/win64_vc15/ffmpeg/include/msvc" /external:I "C:/blender-git/lib/win64_vc15/openvdb/include" /external:I "C:/blender-git/lib/win64_vc15/boost/include" /external:I "C:/blender-git/lib/win64_vc15/tbb/include" /external:I "C:/blender-git/lib/win64_vc15/openexr/include" /external:I "C:/blender-git/lib/win64_vc15/imath/include" /external:I "C:/blender-git/lib/win64_vc15/imath/include/Imath" /external:I "C:/blender-git/lib/win64_vc15/openexr/include/OpenEXR" /w34062 /w34115 /w34189 /w35038 /J /bigobj /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/blender/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode>true</SupportJustMyCode>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431;4033</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;DEBUG;_DEBUG;BLENDER_WIN_APPID="blender.4.1";BLENDER_WIN_APPID_FRIENDLY_NAME="Blender 4.1";_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_ASSERT_ABORT;WITH_USD;WITH_SIMULATION_DATABLOCK;WITH_GREASE_PENCIL_V3;WITH_CYCLES;WITH_PYTHON;WITH_OPENEXR;WITH_OPENJPEG;WITH_CINEON;WITH_WEBP;WITH_AUDASPACE;WITH_FFMPEG;WITH_FFTW3;WITH_FLUID;WITH_OCEANSIM;WITH_SDL;WITH_OPENAL;WITH_WASAPI;WITH_COLLADA;WITH_INTERNATIONAL;WITH_ALEMBIC;WITH_BULLET;WITH_FREESTYLE;WITH_OPENSUBDIV;WITH_OPENVDB;NOMINMAX;_USE_MATH_DEFINES;TBB_SUPPRESS_DEPRECATED_MESSAGES=1;WITH_OPENVDB_BLOSC;WITH_INPUT_NDOF;WITH_XR_OPENXR;WITH_OPENGL_BACKEND;WITH_VULKAN_BACKEND;WITH_GMP;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;DEBUG;BLENDER_WIN_APPID=\"blender.4.1\";BLENDER_WIN_APPID_FRIENDLY_NAME=\"Blender 4.1\";_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_ASSERT_ABORT;WITH_USD;WITH_SIMULATION_DATABLOCK;WITH_GREASE_PENCIL_V3;WITH_CYCLES;WITH_PYTHON;WITH_OPENEXR;WITH_OPENJPEG;WITH_CINEON;WITH_WEBP;WITH_AUDASPACE;WITH_FFMPEG;WITH_FFTW3;WITH_FLUID;WITH_OCEANSIM;WITH_SDL;WITH_OPENAL;WITH_WASAPI;WITH_COLLADA;WITH_INTERNATIONAL;WITH_ALEMBIC;WITH_BULLET;WITH_FREESTYLE;WITH_OPENSUBDIV;WITH_OPENVDB;NOMINMAX;_USE_MATH_DEFINES;TBB_SUPPRESS_DEPRECATED_MESSAGES=1;WITH_OPENVDB_BLOSC;WITH_INPUT_NDOF;WITH_XR_OPENXR;WITH_OPENGL_BACKEND;WITH_VULKAN_BACKEND;WITH_GMP;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\blender\source\blender\makesrna\intern;C:\blender-git\blender\source\blender\makesrna;C:\blender-git\blender\source\blender\asset_system;C:\blender-git\blender\source\blender\blenfont;C:\blender-git\blender\source\blender\blenkernel;C:\blender-git\blender\source\blender\blenlib;C:\blender-git\blender\source\blender\blenloader;C:\blender-git\blender\source\blender\blentranslation;C:\blender-git\blender\source\blender\bmesh;C:\blender-git\blender\source\blender\depsgraph;C:\blender-git\blender\source\blender\draw;C:\blender-git\blender\source\blender\gpu;C:\blender-git\blender\source\blender\ikplugin;C:\blender-git\blender\source\blender\imbuf;C:\blender-git\blender\source\blender\io\usd;C:\blender-git\blender\source\blender\modifiers;C:\blender-git\blender\source\blender\nodes;C:\blender-git\blender\source\blender\sequencer;C:\blender-git\blender\source\blender\simulation;C:\blender-git\blender\source\blender\windowmanager;C:\blender-git\blender\source\blender\editors\asset;C:\blender-git\blender\source\blender\editors\include;C:\blender-git\blender\source\blender\render;C:\blender-git\blender\intern\clog;C:\blender-git\blender\intern\cycles\blender;C:\blender-git\blender\intern\memutil;C:\blender-git\blender\intern\mantaflow\extern;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna;C:\blender-git\blender\source\blender\python;C:\blender-git\blender\intern\ffmpeg;C:\blender-git\blender\source\blender\io\alembic;C:\blender-git\blender\intern\rigidbody;C:\blender-git\blender\source\blender\freestyle;C:\blender-git\blender\intern\opensubdiv;C:\blender-git\blender\intern\openvdb;C:\blender-git\blender\source\blender\makesdna;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesdna\intern;C:\blender-git\blender\intern\atomic\.;C:\blender-git\blender\intern\guardedalloc;C:\blender-git\blender\..\lib\win64_vc15\pthreads\include;C:\blender-git\blender\extern\audaspace\bindings\C;C:\blender-git\build_windows_x64_vc17_Release\extern\audaspace;C:\blender-git\lib\win64_vc15\ffmpeg\include;C:\blender-git\lib\win64_vc15\ffmpeg\include\msvc;C:\blender-git\lib\win64_vc15\openvdb\include;C:\blender-git\lib\win64_vc15\boost\include;C:\blender-git\lib\win64_vc15\tbb\include;C:\blender-git\lib\win64_vc15\openexr\include;C:\blender-git\lib\win64_vc15\imath\include;C:\blender-git\lib\win64_vc15\imath\include\Imath;C:\blender-git\lib\win64_vc15\openexr\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\blender\source\blender\makesrna\intern;C:\blender-git\blender\source\blender\makesrna;C:\blender-git\blender\source\blender\asset_system;C:\blender-git\blender\source\blender\blenfont;C:\blender-git\blender\source\blender\blenkernel;C:\blender-git\blender\source\blender\blenlib;C:\blender-git\blender\source\blender\blenloader;C:\blender-git\blender\source\blender\blentranslation;C:\blender-git\blender\source\blender\bmesh;C:\blender-git\blender\source\blender\depsgraph;C:\blender-git\blender\source\blender\draw;C:\blender-git\blender\source\blender\gpu;C:\blender-git\blender\source\blender\ikplugin;C:\blender-git\blender\source\blender\imbuf;C:\blender-git\blender\source\blender\io\usd;C:\blender-git\blender\source\blender\modifiers;C:\blender-git\blender\source\blender\nodes;C:\blender-git\blender\source\blender\sequencer;C:\blender-git\blender\source\blender\simulation;C:\blender-git\blender\source\blender\windowmanager;C:\blender-git\blender\source\blender\editors\asset;C:\blender-git\blender\source\blender\editors\include;C:\blender-git\blender\source\blender\render;C:\blender-git\blender\intern\clog;C:\blender-git\blender\intern\cycles\blender;C:\blender-git\blender\intern\memutil;C:\blender-git\blender\intern\mantaflow\extern;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna;C:\blender-git\blender\source\blender\python;C:\blender-git\blender\intern\ffmpeg;C:\blender-git\blender\source\blender\io\alembic;C:\blender-git\blender\intern\rigidbody;C:\blender-git\blender\source\blender\freestyle;C:\blender-git\blender\intern\opensubdiv;C:\blender-git\blender\intern\openvdb;C:\blender-git\blender\source\blender\makesdna;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesdna\intern;C:\blender-git\blender\intern\atomic\.;C:\blender-git\blender\intern\guardedalloc;C:\blender-git\blender\..\lib\win64_vc15\pthreads\include;C:\blender-git\blender\extern\audaspace\bindings\C;C:\blender-git\build_windows_x64_vc17_Release\extern\audaspace;C:\blender-git\lib\win64_vc15\ffmpeg\include;C:\blender-git\lib\win64_vc15\ffmpeg\include\msvc;C:\blender-git\lib\win64_vc15\openvdb\include;C:\blender-git\lib\win64_vc15\boost\include;C:\blender-git\lib\win64_vc15\tbb\include;C:\blender-git\lib\win64_vc15\openexr\include;C:\blender-git\lib\win64_vc15\imath\include;C:\blender-git\lib\win64_vc15\imath\include\Imath;C:\blender-git\lib\win64_vc15\openexr\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\blender-git\blender\..\lib\win64_vc15\pthreads\lib\pthreadVC3.lib;ws2_32.lib;vfw32.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;Comctl32.lib;version.lib;advapi32.lib;shfolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;psapi.lib;Dbghelp.lib;Shlwapi.lib;pathcch.lib;Shcore.lib;Dwmapi.lib;Crypt32.lib;imm32.lib;..\..\..\..\lib\Debug\bf_dna.lib;..\..\..\..\lib\Debug\bf_intern_guardedalloc.lib;..\..\..\..\lib\Debug\bf_dna_blenlib.lib;C:\blender-git\blender\..\lib\win64_vc15\pthreads\lib\pthreadVC3.lib;..\..\..\..\lib\Debug\bf_intern_guardedalloc.lib;C:\blender-git\blender\..\lib\win64_vc15\pthreads\lib\pthreadVC3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4099 /ignore:4049 /ignore:4217 /ignore:4221 /IGNORE:4099</AdditionalOptions>
+      <GenerateDebugInformation>DebugFastLink</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib;msvcrt.lib;libcmtd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/blender-git/build_windows_x64_vc17_Release/bin/Debug/makesrna.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/blender-git/build_windows_x64_vc17_Release/bin/Debug/makesrna.pdb</ProgramDataBaseFile>
+      <StackReserveSize>2097152</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\blender\source\blender\makesrna\intern;C:\blender-git\blender\source\blender\makesrna;C:\blender-git\blender\source\blender\asset_system;C:\blender-git\blender\source\blender\blenfont;C:\blender-git\blender\source\blender\blenkernel;C:\blender-git\blender\source\blender\blenlib;C:\blender-git\blender\source\blender\blenloader;C:\blender-git\blender\source\blender\blentranslation;C:\blender-git\blender\source\blender\bmesh;C:\blender-git\blender\source\blender\depsgraph;C:\blender-git\blender\source\blender\draw;C:\blender-git\blender\source\blender\gpu;C:\blender-git\blender\source\blender\ikplugin;C:\blender-git\blender\source\blender\imbuf;C:\blender-git\blender\source\blender\io\usd;C:\blender-git\blender\source\blender\modifiers;C:\blender-git\blender\source\blender\nodes;C:\blender-git\blender\source\blender\sequencer;C:\blender-git\blender\source\blender\simulation;C:\blender-git\blender\source\blender\windowmanager;C:\blender-git\blender\source\blender\editors\asset;C:\blender-git\blender\source\blender\editors\include;C:\blender-git\blender\source\blender\render;C:\blender-git\blender\intern\clog;C:\blender-git\blender\intern\cycles\blender;C:\blender-git\blender\intern\memutil;C:\blender-git\blender\intern\mantaflow\extern;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna;C:\blender-git\blender\source\blender\python;C:\blender-git\blender\intern\ffmpeg;C:\blender-git\blender\source\blender\io\alembic;C:\blender-git\blender\intern\rigidbody;C:\blender-git\blender\source\blender\freestyle;C:\blender-git\blender\intern\opensubdiv;C:\blender-git\blender\intern\openvdb;C:\blender-git\blender\source\blender\makesdna;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesdna\intern;C:\blender-git\blender\intern\atomic\.;C:\blender-git\blender\intern\guardedalloc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/blender/../lib/win64_vc15/pthreads/include" /external:I "C:/blender-git/blender/extern/audaspace/bindings/C" /external:I "C:/blender-git/build_windows_x64_vc17_Release/extern/audaspace" /external:I "C:/blender-git/lib/win64_vc15/ffmpeg/include" /external:I "C:/blender-git/lib/win64_vc15/ffmpeg/include/msvc" /external:I "C:/blender-git/lib/win64_vc15/openvdb/include" /external:I "C:/blender-git/lib/win64_vc15/boost/include" /external:I "C:/blender-git/lib/win64_vc15/tbb/include" /external:I "C:/blender-git/lib/win64_vc15/openexr/include" /external:I "C:/blender-git/lib/win64_vc15/imath/include" /external:I "C:/blender-git/lib/win64_vc15/imath/include/Imath" /external:I "C:/blender-git/lib/win64_vc15/openexr/include/OpenEXR" /w34062 /w34115 /w34189 /w35038 /J /bigobj /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/blender/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431;4033</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BLENDER_WIN_APPID="blender.4.1";BLENDER_WIN_APPID_FRIENDLY_NAME="Blender 4.1";_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_ASSERT_ABORT;WITH_USD;WITH_SIMULATION_DATABLOCK;WITH_GREASE_PENCIL_V3;WITH_CYCLES;WITH_PYTHON;WITH_OPENEXR;WITH_OPENJPEG;WITH_CINEON;WITH_WEBP;WITH_AUDASPACE;WITH_FFMPEG;WITH_FFTW3;WITH_FLUID;WITH_OCEANSIM;WITH_SDL;WITH_OPENAL;WITH_WASAPI;WITH_COLLADA;WITH_INTERNATIONAL;WITH_ALEMBIC;WITH_BULLET;WITH_FREESTYLE;WITH_OPENSUBDIV;WITH_OPENVDB;NOMINMAX;_USE_MATH_DEFINES;TBB_SUPPRESS_DEPRECATED_MESSAGES=1;WITH_OPENVDB_BLOSC;WITH_INPUT_NDOF;WITH_XR_OPENXR;WITH_OPENGL_BACKEND;WITH_VULKAN_BACKEND;WITH_GMP;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BLENDER_WIN_APPID=\"blender.4.1\";BLENDER_WIN_APPID_FRIENDLY_NAME=\"Blender 4.1\";_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_ASSERT_ABORT;WITH_USD;WITH_SIMULATION_DATABLOCK;WITH_GREASE_PENCIL_V3;WITH_CYCLES;WITH_PYTHON;WITH_OPENEXR;WITH_OPENJPEG;WITH_CINEON;WITH_WEBP;WITH_AUDASPACE;WITH_FFMPEG;WITH_FFTW3;WITH_FLUID;WITH_OCEANSIM;WITH_SDL;WITH_OPENAL;WITH_WASAPI;WITH_COLLADA;WITH_INTERNATIONAL;WITH_ALEMBIC;WITH_BULLET;WITH_FREESTYLE;WITH_OPENSUBDIV;WITH_OPENVDB;NOMINMAX;_USE_MATH_DEFINES;TBB_SUPPRESS_DEPRECATED_MESSAGES=1;WITH_OPENVDB_BLOSC;WITH_INPUT_NDOF;WITH_XR_OPENXR;WITH_OPENGL_BACKEND;WITH_VULKAN_BACKEND;WITH_GMP;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\blender\source\blender\makesrna\intern;C:\blender-git\blender\source\blender\makesrna;C:\blender-git\blender\source\blender\asset_system;C:\blender-git\blender\source\blender\blenfont;C:\blender-git\blender\source\blender\blenkernel;C:\blender-git\blender\source\blender\blenlib;C:\blender-git\blender\source\blender\blenloader;C:\blender-git\blender\source\blender\blentranslation;C:\blender-git\blender\source\blender\bmesh;C:\blender-git\blender\source\blender\depsgraph;C:\blender-git\blender\source\blender\draw;C:\blender-git\blender\source\blender\gpu;C:\blender-git\blender\source\blender\ikplugin;C:\blender-git\blender\source\blender\imbuf;C:\blender-git\blender\source\blender\io\usd;C:\blender-git\blender\source\blender\modifiers;C:\blender-git\blender\source\blender\nodes;C:\blender-git\blender\source\blender\sequencer;C:\blender-git\blender\source\blender\simulation;C:\blender-git\blender\source\blender\windowmanager;C:\blender-git\blender\source\blender\editors\asset;C:\blender-git\blender\source\blender\editors\include;C:\blender-git\blender\source\blender\render;C:\blender-git\blender\intern\clog;C:\blender-git\blender\intern\cycles\blender;C:\blender-git\blender\intern\memutil;C:\blender-git\blender\intern\mantaflow\extern;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna;C:\blender-git\blender\source\blender\python;C:\blender-git\blender\intern\ffmpeg;C:\blender-git\blender\source\blender\io\alembic;C:\blender-git\blender\intern\rigidbody;C:\blender-git\blender\source\blender\freestyle;C:\blender-git\blender\intern\opensubdiv;C:\blender-git\blender\intern\openvdb;C:\blender-git\blender\source\blender\makesdna;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesdna\intern;C:\blender-git\blender\intern\atomic\.;C:\blender-git\blender\intern\guardedalloc;C:\blender-git\blender\..\lib\win64_vc15\pthreads\include;C:\blender-git\blender\extern\audaspace\bindings\C;C:\blender-git\build_windows_x64_vc17_Release\extern\audaspace;C:\blender-git\lib\win64_vc15\ffmpeg\include;C:\blender-git\lib\win64_vc15\ffmpeg\include\msvc;C:\blender-git\lib\win64_vc15\openvdb\include;C:\blender-git\lib\win64_vc15\boost\include;C:\blender-git\lib\win64_vc15\tbb\include;C:\blender-git\lib\win64_vc15\openexr\include;C:\blender-git\lib\win64_vc15\imath\include;C:\blender-git\lib\win64_vc15\imath\include\Imath;C:\blender-git\lib\win64_vc15\openexr\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\blender\source\blender\makesrna\intern;C:\blender-git\blender\source\blender\makesrna;C:\blender-git\blender\source\blender\asset_system;C:\blender-git\blender\source\blender\blenfont;C:\blender-git\blender\source\blender\blenkernel;C:\blender-git\blender\source\blender\blenlib;C:\blender-git\blender\source\blender\blenloader;C:\blender-git\blender\source\blender\blentranslation;C:\blender-git\blender\source\blender\bmesh;C:\blender-git\blender\source\blender\depsgraph;C:\blender-git\blender\source\blender\draw;C:\blender-git\blender\source\blender\gpu;C:\blender-git\blender\source\blender\ikplugin;C:\blender-git\blender\source\blender\imbuf;C:\blender-git\blender\source\blender\io\usd;C:\blender-git\blender\source\blender\modifiers;C:\blender-git\blender\source\blender\nodes;C:\blender-git\blender\source\blender\sequencer;C:\blender-git\blender\source\blender\simulation;C:\blender-git\blender\source\blender\windowmanager;C:\blender-git\blender\source\blender\editors\asset;C:\blender-git\blender\source\blender\editors\include;C:\blender-git\blender\source\blender\render;C:\blender-git\blender\intern\clog;C:\blender-git\blender\intern\cycles\blender;C:\blender-git\blender\intern\memutil;C:\blender-git\blender\intern\mantaflow\extern;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna;C:\blender-git\blender\source\blender\python;C:\blender-git\blender\intern\ffmpeg;C:\blender-git\blender\source\blender\io\alembic;C:\blender-git\blender\intern\rigidbody;C:\blender-git\blender\source\blender\freestyle;C:\blender-git\blender\intern\opensubdiv;C:\blender-git\blender\intern\openvdb;C:\blender-git\blender\source\blender\makesdna;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesdna\intern;C:\blender-git\blender\intern\atomic\.;C:\blender-git\blender\intern\guardedalloc;C:\blender-git\blender\..\lib\win64_vc15\pthreads\include;C:\blender-git\blender\extern\audaspace\bindings\C;C:\blender-git\build_windows_x64_vc17_Release\extern\audaspace;C:\blender-git\lib\win64_vc15\ffmpeg\include;C:\blender-git\lib\win64_vc15\ffmpeg\include\msvc;C:\blender-git\lib\win64_vc15\openvdb\include;C:\blender-git\lib\win64_vc15\boost\include;C:\blender-git\lib\win64_vc15\tbb\include;C:\blender-git\lib\win64_vc15\openexr\include;C:\blender-git\lib\win64_vc15\imath\include;C:\blender-git\lib\win64_vc15\imath\include\Imath;C:\blender-git\lib\win64_vc15\openexr\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\blender-git\blender\..\lib\win64_vc15\pthreads\lib\pthreadVC3.lib;ws2_32.lib;vfw32.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;Comctl32.lib;version.lib;advapi32.lib;shfolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;psapi.lib;Dbghelp.lib;Shlwapi.lib;pathcch.lib;Shcore.lib;Dwmapi.lib;Crypt32.lib;imm32.lib;..\..\..\..\lib\Release\bf_dna.lib;..\..\..\..\lib\Release\bf_intern_guardedalloc.lib;..\..\..\..\lib\Release\bf_dna_blenlib.lib;C:\blender-git\blender\..\lib\win64_vc15\pthreads\lib\pthreadVC3.lib;..\..\..\..\lib\Release\bf_intern_guardedalloc.lib;C:\blender-git\blender\..\lib\win64_vc15\pthreads\lib\pthreadVC3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4099 /ignore:4049 /ignore:4217 /ignore:4221 /ignore:4049 /ignore:4217 /ignore:4221</AdditionalOptions>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/blender-git/build_windows_x64_vc17_Release/bin/Release/makesrna.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>C:/blender-git/build_windows_x64_vc17_Release/bin/Release/makesrna.pdb</ProgramDataBaseFile>
+      <StackReserveSize>2097152</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\blender\source\blender\makesrna\intern;C:\blender-git\blender\source\blender\makesrna;C:\blender-git\blender\source\blender\asset_system;C:\blender-git\blender\source\blender\blenfont;C:\blender-git\blender\source\blender\blenkernel;C:\blender-git\blender\source\blender\blenlib;C:\blender-git\blender\source\blender\blenloader;C:\blender-git\blender\source\blender\blentranslation;C:\blender-git\blender\source\blender\bmesh;C:\blender-git\blender\source\blender\depsgraph;C:\blender-git\blender\source\blender\draw;C:\blender-git\blender\source\blender\gpu;C:\blender-git\blender\source\blender\ikplugin;C:\blender-git\blender\source\blender\imbuf;C:\blender-git\blender\source\blender\io\usd;C:\blender-git\blender\source\blender\modifiers;C:\blender-git\blender\source\blender\nodes;C:\blender-git\blender\source\blender\sequencer;C:\blender-git\blender\source\blender\simulation;C:\blender-git\blender\source\blender\windowmanager;C:\blender-git\blender\source\blender\editors\asset;C:\blender-git\blender\source\blender\editors\include;C:\blender-git\blender\source\blender\render;C:\blender-git\blender\intern\clog;C:\blender-git\blender\intern\cycles\blender;C:\blender-git\blender\intern\memutil;C:\blender-git\blender\intern\mantaflow\extern;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna;C:\blender-git\blender\source\blender\python;C:\blender-git\blender\intern\ffmpeg;C:\blender-git\blender\source\blender\io\alembic;C:\blender-git\blender\intern\rigidbody;C:\blender-git\blender\source\blender\freestyle;C:\blender-git\blender\intern\opensubdiv;C:\blender-git\blender\intern\openvdb;C:\blender-git\blender\source\blender\makesdna;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesdna\intern;C:\blender-git\blender\intern\atomic\.;C:\blender-git\blender\intern\guardedalloc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/blender/../lib/win64_vc15/pthreads/include" /external:I "C:/blender-git/blender/extern/audaspace/bindings/C" /external:I "C:/blender-git/build_windows_x64_vc17_Release/extern/audaspace" /external:I "C:/blender-git/lib/win64_vc15/ffmpeg/include" /external:I "C:/blender-git/lib/win64_vc15/ffmpeg/include/msvc" /external:I "C:/blender-git/lib/win64_vc15/openvdb/include" /external:I "C:/blender-git/lib/win64_vc15/boost/include" /external:I "C:/blender-git/lib/win64_vc15/tbb/include" /external:I "C:/blender-git/lib/win64_vc15/openexr/include" /external:I "C:/blender-git/lib/win64_vc15/imath/include" /external:I "C:/blender-git/lib/win64_vc15/imath/include/Imath" /external:I "C:/blender-git/lib/win64_vc15/openexr/include/OpenEXR" /w34062 /w34115 /w34189 /w35038 /J /bigobj /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/blender/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431;4033</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BLENDER_WIN_APPID="blender.4.1";BLENDER_WIN_APPID_FRIENDLY_NAME="Blender 4.1";_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_ASSERT_ABORT;WITH_USD;WITH_SIMULATION_DATABLOCK;WITH_GREASE_PENCIL_V3;WITH_CYCLES;WITH_PYTHON;WITH_OPENEXR;WITH_OPENJPEG;WITH_CINEON;WITH_WEBP;WITH_AUDASPACE;WITH_FFMPEG;WITH_FFTW3;WITH_FLUID;WITH_OCEANSIM;WITH_SDL;WITH_OPENAL;WITH_WASAPI;WITH_COLLADA;WITH_INTERNATIONAL;WITH_ALEMBIC;WITH_BULLET;WITH_FREESTYLE;WITH_OPENSUBDIV;WITH_OPENVDB;NOMINMAX;_USE_MATH_DEFINES;TBB_SUPPRESS_DEPRECATED_MESSAGES=1;WITH_OPENVDB_BLOSC;WITH_INPUT_NDOF;WITH_XR_OPENXR;WITH_OPENGL_BACKEND;WITH_VULKAN_BACKEND;WITH_GMP;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BLENDER_WIN_APPID=\"blender.4.1\";BLENDER_WIN_APPID_FRIENDLY_NAME=\"Blender 4.1\";_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_ASSERT_ABORT;WITH_USD;WITH_SIMULATION_DATABLOCK;WITH_GREASE_PENCIL_V3;WITH_CYCLES;WITH_PYTHON;WITH_OPENEXR;WITH_OPENJPEG;WITH_CINEON;WITH_WEBP;WITH_AUDASPACE;WITH_FFMPEG;WITH_FFTW3;WITH_FLUID;WITH_OCEANSIM;WITH_SDL;WITH_OPENAL;WITH_WASAPI;WITH_COLLADA;WITH_INTERNATIONAL;WITH_ALEMBIC;WITH_BULLET;WITH_FREESTYLE;WITH_OPENSUBDIV;WITH_OPENVDB;NOMINMAX;_USE_MATH_DEFINES;TBB_SUPPRESS_DEPRECATED_MESSAGES=1;WITH_OPENVDB_BLOSC;WITH_INPUT_NDOF;WITH_XR_OPENXR;WITH_OPENGL_BACKEND;WITH_VULKAN_BACKEND;WITH_GMP;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\blender\source\blender\makesrna\intern;C:\blender-git\blender\source\blender\makesrna;C:\blender-git\blender\source\blender\asset_system;C:\blender-git\blender\source\blender\blenfont;C:\blender-git\blender\source\blender\blenkernel;C:\blender-git\blender\source\blender\blenlib;C:\blender-git\blender\source\blender\blenloader;C:\blender-git\blender\source\blender\blentranslation;C:\blender-git\blender\source\blender\bmesh;C:\blender-git\blender\source\blender\depsgraph;C:\blender-git\blender\source\blender\draw;C:\blender-git\blender\source\blender\gpu;C:\blender-git\blender\source\blender\ikplugin;C:\blender-git\blender\source\blender\imbuf;C:\blender-git\blender\source\blender\io\usd;C:\blender-git\blender\source\blender\modifiers;C:\blender-git\blender\source\blender\nodes;C:\blender-git\blender\source\blender\sequencer;C:\blender-git\blender\source\blender\simulation;C:\blender-git\blender\source\blender\windowmanager;C:\blender-git\blender\source\blender\editors\asset;C:\blender-git\blender\source\blender\editors\include;C:\blender-git\blender\source\blender\render;C:\blender-git\blender\intern\clog;C:\blender-git\blender\intern\cycles\blender;C:\blender-git\blender\intern\memutil;C:\blender-git\blender\intern\mantaflow\extern;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna;C:\blender-git\blender\source\blender\python;C:\blender-git\blender\intern\ffmpeg;C:\blender-git\blender\source\blender\io\alembic;C:\blender-git\blender\intern\rigidbody;C:\blender-git\blender\source\blender\freestyle;C:\blender-git\blender\intern\opensubdiv;C:\blender-git\blender\intern\openvdb;C:\blender-git\blender\source\blender\makesdna;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesdna\intern;C:\blender-git\blender\intern\atomic\.;C:\blender-git\blender\intern\guardedalloc;C:\blender-git\blender\..\lib\win64_vc15\pthreads\include;C:\blender-git\blender\extern\audaspace\bindings\C;C:\blender-git\build_windows_x64_vc17_Release\extern\audaspace;C:\blender-git\lib\win64_vc15\ffmpeg\include;C:\blender-git\lib\win64_vc15\ffmpeg\include\msvc;C:\blender-git\lib\win64_vc15\openvdb\include;C:\blender-git\lib\win64_vc15\boost\include;C:\blender-git\lib\win64_vc15\tbb\include;C:\blender-git\lib\win64_vc15\openexr\include;C:\blender-git\lib\win64_vc15\imath\include;C:\blender-git\lib\win64_vc15\imath\include\Imath;C:\blender-git\lib\win64_vc15\openexr\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\blender\source\blender\makesrna\intern;C:\blender-git\blender\source\blender\makesrna;C:\blender-git\blender\source\blender\asset_system;C:\blender-git\blender\source\blender\blenfont;C:\blender-git\blender\source\blender\blenkernel;C:\blender-git\blender\source\blender\blenlib;C:\blender-git\blender\source\blender\blenloader;C:\blender-git\blender\source\blender\blentranslation;C:\blender-git\blender\source\blender\bmesh;C:\blender-git\blender\source\blender\depsgraph;C:\blender-git\blender\source\blender\draw;C:\blender-git\blender\source\blender\gpu;C:\blender-git\blender\source\blender\ikplugin;C:\blender-git\blender\source\blender\imbuf;C:\blender-git\blender\source\blender\io\usd;C:\blender-git\blender\source\blender\modifiers;C:\blender-git\blender\source\blender\nodes;C:\blender-git\blender\source\blender\sequencer;C:\blender-git\blender\source\blender\simulation;C:\blender-git\blender\source\blender\windowmanager;C:\blender-git\blender\source\blender\editors\asset;C:\blender-git\blender\source\blender\editors\include;C:\blender-git\blender\source\blender\render;C:\blender-git\blender\intern\clog;C:\blender-git\blender\intern\cycles\blender;C:\blender-git\blender\intern\memutil;C:\blender-git\blender\intern\mantaflow\extern;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna;C:\blender-git\blender\source\blender\python;C:\blender-git\blender\intern\ffmpeg;C:\blender-git\blender\source\blender\io\alembic;C:\blender-git\blender\intern\rigidbody;C:\blender-git\blender\source\blender\freestyle;C:\blender-git\blender\intern\opensubdiv;C:\blender-git\blender\intern\openvdb;C:\blender-git\blender\source\blender\makesdna;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesdna\intern;C:\blender-git\blender\intern\atomic\.;C:\blender-git\blender\intern\guardedalloc;C:\blender-git\blender\..\lib\win64_vc15\pthreads\include;C:\blender-git\blender\extern\audaspace\bindings\C;C:\blender-git\build_windows_x64_vc17_Release\extern\audaspace;C:\blender-git\lib\win64_vc15\ffmpeg\include;C:\blender-git\lib\win64_vc15\ffmpeg\include\msvc;C:\blender-git\lib\win64_vc15\openvdb\include;C:\blender-git\lib\win64_vc15\boost\include;C:\blender-git\lib\win64_vc15\tbb\include;C:\blender-git\lib\win64_vc15\openexr\include;C:\blender-git\lib\win64_vc15\imath\include;C:\blender-git\lib\win64_vc15\imath\include\Imath;C:\blender-git\lib\win64_vc15\openexr\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\blender-git\blender\..\lib\win64_vc15\pthreads\lib\pthreadVC3.lib;ws2_32.lib;vfw32.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;Comctl32.lib;version.lib;advapi32.lib;shfolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;psapi.lib;Dbghelp.lib;Shlwapi.lib;pathcch.lib;Shcore.lib;Dwmapi.lib;Crypt32.lib;imm32.lib;..\..\..\..\lib\MinSizeRel\bf_dna.lib;..\..\..\..\lib\MinSizeRel\bf_intern_guardedalloc.lib;..\..\..\..\lib\MinSizeRel\bf_dna_blenlib.lib;C:\blender-git\blender\..\lib\win64_vc15\pthreads\lib\pthreadVC3.lib;..\..\..\..\lib\MinSizeRel\bf_intern_guardedalloc.lib;C:\blender-git\blender\..\lib\win64_vc15\pthreads\lib\pthreadVC3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4099 /ignore:4049 /ignore:4217 /ignore:4221</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/blender-git/build_windows_x64_vc17_Release/bin/MinSizeRel/makesrna.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/blender-git/build_windows_x64_vc17_Release/bin/MinSizeRel/makesrna.pdb</ProgramDataBaseFile>
+      <StackReserveSize>2097152</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\blender\source\blender\makesrna\intern;C:\blender-git\blender\source\blender\makesrna;C:\blender-git\blender\source\blender\asset_system;C:\blender-git\blender\source\blender\blenfont;C:\blender-git\blender\source\blender\blenkernel;C:\blender-git\blender\source\blender\blenlib;C:\blender-git\blender\source\blender\blenloader;C:\blender-git\blender\source\blender\blentranslation;C:\blender-git\blender\source\blender\bmesh;C:\blender-git\blender\source\blender\depsgraph;C:\blender-git\blender\source\blender\draw;C:\blender-git\blender\source\blender\gpu;C:\blender-git\blender\source\blender\ikplugin;C:\blender-git\blender\source\blender\imbuf;C:\blender-git\blender\source\blender\io\usd;C:\blender-git\blender\source\blender\modifiers;C:\blender-git\blender\source\blender\nodes;C:\blender-git\blender\source\blender\sequencer;C:\blender-git\blender\source\blender\simulation;C:\blender-git\blender\source\blender\windowmanager;C:\blender-git\blender\source\blender\editors\asset;C:\blender-git\blender\source\blender\editors\include;C:\blender-git\blender\source\blender\render;C:\blender-git\blender\intern\clog;C:\blender-git\blender\intern\cycles\blender;C:\blender-git\blender\intern\memutil;C:\blender-git\blender\intern\mantaflow\extern;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna;C:\blender-git\blender\source\blender\python;C:\blender-git\blender\intern\ffmpeg;C:\blender-git\blender\source\blender\io\alembic;C:\blender-git\blender\intern\rigidbody;C:\blender-git\blender\source\blender\freestyle;C:\blender-git\blender\intern\opensubdiv;C:\blender-git\blender\intern\openvdb;C:\blender-git\blender\source\blender\makesdna;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesdna\intern;C:\blender-git\blender\intern\atomic\.;C:\blender-git\blender\intern\guardedalloc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/blender/../lib/win64_vc15/pthreads/include" /external:I "C:/blender-git/blender/extern/audaspace/bindings/C" /external:I "C:/blender-git/build_windows_x64_vc17_Release/extern/audaspace" /external:I "C:/blender-git/lib/win64_vc15/ffmpeg/include" /external:I "C:/blender-git/lib/win64_vc15/ffmpeg/include/msvc" /external:I "C:/blender-git/lib/win64_vc15/openvdb/include" /external:I "C:/blender-git/lib/win64_vc15/boost/include" /external:I "C:/blender-git/lib/win64_vc15/tbb/include" /external:I "C:/blender-git/lib/win64_vc15/openexr/include" /external:I "C:/blender-git/lib/win64_vc15/imath/include" /external:I "C:/blender-git/lib/win64_vc15/imath/include/Imath" /external:I "C:/blender-git/lib/win64_vc15/openexr/include/OpenEXR" /w34062 /w34115 /w34189 /w35038 /J /bigobj /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/blender/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431;4033</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BLENDER_WIN_APPID="blender.4.1";BLENDER_WIN_APPID_FRIENDLY_NAME="Blender 4.1";_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_ASSERT_ABORT;WITH_USD;WITH_SIMULATION_DATABLOCK;WITH_GREASE_PENCIL_V3;WITH_CYCLES;WITH_PYTHON;WITH_OPENEXR;WITH_OPENJPEG;WITH_CINEON;WITH_WEBP;WITH_AUDASPACE;WITH_FFMPEG;WITH_FFTW3;WITH_FLUID;WITH_OCEANSIM;WITH_SDL;WITH_OPENAL;WITH_WASAPI;WITH_COLLADA;WITH_INTERNATIONAL;WITH_ALEMBIC;WITH_BULLET;WITH_FREESTYLE;WITH_OPENSUBDIV;WITH_OPENVDB;NOMINMAX;_USE_MATH_DEFINES;TBB_SUPPRESS_DEPRECATED_MESSAGES=1;WITH_OPENVDB_BLOSC;WITH_INPUT_NDOF;WITH_XR_OPENXR;WITH_OPENGL_BACKEND;WITH_VULKAN_BACKEND;WITH_GMP;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BLENDER_WIN_APPID=\"blender.4.1\";BLENDER_WIN_APPID_FRIENDLY_NAME=\"Blender 4.1\";_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_ASSERT_ABORT;WITH_USD;WITH_SIMULATION_DATABLOCK;WITH_GREASE_PENCIL_V3;WITH_CYCLES;WITH_PYTHON;WITH_OPENEXR;WITH_OPENJPEG;WITH_CINEON;WITH_WEBP;WITH_AUDASPACE;WITH_FFMPEG;WITH_FFTW3;WITH_FLUID;WITH_OCEANSIM;WITH_SDL;WITH_OPENAL;WITH_WASAPI;WITH_COLLADA;WITH_INTERNATIONAL;WITH_ALEMBIC;WITH_BULLET;WITH_FREESTYLE;WITH_OPENSUBDIV;WITH_OPENVDB;NOMINMAX;_USE_MATH_DEFINES;TBB_SUPPRESS_DEPRECATED_MESSAGES=1;WITH_OPENVDB_BLOSC;WITH_INPUT_NDOF;WITH_XR_OPENXR;WITH_OPENGL_BACKEND;WITH_VULKAN_BACKEND;WITH_GMP;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\blender\source\blender\makesrna\intern;C:\blender-git\blender\source\blender\makesrna;C:\blender-git\blender\source\blender\asset_system;C:\blender-git\blender\source\blender\blenfont;C:\blender-git\blender\source\blender\blenkernel;C:\blender-git\blender\source\blender\blenlib;C:\blender-git\blender\source\blender\blenloader;C:\blender-git\blender\source\blender\blentranslation;C:\blender-git\blender\source\blender\bmesh;C:\blender-git\blender\source\blender\depsgraph;C:\blender-git\blender\source\blender\draw;C:\blender-git\blender\source\blender\gpu;C:\blender-git\blender\source\blender\ikplugin;C:\blender-git\blender\source\blender\imbuf;C:\blender-git\blender\source\blender\io\usd;C:\blender-git\blender\source\blender\modifiers;C:\blender-git\blender\source\blender\nodes;C:\blender-git\blender\source\blender\sequencer;C:\blender-git\blender\source\blender\simulation;C:\blender-git\blender\source\blender\windowmanager;C:\blender-git\blender\source\blender\editors\asset;C:\blender-git\blender\source\blender\editors\include;C:\blender-git\blender\source\blender\render;C:\blender-git\blender\intern\clog;C:\blender-git\blender\intern\cycles\blender;C:\blender-git\blender\intern\memutil;C:\blender-git\blender\intern\mantaflow\extern;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna;C:\blender-git\blender\source\blender\python;C:\blender-git\blender\intern\ffmpeg;C:\blender-git\blender\source\blender\io\alembic;C:\blender-git\blender\intern\rigidbody;C:\blender-git\blender\source\blender\freestyle;C:\blender-git\blender\intern\opensubdiv;C:\blender-git\blender\intern\openvdb;C:\blender-git\blender\source\blender\makesdna;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesdna\intern;C:\blender-git\blender\intern\atomic\.;C:\blender-git\blender\intern\guardedalloc;C:\blender-git\blender\..\lib\win64_vc15\pthreads\include;C:\blender-git\blender\extern\audaspace\bindings\C;C:\blender-git\build_windows_x64_vc17_Release\extern\audaspace;C:\blender-git\lib\win64_vc15\ffmpeg\include;C:\blender-git\lib\win64_vc15\ffmpeg\include\msvc;C:\blender-git\lib\win64_vc15\openvdb\include;C:\blender-git\lib\win64_vc15\boost\include;C:\blender-git\lib\win64_vc15\tbb\include;C:\blender-git\lib\win64_vc15\openexr\include;C:\blender-git\lib\win64_vc15\imath\include;C:\blender-git\lib\win64_vc15\imath\include\Imath;C:\blender-git\lib\win64_vc15\openexr\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\blender\source\blender\makesrna\intern;C:\blender-git\blender\source\blender\makesrna;C:\blender-git\blender\source\blender\asset_system;C:\blender-git\blender\source\blender\blenfont;C:\blender-git\blender\source\blender\blenkernel;C:\blender-git\blender\source\blender\blenlib;C:\blender-git\blender\source\blender\blenloader;C:\blender-git\blender\source\blender\blentranslation;C:\blender-git\blender\source\blender\bmesh;C:\blender-git\blender\source\blender\depsgraph;C:\blender-git\blender\source\blender\draw;C:\blender-git\blender\source\blender\gpu;C:\blender-git\blender\source\blender\ikplugin;C:\blender-git\blender\source\blender\imbuf;C:\blender-git\blender\source\blender\io\usd;C:\blender-git\blender\source\blender\modifiers;C:\blender-git\blender\source\blender\nodes;C:\blender-git\blender\source\blender\sequencer;C:\blender-git\blender\source\blender\simulation;C:\blender-git\blender\source\blender\windowmanager;C:\blender-git\blender\source\blender\editors\asset;C:\blender-git\blender\source\blender\editors\include;C:\blender-git\blender\source\blender\render;C:\blender-git\blender\intern\clog;C:\blender-git\blender\intern\cycles\blender;C:\blender-git\blender\intern\memutil;C:\blender-git\blender\intern\mantaflow\extern;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna;C:\blender-git\blender\source\blender\python;C:\blender-git\blender\intern\ffmpeg;C:\blender-git\blender\source\blender\io\alembic;C:\blender-git\blender\intern\rigidbody;C:\blender-git\blender\source\blender\freestyle;C:\blender-git\blender\intern\opensubdiv;C:\blender-git\blender\intern\openvdb;C:\blender-git\blender\source\blender\makesdna;C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesdna\intern;C:\blender-git\blender\intern\atomic\.;C:\blender-git\blender\intern\guardedalloc;C:\blender-git\blender\..\lib\win64_vc15\pthreads\include;C:\blender-git\blender\extern\audaspace\bindings\C;C:\blender-git\build_windows_x64_vc17_Release\extern\audaspace;C:\blender-git\lib\win64_vc15\ffmpeg\include;C:\blender-git\lib\win64_vc15\ffmpeg\include\msvc;C:\blender-git\lib\win64_vc15\openvdb\include;C:\blender-git\lib\win64_vc15\boost\include;C:\blender-git\lib\win64_vc15\tbb\include;C:\blender-git\lib\win64_vc15\openexr\include;C:\blender-git\lib\win64_vc15\imath\include;C:\blender-git\lib\win64_vc15\imath\include\Imath;C:\blender-git\lib\win64_vc15\openexr\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\blender-git\blender\..\lib\win64_vc15\pthreads\lib\pthreadVC3.lib;ws2_32.lib;vfw32.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;Comctl32.lib;version.lib;advapi32.lib;shfolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;psapi.lib;Dbghelp.lib;Shlwapi.lib;pathcch.lib;Shcore.lib;Dwmapi.lib;Crypt32.lib;imm32.lib;..\..\..\..\lib\RelWithDebInfo\bf_dna.lib;..\..\..\..\lib\RelWithDebInfo\bf_intern_guardedalloc.lib;..\..\..\..\lib\RelWithDebInfo\bf_dna_blenlib.lib;C:\blender-git\blender\..\lib\win64_vc15\pthreads\lib\pthreadVC3.lib;..\..\..\..\lib\RelWithDebInfo\bf_intern_guardedalloc.lib;C:\blender-git\blender\..\lib\win64_vc15\pthreads\lib\pthreadVC3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4099 /ignore:4049 /ignore:4217 /ignore:4221</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/blender-git/build_windows_x64_vc17_Release/bin/RelWithDebInfo/makesrna.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/blender-git/build_windows_x64_vc17_Release/bin/RelWithDebInfo/makesrna.pdb</ProgramDataBaseFile>
+      <StackReserveSize>2097152</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\blender\source\blender\makesrna\intern\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/blender-git/blender/source/blender/makesrna/intern/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -SC:/blender-git/blender -BC:/blender-git/build_windows_x64_vc17_Release --check-stamp-file C:/blender-git/build_windows_x64_vc17_Release/source/blender/makesrna/intern/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/blender-git/blender/source/blender/makesrna/intern/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -SC:/blender-git/blender -BC:/blender-git/build_windows_x64_vc17_Release --check-stamp-file C:/blender-git/build_windows_x64_vc17_Release/source/blender/makesrna/intern/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/blender-git/blender/source/blender/makesrna/intern/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -SC:/blender-git/blender -BC:/blender-git/build_windows_x64_vc17_Release --check-stamp-file C:/blender-git/build_windows_x64_vc17_Release/source/blender/makesrna/intern/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/blender-git/blender/source/blender/makesrna/intern/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -SC:/blender-git/blender -BC:/blender-git/build_windows_x64_vc17_Release --check-stamp-file C:/blender-git/build_windows_x64_vc17_Release/source/blender/makesrna/intern/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\makesrna.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_define.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_ID.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_action.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_animation.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_animviz.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_armature.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_asset.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_attribute.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_boid.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_brush.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_cachefile.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_camera.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_cloth.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_collection.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_color.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_constraint.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_context.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_curve.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_curveprofile.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_curves.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_depsgraph.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_dynamicpaint.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_fcurve.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_fluid.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_gpencil_legacy.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_gpencil_legacy_modifier.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_image.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_key.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_lattice.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_layer.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_light.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_lightprobe.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_linestyle.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_main.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_mask.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_material.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_mesh.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_meta.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_modifier.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_movieclip.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_nla.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_node_socket.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_node_tree_interface.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_nodetree.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_object.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_object_force.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_packedfile.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_palette.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_particle.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_pointcloud.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_pose.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_render.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_rigidbody.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_rna.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_scene.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_screen.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_sculpt_paint.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_sequencer.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_shader_fx.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_sound.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_space.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_speaker.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_test.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_text.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_texture.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_timeline.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_tracking.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_ui.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_userdef.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_vfont.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_volume.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_wm.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_wm_gizmo.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_workspace.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_world.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_xr.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_usd.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_grease_pencil.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_action_api.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_animation_api.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_armature_api.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_camera_api.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_curve_api.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_fcurve_api.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_image_api.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_lattice_api.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_main_api.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_material_api.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_mesh_api.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_meta_api.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_object_api.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_pose_api.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_scene_api.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_sequencer_api.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_sound_api.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_space_api.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_text_api.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_texture_api.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_ui_api.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_vfont_api.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_wm_api.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_wm_gizmo_api.cc" />
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_workspace_api.cc" />
+    <ClCompile Include="C:\blender-git\blender\intern\clog\clog.c" />
+    <ClCompile Include="C:\blender-git\blender\intern\guardedalloc\intern\leak_detector.cc" />
+    <ClCompile Include="C:\blender-git\blender\intern\guardedalloc\intern\mallocn.c" />
+    <ClCompile Include="C:\blender-git\blender\intern\guardedalloc\intern\mallocn_guarded_impl.c" />
+    <ClCompile Include="C:\blender-git\blender\intern\guardedalloc\intern\mallocn_lockfree_impl.c" />
+    <ClCompile Include="C:\blender-git\blender\intern\guardedalloc\intern\memory_usage.cc" />
+    <ClCompile Include="C:\blender-git\blender\release\datafiles\userdef\userdef_default.c" />
+    <ClCompile Include="C:\blender-git\blender\release\datafiles\userdef\userdef_default_theme.c" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesrna\RNA_access.hh" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesrna\RNA_define.hh" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesrna\RNA_documentation.hh" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesrna\RNA_enum_items.hh" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesrna\RNA_enum_types.hh" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesrna\RNA_path.hh" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesrna\RNA_types.hh" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_ID.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_ID_enums.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_action_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_anim_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_armature_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_asset_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_boid_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_brush_enums.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_brush_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_cachefile_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_camera_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_cloth_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_collection_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_color_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_constraint_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_curve_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_curveprofile_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_curves_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_customdata_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_defs.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_documentation.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_dynamicpaint_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_effect_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_fileglobal_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_fluid_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_freestyle_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_genfile.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_gpencil_legacy_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_gpencil_modifier_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_gpu_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_grease_pencil_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_image_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_ipo_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_key_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_lattice_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_layer_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_light_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_lightprobe_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_lineart_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_linestyle_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_listBase.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_mask_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_material_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_mesh_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_meshdata_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_meta_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_modifier_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_movieclip_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_nla_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_node_tree_interface_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_node_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_object_enums.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_object_fluidsim_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_object_force_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_object_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_outliner_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_packedFile_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_particle_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_pointcache_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_pointcloud_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_rigidbody_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_scene_enums.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_scene_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_screen_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_sdna_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_sequence_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_session_uuid_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_shader_fx_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_sound_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_space_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_speaker_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_text_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_texture_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_tracking_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_userdef_enums.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_userdef_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_uuid_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_vec_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_vfont_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_view2d_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_view3d_enums.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_view3d_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_viewer_path_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_volume_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_windowmanager_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_workspace_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_world_types.h" />
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesdna\DNA_xr_types.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\ZERO_CHECK.vcxproj">
+      <Project>{25603482-4DEA-3CCE-BBC8-38DB5ABD22C5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesdna\intern\bf_dna.vcxproj">
+      <Project>{61CC4962-B8C1-3D6A-AAE3-B32D2F361BC7}</Project>
+      <Name>bf_dna</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesdna\intern\bf_dna_blenlib.vcxproj">
+      <Project>{B38BC4AF-F016-34AF-8D55-C97F8AAF434A}</Project>
+      <Name>bf_dna_blenlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\atomic\bf_intern_atomic.vcxproj">
+      <Project>{B198092C-7E36-3ADE-BCCF-965033BEF521}</Project>
+      <Name>bf_intern_atomic</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\guardedalloc\bf_intern_guardedalloc.vcxproj">
+      <Project>{3BAB1EC3-F88E-341A-8280-2C6C3AE19743}</Project>
+      <Name>bf_intern_guardedalloc</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

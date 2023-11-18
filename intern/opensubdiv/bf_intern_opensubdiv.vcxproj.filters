@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\blender\intern\opensubdiv\internal\base\opensubdiv_capi.cc">
+      <Filter>internal\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\opensubdiv\internal\base\type_convert.cc">
+      <Filter>internal\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\opensubdiv\internal\base\util.cc">
+      <Filter>internal\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\opensubdiv\internal\evaluator\eval_output.cc">
+      <Filter>internal\evaluator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\opensubdiv\internal\evaluator\eval_output_cpu.cc">
+      <Filter>internal\evaluator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\opensubdiv\internal\evaluator\eval_output_gpu.cc">
+      <Filter>internal\evaluator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\opensubdiv\internal\evaluator\evaluator_cache_impl.cc">
+      <Filter>internal\evaluator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\opensubdiv\internal\evaluator\evaluator_capi.cc">
+      <Filter>internal\evaluator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\opensubdiv\internal\evaluator\evaluator_impl.cc">
+      <Filter>internal\evaluator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\opensubdiv\internal\evaluator\gl_compute_evaluator.cc">
+      <Filter>internal\evaluator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\opensubdiv\internal\evaluator\patch_map.cc">
+      <Filter>internal\evaluator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\opensubdiv\internal\topology\mesh_topology.cc">
+      <Filter>internal\topology</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\opensubdiv\internal\topology\mesh_topology_compare.cc">
+      <Filter>internal\topology</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\opensubdiv\internal\topology\topology_refiner_capi.cc">
+      <Filter>internal\topology</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\opensubdiv\internal\topology\topology_refiner_factory.cc">
+      <Filter>internal\topology</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\opensubdiv\internal\topology\topology_refiner_impl.cc">
+      <Filter>internal\topology</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\opensubdiv\internal\topology\topology_refiner_impl_compare.cc">
+      <Filter>internal\topology</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\intern\opensubdiv\internal\evaluator\shaders\glsl_compute_kernel.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\blender\intern\opensubdiv\opensubdiv_capi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\opensubdiv\opensubdiv_capi_type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\opensubdiv\opensubdiv_converter_capi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\opensubdiv\opensubdiv_evaluator_capi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\opensubdiv\opensubdiv_topology_refiner_capi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\opensubdiv\internal\base\memory.h">
+      <Filter>internal\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\opensubdiv\internal\base\type.h">
+      <Filter>internal\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\opensubdiv\internal\base\type_convert.h">
+      <Filter>internal\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\opensubdiv\internal\base\util.h">
+      <Filter>internal\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\opensubdiv\internal\evaluator\eval_output.h">
+      <Filter>internal\evaluator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\opensubdiv\internal\evaluator\eval_output_cpu.h">
+      <Filter>internal\evaluator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\opensubdiv\internal\evaluator\eval_output_gpu.h">
+      <Filter>internal\evaluator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\opensubdiv\internal\evaluator\evaluator_cache_impl.h">
+      <Filter>internal\evaluator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\opensubdiv\internal\evaluator\evaluator_impl.h">
+      <Filter>internal\evaluator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\opensubdiv\internal\evaluator\gl_compute_evaluator.h">
+      <Filter>internal\evaluator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\opensubdiv\internal\evaluator\patch_map.h">
+      <Filter>internal\evaluator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\opensubdiv\internal\topology\mesh_topology.h">
+      <Filter>internal\topology</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\opensubdiv\internal\topology\topology_refiner_impl.h">
+      <Filter>internal\topology</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\0d56558770a953e46dca6094b0997bc0\glsl_compute_kernel.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\blender\intern\opensubdiv\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\blender-git\blender\intern\opensubdiv\internal\evaluator\shaders\glsl_compute_kernel.glsl">
+      <Filter>internal\evaluator\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D15A3CAF-CAB7-3597-833D-3C06FFB91F4D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{B27EE685-AFA2-3D3E-9EE3-8CE5933C9197}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DCA61805-858F-3339-AB48-23982FF4ADDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="internal">
+      <UniqueIdentifier>{7DB4CABD-3C1C-3357-A0F8-BD5A4D4C45D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="internal\base">
+      <UniqueIdentifier>{2A8F75A8-EEC3-39A7-8EC1-57A5CD8D2B47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="internal\evaluator">
+      <UniqueIdentifier>{E572D6EC-2FAB-30D9-9D93-2D36474BF65D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="internal\evaluator\shaders">
+      <UniqueIdentifier>{B171A267-8C79-3D8A-95A6-12FAC086B25D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="internal\topology">
+      <UniqueIdentifier>{9B54CC2F-76E3-3398-B264-5B3BA278D950}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

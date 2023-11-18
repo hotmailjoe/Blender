@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+C:/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+C:/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake
+C:/blender-git/blender/build_files/cmake/Modules/FindLevelZero.cmake
+C:/blender-git/blender/build_files/cmake/Modules/FindOptiX.cmake
+C:/blender-git/blender/build_files/cmake/Modules/FindSYCL.cmake
+C:/blender-git/blender/intern/cycles/CMakeLists.txt
+C:/blender-git/blender/intern/cycles/cmake/external_libs.cmake
+C:/blender-git/blender/intern/cycles/cmake/macros.cmake

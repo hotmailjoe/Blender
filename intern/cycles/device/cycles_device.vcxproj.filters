@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\device\device.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\device\denoise.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\device\graphics_interop.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\device\kernel.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\device\memory.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\device\queue.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\device\cpu\device.cpp">
+      <Filter>cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\device\cpu\device_impl.cpp">
+      <Filter>cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\device\cpu\kernel.cpp">
+      <Filter>cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\device\cpu\kernel_thread_globals.cpp">
+      <Filter>cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\device\cuda\device.cpp">
+      <Filter>cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\device\cuda\device_impl.cpp">
+      <Filter>cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\device\cuda\graphics_interop.cpp">
+      <Filter>cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\device\cuda\kernel.cpp">
+      <Filter>cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\device\cuda\queue.cpp">
+      <Filter>cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\device\cuda\util.cpp">
+      <Filter>cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\device\hip\device.cpp">
+      <Filter>hip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\device\hip\device_impl.cpp">
+      <Filter>hip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\device\hip\graphics_interop.cpp">
+      <Filter>hip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\device\hip\kernel.cpp">
+      <Filter>hip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\device\hip\queue.cpp">
+      <Filter>hip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\device\hip\util.cpp">
+      <Filter>hip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\device\hiprt\device_impl.cpp">
+      <Filter>hiprt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\device\hiprt\queue.cpp">
+      <Filter>hiprt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\device\dummy\device.cpp">
+      <Filter>dummy</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\device\multi\device.cpp">
+      <Filter>multi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\device\optix\device.cpp">
+      <Filter>optix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\device\optix\device_impl.cpp">
+      <Filter>optix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\cycles\device\optix\queue.cpp">
+      <Filter>optix</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\device\cpu\device.h">
+      <Filter>cpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\device\cpu\device_impl.h">
+      <Filter>cpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\device\cpu\kernel.h">
+      <Filter>cpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\device\cpu\kernel_function.h">
+      <Filter>cpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\device\cpu\kernel_thread_globals.h">
+      <Filter>cpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\device\cuda\device.h">
+      <Filter>cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\device\cuda\device_impl.h">
+      <Filter>cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\device\cuda\graphics_interop.h">
+      <Filter>cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\device\cuda\kernel.h">
+      <Filter>cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\device\cuda\queue.h">
+      <Filter>cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\device\cuda\util.h">
+      <Filter>cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\device\hip\device.h">
+      <Filter>hip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\device\hip\device_impl.h">
+      <Filter>hip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\device\hip\graphics_interop.h">
+      <Filter>hip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\device\hip\kernel.h">
+      <Filter>hip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\device\hip\queue.h">
+      <Filter>hip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\device\hip\util.h">
+      <Filter>hip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\device\hiprt\device_impl.h">
+      <Filter>hiprt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\device\hiprt\queue.h">
+      <Filter>hiprt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\device\dummy\device.h">
+      <Filter>dummy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\device\multi\device.h">
+      <Filter>multi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\device\optix\device.h">
+      <Filter>optix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\device\optix\device_impl.h">
+      <Filter>optix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\device\optix\queue.h">
+      <Filter>optix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\device\optix\util.h">
+      <Filter>optix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\device\device.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\device\denoise.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\device\graphics_interop.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\device\memory.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\device\kernel.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\cycles\device\queue.h">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\blender\intern\cycles\device\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{BC59A24D-332E-3CF8-BFB7-076542867E21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpu">
+      <UniqueIdentifier>{FA5E2350-3B50-3401-8CA5-1272643FE76E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cuda">
+      <UniqueIdentifier>{3C27643F-BDFD-3CA0-B4A3-0E747BF13DB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dummy">
+      <UniqueIdentifier>{B95F2CF6-9F03-3556-8944-A5244F4F2024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hip">
+      <UniqueIdentifier>{55437C9D-914E-3D83-BA8F-3AD11C20B886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hiprt">
+      <UniqueIdentifier>{943F01E0-9F45-3358-B7DE-416BB423B281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="multi">
+      <UniqueIdentifier>{A196BBE7-3D89-3B74-925B-FEABE73EA095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="optix">
+      <UniqueIdentifier>{58990862-5E47-307C-9D07-F8CB5BF90FDF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

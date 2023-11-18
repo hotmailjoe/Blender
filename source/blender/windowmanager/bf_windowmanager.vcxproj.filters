@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\intern\wm.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\intern\wm_cursors.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\intern\wm_dragdrop.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\intern\wm_draw.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\intern\wm_event_query.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\intern\wm_event_system.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\intern\wm_files.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\intern\wm_files_link.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\intern\wm_gesture.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\intern\wm_gesture_ops.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\intern\wm_init_exit.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\intern\wm_jobs.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\intern\wm_keymap.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\intern\wm_keymap_utils.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\intern\wm_menu_type.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\intern\wm_operator_props.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\intern\wm_operator_type.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\intern\wm_operator_utils.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\intern\wm_operators.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\intern\wm_panel_type.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\intern\wm_platform_support.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\intern\wm_playanim.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\intern\wm_splash_screen.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\intern\wm_stereo.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\intern\wm_subwindow.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\intern\wm_surface.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\intern\wm_toolsystem.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\intern\wm_tooltip.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\intern\wm_uilist_type.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\intern\wm_utils.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\intern\wm_window.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\gizmo\intern\wm_gizmo.cc">
+      <Filter>gizmo\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\gizmo\intern\wm_gizmo_group.cc">
+      <Filter>gizmo\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\gizmo\intern\wm_gizmo_group_type.cc">
+      <Filter>gizmo\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\gizmo\intern\wm_gizmo_map.cc">
+      <Filter>gizmo\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\gizmo\intern\wm_gizmo_target_props.cc">
+      <Filter>gizmo\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\gizmo\intern\wm_gizmo_type.cc">
+      <Filter>gizmo\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\message_bus\intern\wm_message_bus.cc">
+      <Filter>message_bus\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\message_bus\intern\wm_message_bus_rna.cc">
+      <Filter>message_bus\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\message_bus\intern\wm_message_bus_static.cc">
+      <Filter>message_bus\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\xr\intern\wm_xr.cc">
+      <Filter>xr\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\xr\intern\wm_xr_action.cc">
+      <Filter>xr\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\xr\intern\wm_xr_actionmap.cc">
+      <Filter>xr\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\xr\intern\wm_xr_draw.cc">
+      <Filter>xr\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\xr\intern\wm_xr_operators.cc">
+      <Filter>xr\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\windowmanager\xr\intern\wm_xr_session.cc">
+      <Filter>xr\intern</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\blender\source\blender\windowmanager\WM_api.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\windowmanager\WM_keymap.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\windowmanager\WM_message.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\windowmanager\WM_toolsystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\windowmanager\WM_types.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\windowmanager\wm.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\windowmanager\wm_cursors.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\windowmanager\wm_draw.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\windowmanager\wm_event_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\windowmanager\wm_event_types.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\windowmanager\wm_files.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\windowmanager\wm_surface.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\windowmanager\wm_window.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\windowmanager\intern\wm_platform_support.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\windowmanager\intern\wm_window_private.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\windowmanager\gizmo\WM_gizmo_api.h">
+      <Filter>gizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\windowmanager\gizmo\WM_gizmo_types.h">
+      <Filter>gizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\windowmanager\gizmo\wm_gizmo_fn.h">
+      <Filter>gizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\windowmanager\gizmo\wm_gizmo_wmapi.h">
+      <Filter>gizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\windowmanager\gizmo\intern\wm_gizmo_intern.h">
+      <Filter>gizmo\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\windowmanager\message_bus\intern\wm_message_bus_intern.hh">
+      <Filter>message_bus\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\windowmanager\message_bus\wm_message_bus.hh">
+      <Filter>message_bus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\windowmanager\xr\wm_xr.h">
+      <Filter>xr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\windowmanager\xr\intern\wm_xr_intern.h">
+      <Filter>xr\intern</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\blender\source\blender\windowmanager\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DCA61805-858F-3339-AB48-23982FF4ADDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gizmo">
+      <UniqueIdentifier>{D02F55F9-B2FF-3C32-8407-42428163A87F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gizmo\intern">
+      <UniqueIdentifier>{0A1FE862-3C9D-3547-8609-EAB243EFA491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern">
+      <UniqueIdentifier>{4EDE82D4-1D12-38C7-B105-AB6CAFF912B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="message_bus">
+      <UniqueIdentifier>{8DA0C77E-0D41-3842-B3E6-58DAABA8BABE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="message_bus\intern">
+      <UniqueIdentifier>{7692ED48-7A65-3596-839C-9060EE29825A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xr">
+      <UniqueIdentifier>{CC8B573B-6FEC-3B73-9DF6-300CE915D377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xr\intern">
+      <UniqueIdentifier>{651119B0-C55B-3351-A8A2-BDDB7CB208DE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

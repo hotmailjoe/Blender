@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\blender\intern\mantaflow\intern\manta_python_API.cpp">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\mantaflow\intern\manta_fluid_API.cpp">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\mantaflow\intern\MANTA_main.cpp">
+      <Filter>intern</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\blender\intern\mantaflow\extern\manta_python_API.h">
+      <Filter>extern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\mantaflow\extern\manta_fluid_API.h">
+      <Filter>extern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\mantaflow\intern\MANTA_main.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\mantaflow\intern\strings\fluid_script.h">
+      <Filter>intern\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\mantaflow\intern\strings\smoke_script.h">
+      <Filter>intern\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\mantaflow\intern\strings\liquid_script.h">
+      <Filter>intern\strings</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\blender\intern\mantaflow\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="extern">
+      <UniqueIdentifier>{6BBD9E05-2D50-3A43-ACC2-6BB9014EF61F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern">
+      <UniqueIdentifier>{4EDE82D4-1D12-38C7-B105-AB6CAFF912B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\strings">
+      <UniqueIdentifier>{0DFCCCF1-43D3-3DB6-8618-88C8BE90A5A5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

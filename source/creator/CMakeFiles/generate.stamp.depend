@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/blender-git/blender/build_files/cmake/buildinfo_static.h.in
+C:/blender-git/blender/release/text/readme.html
+C:/blender-git/blender/release/windows/manifest/Blender.manifest.in
+C:/blender-git/blender/source/creator/CMakeLists.txt

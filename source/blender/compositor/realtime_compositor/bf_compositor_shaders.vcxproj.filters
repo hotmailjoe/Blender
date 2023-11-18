@@ -1,0 +1,978 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_alpha_crop.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_bilateral_blur.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_blur.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_blur_variable_size.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_bokeh_image.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_box_mask.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_compute_preview.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_convert.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_despeckle.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_directional_blur.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_displace.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_double_edge_mask_compute_boundary.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_double_edge_mask_compute_gradient.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_edge_filter.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_ellipse_mask.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_filter.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_flip.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_glare_fog_glow_downsample.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_glare_fog_glow_upsample.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_glare_ghost_accumulate.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_glare_ghost_base.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_glare_highlights.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_glare_mix.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_glare_simple_star_anti_diagonal_pass.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_glare_simple_star_diagonal_pass.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_glare_simple_star_horizontal_pass.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_glare_simple_star_vertical_pass.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_glare_streaks_accumulate.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_glare_streaks_filter.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_id_mask.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_image_crop.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_inpaint_compute_boundary.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_inpaint_compute_region.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_jump_flooding.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_keying_compute_image.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_keying_compute_matte.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_keying_extract_chroma.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_keying_replace_chroma.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_keying_screen.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_keying_tweak_matte.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_kuwahara_anisotropic.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_kuwahara_anisotropic_compute_structure_tensor.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_kuwahara_classic.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_map_uv.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_morphological_distance.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_morphological_distance_feather.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_morphological_distance_threshold.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_morphological_step.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_movie_distortion.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_normalize.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_parallel_reduction.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_plane_deform.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_plane_deform_motion_blur.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_projector_lens_distortion.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_read_input.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_realize_on_domain.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_screen_lens_distortion.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_smaa_blending_weight_calculation.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_smaa_edge_detection.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_smaa_neighborhood_blending.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_split_viewer.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_summed_area_table_compute_complete_blocks.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_summed_area_table_compute_complete_x_prologues.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_summed_area_table_compute_complete_y_prologues.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_summed_area_table_compute_incomplete_prologues.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_sun_beams.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_symmetric_blur.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_symmetric_blur_variable_size.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_symmetric_separable_blur.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_tone_map_photoreceptor.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_tone_map_simple.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_write_output.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_z_combine_compute_mask.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_z_combine_from_mask.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\compositor_z_combine_simple.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_alpha_over.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_blur_common.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_bright_contrast.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_channel_matte.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_chroma_matte.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_color_balance.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_color_correction.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_color_matte.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_color_spill.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_color_to_luminance.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_difference_matte.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_distance_matte.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_exposure.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_gamma.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_hue_correct.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_hue_saturation_value.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_image_diagonals.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_invert.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_jump_flooding_lib.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_luminance_matte.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_main.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_map_value.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_normal.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_ocio_processor.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_posterize.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_separate_combine.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_set_alpha.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_store_output.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_summed_area_table_lib.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_texture_utilities.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_type_conversion.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_alpha_crop.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_bilateral_blur.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_blur.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_blur_variable_size.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_bokeh_image.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_box_mask.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_compute_preview.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_convert.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_despeckle.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_directional_blur.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_displace.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_double_edge_mask_compute_boundary.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_double_edge_mask_compute_gradient.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_edge_filter.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_ellipse_mask.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_filter.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_flip.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_glare_fog_glow_downsample.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_glare_fog_glow_upsample.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_glare_ghost_accumulate.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_glare_ghost_base.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_glare_highlights.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_glare_mix.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_glare_simple_star_anti_diagonal_pass.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_glare_simple_star_diagonal_pass.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_glare_simple_star_horizontal_pass.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_glare_simple_star_vertical_pass.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_glare_streaks_accumulate.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_glare_streaks_filter.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_id_mask.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_image_crop.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_inpaint_compute_boundary.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_inpaint_compute_region.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_jump_flooding.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_keying_compute_image.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_keying_compute_matte.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_keying_extract_chroma.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_keying_replace_chroma.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_keying_screen.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_keying_tweak_matte.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_kuwahara_anisotropic.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_kuwahara_anisotropic_compute_structure_tensor.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_kuwahara_classic.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_map_uv.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_morphological_distance.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_morphological_distance_feather.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_morphological_distance_threshold.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_morphological_step.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_movie_distortion.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_normalize.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_parallel_reduction.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_plane_deform.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_plane_deform_motion_blur.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_projector_lens_distortion.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_read_input.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_realize_on_domain.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_screen_lens_distortion.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_smaa_blending_weight_calculation.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_smaa_edge_detection.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_smaa_neighborhood_blending.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_split_viewer.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_summed_area_table_compute_complete_blocks.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_summed_area_table_compute_complete_x_prologues.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_summed_area_table_compute_complete_y_prologues.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_summed_area_table_compute_incomplete_prologues.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_sun_beams.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_symmetric_blur.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_symmetric_blur_variable_size.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_symmetric_separable_blur.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_tone_map_photoreceptor.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_tone_map_simple.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_write_output.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_z_combine_compute_mask.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_z_combine_from_mask.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3d2e61a87a888feb0e47668ef39f5595\compositor_z_combine_simple.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\da74c4d511027500e84373f83ca1fc6e\gpu_shader_compositor_alpha_over.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\da74c4d511027500e84373f83ca1fc6e\gpu_shader_compositor_blur_common.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\da74c4d511027500e84373f83ca1fc6e\gpu_shader_compositor_bright_contrast.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\da74c4d511027500e84373f83ca1fc6e\gpu_shader_compositor_channel_matte.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\da74c4d511027500e84373f83ca1fc6e\gpu_shader_compositor_chroma_matte.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\da74c4d511027500e84373f83ca1fc6e\gpu_shader_compositor_color_balance.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\da74c4d511027500e84373f83ca1fc6e\gpu_shader_compositor_color_correction.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\da74c4d511027500e84373f83ca1fc6e\gpu_shader_compositor_color_matte.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\da74c4d511027500e84373f83ca1fc6e\gpu_shader_compositor_color_spill.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\da74c4d511027500e84373f83ca1fc6e\gpu_shader_compositor_color_to_luminance.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\da74c4d511027500e84373f83ca1fc6e\gpu_shader_compositor_difference_matte.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\da74c4d511027500e84373f83ca1fc6e\gpu_shader_compositor_distance_matte.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\da74c4d511027500e84373f83ca1fc6e\gpu_shader_compositor_exposure.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\da74c4d511027500e84373f83ca1fc6e\gpu_shader_compositor_gamma.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\da74c4d511027500e84373f83ca1fc6e\gpu_shader_compositor_hue_correct.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\da74c4d511027500e84373f83ca1fc6e\gpu_shader_compositor_hue_saturation_value.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\da74c4d511027500e84373f83ca1fc6e\gpu_shader_compositor_image_diagonals.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\da74c4d511027500e84373f83ca1fc6e\gpu_shader_compositor_invert.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\da74c4d511027500e84373f83ca1fc6e\gpu_shader_compositor_jump_flooding_lib.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\da74c4d511027500e84373f83ca1fc6e\gpu_shader_compositor_luminance_matte.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\da74c4d511027500e84373f83ca1fc6e\gpu_shader_compositor_main.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\da74c4d511027500e84373f83ca1fc6e\gpu_shader_compositor_map_value.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\da74c4d511027500e84373f83ca1fc6e\gpu_shader_compositor_normal.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\da74c4d511027500e84373f83ca1fc6e\gpu_shader_compositor_ocio_processor.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\da74c4d511027500e84373f83ca1fc6e\gpu_shader_compositor_posterize.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\da74c4d511027500e84373f83ca1fc6e\gpu_shader_compositor_separate_combine.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\da74c4d511027500e84373f83ca1fc6e\gpu_shader_compositor_set_alpha.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\da74c4d511027500e84373f83ca1fc6e\gpu_shader_compositor_store_output.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\da74c4d511027500e84373f83ca1fc6e\gpu_shader_compositor_summed_area_table_lib.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\da74c4d511027500e84373f83ca1fc6e\gpu_shader_compositor_texture_utilities.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\da74c4d511027500e84373f83ca1fc6e\gpu_shader_compositor_type_conversion.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_alpha_crop.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_bilateral_blur.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_blur.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_blur_variable_size.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_bokeh_image.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_box_mask.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_compute_preview.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_convert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_despeckle.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_directional_blur.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_displace.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_double_edge_mask_compute_boundary.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_double_edge_mask_compute_gradient.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_edge_filter.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_ellipse_mask.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_filter.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_flip.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_glare_fog_glow_downsample.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_glare_fog_glow_upsample.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_glare_ghost_accumulate.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_glare_ghost_base.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_glare_highlights.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_glare_mix.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_glare_simple_star_anti_diagonal_pass.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_glare_simple_star_diagonal_pass.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_glare_simple_star_horizontal_pass.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_glare_simple_star_vertical_pass.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_glare_streaks_accumulate.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_glare_streaks_filter.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_id_mask.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_image_crop.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_inpaint_compute_boundary.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_inpaint_compute_region.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_jump_flooding.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_keying_compute_image.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_keying_compute_matte.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_keying_extract_chroma.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_keying_replace_chroma.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_keying_screen.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_keying_tweak_matte.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_kuwahara_anisotropic.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_kuwahara_anisotropic_compute_structure_tensor.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_kuwahara_classic.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_map_uv.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_morphological_distance.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_morphological_distance_feather.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_morphological_distance_threshold.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_morphological_step.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_movie_distortion.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_normalize.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_parallel_reduction.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_plane_deform.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_plane_deform_motion_blur.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_projector_lens_distortion.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_read_input.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_realize_on_domain.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_screen_lens_distortion.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_smaa_blending_weight_calculation.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_smaa_edge_detection.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_smaa_neighborhood_blending.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_split_viewer.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_summed_area_table_compute_complete_blocks.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_summed_area_table_compute_complete_x_prologues.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_summed_area_table_compute_complete_y_prologues.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_summed_area_table_compute_incomplete_prologues.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_sun_beams.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_symmetric_blur.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_symmetric_blur_variable_size.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_symmetric_separable_blur.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_tone_map_photoreceptor.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_tone_map_simple.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_write_output.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_z_combine_compute_mask.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_z_combine_from_mask.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\compositor_z_combine_simple.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_alpha_over.glsl">
+      <Filter>shaders\library</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_blur_common.glsl">
+      <Filter>shaders\library</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_bright_contrast.glsl">
+      <Filter>shaders\library</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_channel_matte.glsl">
+      <Filter>shaders\library</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_chroma_matte.glsl">
+      <Filter>shaders\library</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_color_balance.glsl">
+      <Filter>shaders\library</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_color_correction.glsl">
+      <Filter>shaders\library</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_color_matte.glsl">
+      <Filter>shaders\library</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_color_spill.glsl">
+      <Filter>shaders\library</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_color_to_luminance.glsl">
+      <Filter>shaders\library</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_difference_matte.glsl">
+      <Filter>shaders\library</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_distance_matte.glsl">
+      <Filter>shaders\library</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_exposure.glsl">
+      <Filter>shaders\library</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_gamma.glsl">
+      <Filter>shaders\library</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_hue_correct.glsl">
+      <Filter>shaders\library</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_hue_saturation_value.glsl">
+      <Filter>shaders\library</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_image_diagonals.glsl">
+      <Filter>shaders\library</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_invert.glsl">
+      <Filter>shaders\library</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_jump_flooding_lib.glsl">
+      <Filter>shaders\library</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_luminance_matte.glsl">
+      <Filter>shaders\library</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_main.glsl">
+      <Filter>shaders\library</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_map_value.glsl">
+      <Filter>shaders\library</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_normal.glsl">
+      <Filter>shaders\library</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_ocio_processor.glsl">
+      <Filter>shaders\library</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_posterize.glsl">
+      <Filter>shaders\library</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_separate_combine.glsl">
+      <Filter>shaders\library</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_set_alpha.glsl">
+      <Filter>shaders\library</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_store_output.glsl">
+      <Filter>shaders\library</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_summed_area_table_lib.glsl">
+      <Filter>shaders\library</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_texture_utilities.glsl">
+      <Filter>shaders\library</Filter>
+    </None>
+    <None Include="C:\blender-git\blender\source\blender\compositor\realtime_compositor\shaders\library\gpu_shader_compositor_type_conversion.glsl">
+      <Filter>shaders\library</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D15A3CAF-CAB7-3597-833D-3C06FFB91F4D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{B27EE685-AFA2-3D3E-9EE3-8CE5933C9197}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{5A41F5D7-0CC6-3152-9B94-EE5E11E354D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\library">
+      <UniqueIdentifier>{AA49EB47-D9D2-33DA-B53B-D678093F228D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

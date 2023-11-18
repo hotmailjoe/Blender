@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\blender\extern\fmtlib\src\format.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\blender\extern\fmtlib\include\fmt\core.h">
+      <Filter>include\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\fmtlib\include\fmt\format-inl.h">
+      <Filter>include\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\fmtlib\include\fmt\format.h">
+      <Filter>include\fmt</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\blender\extern\fmtlib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{D0C5A89A-271D-3B09-BF7A-C1A00A6B4D1A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\fmt">
+      <UniqueIdentifier>{50D19136-5073-3346-946B-414D70BC65DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{03DC2015-65E2-379B-BE87-37CF238CE6CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

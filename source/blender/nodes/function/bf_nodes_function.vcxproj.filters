@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\nodes\function\CMakeFiles\bf_nodes_function.dir\Unity\unity_2_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\nodes\function\CMakeFiles\bf_nodes_function.dir\Unity\unity_1_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\nodes\function\CMakeFiles\bf_nodes_function.dir\Unity\unity_0_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\nodes\function\nodes\node_fn_align_euler_to_vector.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\nodes\function\nodes\node_fn_axis_angle_to_rotation.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\nodes\function\nodes\node_fn_boolean_math.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\nodes\function\nodes\node_fn_combine_color.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\nodes\function\nodes\node_fn_compare.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\nodes\function\nodes\node_fn_euler_to_rotation.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\nodes\function\nodes\node_fn_float_to_int.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\nodes\function\nodes\node_fn_input_bool.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\nodes\function\nodes\node_fn_input_color.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\nodes\function\nodes\node_fn_input_int.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\nodes\function\nodes\node_fn_input_special_characters.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\nodes\function\nodes\node_fn_input_string.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\nodes\function\nodes\node_fn_input_vector.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\nodes\function\nodes\node_fn_invert_rotation.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\nodes\function\nodes\node_fn_quaternion_to_rotation.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\nodes\function\nodes\node_fn_random_value.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\nodes\function\nodes\node_fn_replace_string.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\nodes\function\nodes\node_fn_rotate_euler.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\nodes\function\nodes\node_fn_rotate_vector.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\nodes\function\nodes\node_fn_rotation_to_axis_angle.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\nodes\function\nodes\node_fn_rotation_to_euler.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\nodes\function\nodes\node_fn_rotation_to_quaternion.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\nodes\function\nodes\node_fn_separate_color.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\nodes\function\nodes\node_fn_slice_string.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\nodes\function\nodes\node_fn_string_length.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\nodes\function\nodes\node_fn_value_to_string.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\nodes\function\node_function_util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\blender\source\blender\nodes\function\node_function_util.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\blender\source\blender\nodes\function\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DCA61805-858F-3339-AB48-23982FF4ADDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EC3EFCE8-AD0A-3455-BDD6-6E7F392CC298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nodes">
+      <UniqueIdentifier>{6BD052B2-F4E1-34C5-A3FD-F36ACD91807B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

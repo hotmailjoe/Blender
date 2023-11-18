@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\blender\source\blender\io\wavefront_obj\IO_wavefront_obj.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\io\wavefront_obj\exporter\obj_export_file_writer.cc">
+      <Filter>exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\io\wavefront_obj\exporter\obj_export_mesh.cc">
+      <Filter>exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\io\wavefront_obj\exporter\obj_export_mtl.cc">
+      <Filter>exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\io\wavefront_obj\exporter\obj_export_nurbs.cc">
+      <Filter>exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\io\wavefront_obj\exporter\obj_exporter.cc">
+      <Filter>exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\io\wavefront_obj\importer\importer_mesh_utils.cc">
+      <Filter>importer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\io\wavefront_obj\importer\obj_import_file_reader.cc">
+      <Filter>importer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\io\wavefront_obj\importer\obj_import_mesh.cc">
+      <Filter>importer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\io\wavefront_obj\importer\obj_import_mtl.cc">
+      <Filter>importer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\io\wavefront_obj\importer\obj_import_nurbs.cc">
+      <Filter>importer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\io\wavefront_obj\importer\obj_import_string_utils.cc">
+      <Filter>importer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\io\wavefront_obj\importer\obj_importer.cc">
+      <Filter>importer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\blender\source\blender\io\wavefront_obj\IO_wavefront_obj.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\io\wavefront_obj\exporter\obj_export_file_writer.hh">
+      <Filter>exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\io\wavefront_obj\exporter\obj_export_io.hh">
+      <Filter>exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\io\wavefront_obj\exporter\obj_export_mesh.hh">
+      <Filter>exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\io\wavefront_obj\exporter\obj_export_mtl.hh">
+      <Filter>exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\io\wavefront_obj\exporter\obj_export_nurbs.hh">
+      <Filter>exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\io\wavefront_obj\exporter\obj_exporter.hh">
+      <Filter>exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\io\wavefront_obj\importer\importer_mesh_utils.hh">
+      <Filter>importer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\io\wavefront_obj\importer\obj_import_file_reader.hh">
+      <Filter>importer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\io\wavefront_obj\importer\obj_import_mesh.hh">
+      <Filter>importer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\io\wavefront_obj\importer\obj_import_mtl.hh">
+      <Filter>importer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\io\wavefront_obj\importer\obj_import_nurbs.hh">
+      <Filter>importer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\io\wavefront_obj\importer\obj_import_objects.hh">
+      <Filter>importer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\io\wavefront_obj\importer\obj_import_string_utils.hh">
+      <Filter>importer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\io\wavefront_obj\importer\obj_importer.hh">
+      <Filter>importer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\blender\source\blender\io\wavefront_obj\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DCA61805-858F-3339-AB48-23982FF4ADDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EC3EFCE8-AD0A-3455-BDD6-6E7F392CC298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="exporter">
+      <UniqueIdentifier>{BE03027D-2ED2-3F19-8EAD-9642BCDE9633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="importer">
+      <UniqueIdentifier>{8F95F8E7-56BB-3E09-A062-15F488BCF2AE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

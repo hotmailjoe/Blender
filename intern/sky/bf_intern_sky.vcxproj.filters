@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\blender\intern\sky\source\sky_model.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\sky\source\sky_nishita.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\blender\intern\sky\include\sky_model.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\sky\source\sky_float3.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\sky\source\sky_model_data.h">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\blender\intern\sky\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{D0C5A89A-271D-3B09-BF7A-C1A00A6B4D1A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{0AACA029-6AE3-361E-844E-C9BF9FFA1C9B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

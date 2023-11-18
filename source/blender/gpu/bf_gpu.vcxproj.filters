@@ -1,0 +1,672 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_batch.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_batch_presets.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_batch_utils.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_capabilities.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_codegen.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_compute.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_context.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_debug.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_drawlist.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_framebuffer.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_immediate.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_immediate_util.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_index_buffer.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_init_exit.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_material.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_matrix.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_node_graph.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_platform.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_query.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_select.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_select_next.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_select_pick.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_select_sample_query.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_shader.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_shader_builtin.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_shader_create_info.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_shader_dependency.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_shader_interface.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_shader_log.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_state.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_storage_buffer.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_texture.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_uniform_buffer.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_vertex_buffer.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_vertex_format.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_viewport.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_backend.cc">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_batch.cc">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_compute.cc">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_context.cc">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_debug.cc">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_debug_layer.cc">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_drawlist.cc">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_framebuffer.cc">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_immediate.cc">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_index_buffer.cc">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_query.cc">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_shader.cc">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_shader_interface.cc">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_shader_log.cc">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_state.cc">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_storage_buffer.cc">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_texture.cc">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_uniform_buffer.cc">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_vertex_array.cc">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_vertex_buffer.cc">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_backend.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_batch.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_bindable_resource.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_buffer.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_command_buffer.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_command_buffers.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_common.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_context.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_data_conversion.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_debug.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_descriptor_pools.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_descriptor_set.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_device.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_drawlist.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_fence.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_framebuffer.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_image_view.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_immediate.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_index_buffer.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_memory.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_memory_layout.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_pipeline.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_pipeline_state.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_pixel_buffer.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_push_constants.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_query.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_resource_tracker.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_sampler.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_samplers.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_shader.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_shader_interface.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_shader_log.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_state_manager.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_storage_buffer.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_texture.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_uniform_buffer.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_vertex_attribute_object.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_vertex_buffer.cc">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\GPU_batch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\GPU_batch_presets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\GPU_batch_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\GPU_capabilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\GPU_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\GPU_common_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\GPU_compute.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\GPU_context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\GPU_debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\GPU_drawlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\GPU_framebuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\GPU_immediate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\GPU_immediate_util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\GPU_index_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\GPU_init_exit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\GPU_material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\GPU_matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\GPU_platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\GPU_primitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\GPU_select.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\GPU_shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\GPU_shader_builtin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\GPU_shader_shared.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\GPU_state.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\GPU_storage_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\GPU_texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\GPU_uniform_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\GPU_vertex_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\GPU_vertex_format.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\GPU_viewport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_backend.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_batch_private.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_capabilities_private.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_codegen.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_context_private.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_debug_private.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_drawlist_private.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_framebuffer_private.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_immediate_private.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_index_buffer_private.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_material_library.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_matrix_private.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_node_graph.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_platform_private.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_private.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_query.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_select_private.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_shader_create_info.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_shader_create_info_private.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_shader_dependency_private.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_shader_interface.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_shader_private.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_state_private.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_storage_buffer_private.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_texture_private.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_uniform_buffer_private.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_vertex_buffer_private.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\intern\gpu_vertex_format_private.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\dummy\dummy_backend.hh">
+      <Filter>dummy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\dummy\dummy_batch.hh">
+      <Filter>dummy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\dummy\dummy_context.hh">
+      <Filter>dummy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\dummy\dummy_framebuffer.hh">
+      <Filter>dummy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\dummy\dummy_vertex_buffer.hh">
+      <Filter>dummy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_backend.hh">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_batch.hh">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_compute.hh">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_context.hh">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_debug.hh">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_drawlist.hh">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_framebuffer.hh">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_immediate.hh">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_index_buffer.hh">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_primitive.hh">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_query.hh">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_shader.hh">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_shader_interface.hh">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_state.hh">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_storage_buffer.hh">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_texture.hh">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_uniform_buffer.hh">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_vertex_array.hh">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\opengl\gl_vertex_buffer.hh">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_backend.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_batch.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_bindable_resource.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_buffer.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_command_buffer.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_command_buffers.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_common.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_context.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_data_conversion.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_debug.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_descriptor_pools.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_descriptor_set.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_device.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_drawlist.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_fence.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_framebuffer.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_image_view.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_immediate.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_index_buffer.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_memory.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_memory_layout.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_pipeline.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_pipeline_state.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_pixel_buffer.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_push_constants.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_query.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_resource_tracker.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_sampler.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_samplers.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_shader.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_shader_interface.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_shader_log.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_state_manager.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_storage_buffer.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_texture.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_uniform_buffer.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_vertex_attribute_object.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\gpu\vulkan\vk_vertex_buffer.hh">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\gpu\glsl_gpu_source_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\blender\source\blender\gpu\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DCA61805-858F-3339-AB48-23982FF4ADDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dummy">
+      <UniqueIdentifier>{B95F2CF6-9F03-3556-8944-A5244F4F2024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern">
+      <UniqueIdentifier>{4EDE82D4-1D12-38C7-B105-AB6CAFF912B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opengl">
+      <UniqueIdentifier>{CF4C0193-A045-3FFB-933E-E6C386DDED51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vulkan">
+      <UniqueIdentifier>{394B9A5C-BA72-363E-A369-330F0F8A4910}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

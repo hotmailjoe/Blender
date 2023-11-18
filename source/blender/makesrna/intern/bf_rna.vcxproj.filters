@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_access.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_access_compare_override.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_path.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_ID_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_action_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_animation_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_animviz_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_armature_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_asset_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_attribute_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_boid_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_brush_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_cachefile_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_camera_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_cloth_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_collection_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_color_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_constraint_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_context_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_curve_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_curveprofile_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_curves_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_depsgraph_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_dynamicpaint_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_fcurve_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_fluid_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_gpencil_legacy_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_gpencil_legacy_modifier_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_image_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_key_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_lattice_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_layer_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_light_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_lightprobe_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_linestyle_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_main_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_mask_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_material_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_mesh_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_meta_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_modifier_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_movieclip_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_nla_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_node_socket_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_node_tree_interface_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_nodetree_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_object_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_object_force_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_packedfile_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_palette_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_particle_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_pointcloud_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_pose_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_render_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_rigidbody_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_rna_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_scene_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_screen_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_sculpt_paint_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_sequencer_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_shader_fx_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_sound_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_space_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_speaker_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_test_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_text_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_texture_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_timeline_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_tracking_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_ui_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_userdef_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_vfont_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_volume_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_wm_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_wm_gizmo_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_workspace_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_world_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_xr_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_usd_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_grease_pencil_gen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\rna_prototypes_gen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\RNA_prototypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesrna\RNA_access.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesrna\RNA_define.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesrna\RNA_documentation.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesrna\RNA_enum_items.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesrna\RNA_enum_types.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesrna\RNA_path.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesrna\RNA_types.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_access_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_internal_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\makesrna\intern\rna_mesh_utils.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\47d6f82e7b31f07cccc891b6df63f5b0\rna_ID_gen.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\blender\source\blender\makesrna\intern\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D15A3CAF-CAB7-3597-833D-3C06FFB91F4D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DCA61805-858F-3339-AB48-23982FF4ADDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EC3EFCE8-AD0A-3455-BDD6-6E7F392CC298}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\intern\autotrack.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\intern\camera_intrinsics.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\intern\detector.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\intern\frame_accessor.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\intern\homography.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\intern\image.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\intern\logging.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\intern\reconstruction.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\intern\track_region.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\intern\tracks.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\intern\tracksN.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\autotrack\autotrack.cc">
+      <Filter>libmv\autotrack</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\autotrack\predict_tracks.cc">
+      <Filter>libmv\autotrack</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\autotrack\tracks.cc">
+      <Filter>libmv\autotrack</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\base\aligned_malloc.cc">
+      <Filter>libmv\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\image\array_nd.cc">
+      <Filter>libmv\image</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\image\convolve.cc">
+      <Filter>libmv\image</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\multiview\conditioning.cc">
+      <Filter>libmv\multiview</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\multiview\euclidean_resection.cc">
+      <Filter>libmv\multiview</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\multiview\fundamental.cc">
+      <Filter>libmv\multiview</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\multiview\homography.cc">
+      <Filter>libmv\multiview</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\multiview\panography.cc">
+      <Filter>libmv\multiview</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\multiview\panography_kernel.cc">
+      <Filter>libmv\multiview</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\multiview\projection.cc">
+      <Filter>libmv\multiview</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\multiview\triangulation.cc">
+      <Filter>libmv\multiview</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\numeric\numeric.cc">
+      <Filter>libmv\numeric</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\numeric\poly.cc">
+      <Filter>libmv\numeric</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\simple_pipeline\bundle.cc">
+      <Filter>libmv\simple_pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\simple_pipeline\camera_intrinsics.cc">
+      <Filter>libmv\simple_pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\simple_pipeline\detect.cc">
+      <Filter>libmv\simple_pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\simple_pipeline\distortion_models.cc">
+      <Filter>libmv\simple_pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\simple_pipeline\initialize_reconstruction.cc">
+      <Filter>libmv\simple_pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\simple_pipeline\intersect.cc">
+      <Filter>libmv\simple_pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\simple_pipeline\keyframe_selection.cc">
+      <Filter>libmv\simple_pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\simple_pipeline\modal_solver.cc">
+      <Filter>libmv\simple_pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\simple_pipeline\packed_intrinsics.cc">
+      <Filter>libmv\simple_pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\simple_pipeline\pipeline.cc">
+      <Filter>libmv\simple_pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\simple_pipeline\reconstruction.cc">
+      <Filter>libmv\simple_pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\simple_pipeline\reconstruction_scale.cc">
+      <Filter>libmv\simple_pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\simple_pipeline\resect.cc">
+      <Filter>libmv\simple_pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\simple_pipeline\tracks.cc">
+      <Filter>libmv\simple_pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\tracking\brute_region_tracker.cc">
+      <Filter>libmv\tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\tracking\hybrid_region_tracker.cc">
+      <Filter>libmv\tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\tracking\klt_region_tracker.cc">
+      <Filter>libmv\tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\tracking\pyramid_region_tracker.cc">
+      <Filter>libmv\tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\tracking\retrack_region_tracker.cc">
+      <Filter>libmv\tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\tracking\track_region.cc">
+      <Filter>libmv\tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\intern\libmv\libmv\tracking\trklt_region_tracker.cc">
+      <Filter>libmv\tracking</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv-capi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\intern\autotrack.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\intern\camera_intrinsics.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\intern\detector.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\intern\frame_accessor.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\intern\homography.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\intern\image.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\intern\logging.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\intern\reconstruction.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\intern\region.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\intern\track_region.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\intern\tracks.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\intern\tracksN.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\intern\utildefines.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\autotrack\autotrack.h">
+      <Filter>libmv\autotrack</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\autotrack\callbacks.h">
+      <Filter>libmv\autotrack</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\autotrack\frame_accessor.h">
+      <Filter>libmv\autotrack</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\autotrack\marker.h">
+      <Filter>libmv\autotrack</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\autotrack\model.h">
+      <Filter>libmv\autotrack</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\autotrack\predict_tracks.h">
+      <Filter>libmv\autotrack</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\autotrack\quad.h">
+      <Filter>libmv\autotrack</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\autotrack\reconstruction.h">
+      <Filter>libmv\autotrack</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\autotrack\region.h">
+      <Filter>libmv\autotrack</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\autotrack\tracks.h">
+      <Filter>libmv\autotrack</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\base\aligned_malloc.h">
+      <Filter>libmv\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\base\array.h">
+      <Filter>libmv\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\base\id_generator.h">
+      <Filter>libmv\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\base\map.h">
+      <Filter>libmv\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\base\scoped_ptr.h">
+      <Filter>libmv\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\base\vector.h">
+      <Filter>libmv\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\base\vector_utils.h">
+      <Filter>libmv\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\build\build_config.h">
+      <Filter>libmv\build</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\image\array_nd.h">
+      <Filter>libmv\image</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\image\convolve.h">
+      <Filter>libmv\image</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\image\correlation.h">
+      <Filter>libmv\image</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\image\image_converter.h">
+      <Filter>libmv\image</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\image\image_drawing.h">
+      <Filter>libmv\image</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\image\image.h">
+      <Filter>libmv\image</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\image\sample.h">
+      <Filter>libmv\image</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\image\tuple.h">
+      <Filter>libmv\image</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\logging\logging.h">
+      <Filter>libmv\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\multiview\conditioning.h">
+      <Filter>libmv\multiview</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\multiview\euclidean_resection.h">
+      <Filter>libmv\multiview</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\multiview\fundamental.h">
+      <Filter>libmv\multiview</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\multiview\homography_error.h">
+      <Filter>libmv\multiview</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\multiview\homography.h">
+      <Filter>libmv\multiview</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\multiview\homography_parameterization.h">
+      <Filter>libmv\multiview</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\multiview\nviewtriangulation.h">
+      <Filter>libmv\multiview</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\multiview\panography.h">
+      <Filter>libmv\multiview</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\multiview\panography_kernel.h">
+      <Filter>libmv\multiview</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\multiview\projection.h">
+      <Filter>libmv\multiview</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\multiview\resection.h">
+      <Filter>libmv\multiview</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\multiview\triangulation.h">
+      <Filter>libmv\multiview</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\multiview\two_view_kernel.h">
+      <Filter>libmv\multiview</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\numeric\dogleg.h">
+      <Filter>libmv\numeric</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\numeric\function_derivative.h">
+      <Filter>libmv\numeric</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\numeric\levenberg_marquardt.h">
+      <Filter>libmv\numeric</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\numeric\numeric.h">
+      <Filter>libmv\numeric</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\numeric\poly.h">
+      <Filter>libmv\numeric</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\simple_pipeline\bundle.h">
+      <Filter>libmv\simple_pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\simple_pipeline\callbacks.h">
+      <Filter>libmv\simple_pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\simple_pipeline\camera_intrinsics.h">
+      <Filter>libmv\simple_pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\simple_pipeline\camera_intrinsics_impl.h">
+      <Filter>libmv\simple_pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\simple_pipeline\detect.h">
+      <Filter>libmv\simple_pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\simple_pipeline\distortion_models.h">
+      <Filter>libmv\simple_pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\simple_pipeline\initialize_reconstruction.h">
+      <Filter>libmv\simple_pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\simple_pipeline\intersect.h">
+      <Filter>libmv\simple_pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\simple_pipeline\keyframe_selection.h">
+      <Filter>libmv\simple_pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\simple_pipeline\modal_solver.h">
+      <Filter>libmv\simple_pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\simple_pipeline\packed_intrinsics.h">
+      <Filter>libmv\simple_pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\simple_pipeline\pipeline.h">
+      <Filter>libmv\simple_pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\simple_pipeline\reconstruction.h">
+      <Filter>libmv\simple_pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\simple_pipeline\reconstruction_scale.h">
+      <Filter>libmv\simple_pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\simple_pipeline\resect.h">
+      <Filter>libmv\simple_pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\simple_pipeline\tracks.h">
+      <Filter>libmv\simple_pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\threading\threading.h">
+      <Filter>libmv\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\tracking\brute_region_tracker.h">
+      <Filter>libmv\tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\tracking\hybrid_region_tracker.h">
+      <Filter>libmv\tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\tracking\kalman_filter.h">
+      <Filter>libmv\tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\tracking\klt_region_tracker.h">
+      <Filter>libmv\tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\tracking\pyramid_region_tracker.h">
+      <Filter>libmv\tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\tracking\region_tracker.h">
+      <Filter>libmv\tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\tracking\retrack_region_tracker.h">
+      <Filter>libmv\tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\tracking\track_region.h">
+      <Filter>libmv\tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\libmv\tracking\trklt_region_tracker.h">
+      <Filter>libmv\tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\third_party\msinttypes\inttypes.h">
+      <Filter>third_party\msinttypes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\intern\libmv\third_party\msinttypes\stdint.h">
+      <Filter>third_party\msinttypes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\blender\intern\libmv\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DCA61805-858F-3339-AB48-23982FF4ADDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern">
+      <UniqueIdentifier>{4EDE82D4-1D12-38C7-B105-AB6CAFF912B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libmv">
+      <UniqueIdentifier>{59A24C34-4FF8-3DF9-B607-6D9631E907BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libmv\autotrack">
+      <UniqueIdentifier>{35081F72-1D97-3E48-A8E2-0C284DB15783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libmv\base">
+      <UniqueIdentifier>{4FD7282A-BA0D-3727-84DC-A4F9398E3835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libmv\build">
+      <UniqueIdentifier>{84942F03-5C25-3BE1-BA3F-E6019DC7CB0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libmv\image">
+      <UniqueIdentifier>{C0A9F70E-8BCD-3C4D-B457-6CCE831FF85B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libmv\logging">
+      <UniqueIdentifier>{87D98B74-C6D4-3553-A320-35F987CF2EF2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libmv\multiview">
+      <UniqueIdentifier>{42C462AA-5087-3C06-B162-39C99727739A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libmv\numeric">
+      <UniqueIdentifier>{8F63CD0B-45A3-35A8-9AD1-1B5F87031D88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libmv\simple_pipeline">
+      <UniqueIdentifier>{F44C823E-0AF9-3B78-8D4F-118DA71ECD61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libmv\threading">
+      <UniqueIdentifier>{E685425C-E6C9-369F-B077-6D5DA05016EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libmv\tracking">
+      <UniqueIdentifier>{69A49224-AA24-3083-864D-0E4D02389413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{2AA0B2F7-D3C3-3D0E-AC2D-28CF4915EF82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\msinttypes">
+      <UniqueIdentifier>{D786ACED-A605-3D6F-9443-BBCEA02898D6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

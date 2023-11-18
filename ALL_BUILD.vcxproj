@@ -1,0 +1,862 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{417C438B-4B24-3BC9-B3BD-CC305A58E91D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\blender\..\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\blender\..\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\blender\..\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\blender\..\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\blender\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/blender-git/blender/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -SC:/blender-git/blender -BC:/blender-git/build_windows_x64_vc17_Release --check-stamp-file C:/blender-git/build_windows_x64_vc17_Release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.28\Modules\CPack.cmake;C:\CMake\share\cmake-3.28\Modules\CPackComponent.cmake;C:\CMake\share\cmake-3.28\Modules\CheckCSourceRuns.cmake;C:\CMake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\CMake\share\cmake-3.28\Modules\FindGit.cmake;C:\CMake\share\cmake-3.28\Modules\FindOpenMP.cmake;C:\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.28\Modules\InstallRequiredSystemLibraries.cmake;C:\CMake\share\cmake-3.28\Modules\Internal\CheckSourceRuns.cmake;C:\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\CMake\share\cmake-3.28\Templates\CPackConfig.cmake.in;C:\blender-git\blender\build_files\cmake\have_features.cmake;C:\blender-git\blender\build_files\cmake\macros.cmake;C:\blender-git\blender\build_files\cmake\packaging.cmake;C:\blender-git\blender\build_files\cmake\platform\platform_old_libs_update.cmake;C:\blender-git\blender\build_files\cmake\platform\platform_win32.cmake;C:\blender-git\blender\release\windows\manifest\Blender.manifest.in;C:\blender-git\blender\release\windows\manifest\blender.exe.manifest.in;C:\blender-git\blender\source\blender\blenkernel\BKE_blender_version.h;C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3.28.0-rc5\CMakeCCompiler.cmake;C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3.28.0-rc5\CMakeCXXCompiler.cmake;C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3.28.0-rc5\CMakeRCCompiler.cmake;C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3.28.0-rc5\CMakeSystem.cmake;C:\blender-git\lib\win64_vc15\MaterialX\lib\cmake\MaterialX\MaterialXTargets-debug.cmake;C:\blender-git\lib\win64_vc15\MaterialX\lib\cmake\MaterialX\MaterialXTargets-release.cmake;C:\blender-git\lib\win64_vc15\MaterialX\lib\cmake\MaterialX\MaterialXTargets.cmake;C:\blender-git\lib\win64_vc15\openpgl\lib\cmake\openpgl-0.5.0\openpglConfig.cmake;C:\blender-git\lib\win64_vc15\openpgl\lib\cmake\openpgl-0.5.0\openpglConfigVersion.cmake;C:\blender-git\lib\win64_vc15\openpgl\lib\cmake\openpgl-0.5.0\openpgl_Exports-debug.cmake;C:\blender-git\lib\win64_vc15\openpgl\lib\cmake\openpgl-0.5.0\openpgl_Exports-release.cmake;C:\blender-git\lib\win64_vc15\openpgl\lib\cmake\openpgl-0.5.0\openpgl_Exports.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/blender-git/blender/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -SC:/blender-git/blender -BC:/blender-git/build_windows_x64_vc17_Release --check-stamp-file C:/blender-git/build_windows_x64_vc17_Release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.28\Modules\CPack.cmake;C:\CMake\share\cmake-3.28\Modules\CPackComponent.cmake;C:\CMake\share\cmake-3.28\Modules\CheckCSourceRuns.cmake;C:\CMake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\CMake\share\cmake-3.28\Modules\FindGit.cmake;C:\CMake\share\cmake-3.28\Modules\FindOpenMP.cmake;C:\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.28\Modules\InstallRequiredSystemLibraries.cmake;C:\CMake\share\cmake-3.28\Modules\Internal\CheckSourceRuns.cmake;C:\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\CMake\share\cmake-3.28\Templates\CPackConfig.cmake.in;C:\blender-git\blender\build_files\cmake\have_features.cmake;C:\blender-git\blender\build_files\cmake\macros.cmake;C:\blender-git\blender\build_files\cmake\packaging.cmake;C:\blender-git\blender\build_files\cmake\platform\platform_old_libs_update.cmake;C:\blender-git\blender\build_files\cmake\platform\platform_win32.cmake;C:\blender-git\blender\release\windows\manifest\Blender.manifest.in;C:\blender-git\blender\release\windows\manifest\blender.exe.manifest.in;C:\blender-git\blender\source\blender\blenkernel\BKE_blender_version.h;C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3.28.0-rc5\CMakeCCompiler.cmake;C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3.28.0-rc5\CMakeCXXCompiler.cmake;C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3.28.0-rc5\CMakeRCCompiler.cmake;C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3.28.0-rc5\CMakeSystem.cmake;C:\blender-git\lib\win64_vc15\MaterialX\lib\cmake\MaterialX\MaterialXTargets-debug.cmake;C:\blender-git\lib\win64_vc15\MaterialX\lib\cmake\MaterialX\MaterialXTargets-release.cmake;C:\blender-git\lib\win64_vc15\MaterialX\lib\cmake\MaterialX\MaterialXTargets.cmake;C:\blender-git\lib\win64_vc15\openpgl\lib\cmake\openpgl-0.5.0\openpglConfig.cmake;C:\blender-git\lib\win64_vc15\openpgl\lib\cmake\openpgl-0.5.0\openpglConfigVersion.cmake;C:\blender-git\lib\win64_vc15\openpgl\lib\cmake\openpgl-0.5.0\openpgl_Exports-debug.cmake;C:\blender-git\lib\win64_vc15\openpgl\lib\cmake\openpgl-0.5.0\openpgl_Exports-release.cmake;C:\blender-git\lib\win64_vc15\openpgl\lib\cmake\openpgl-0.5.0\openpgl_Exports.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/blender-git/blender/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -SC:/blender-git/blender -BC:/blender-git/build_windows_x64_vc17_Release --check-stamp-file C:/blender-git/build_windows_x64_vc17_Release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.28\Modules\CPack.cmake;C:\CMake\share\cmake-3.28\Modules\CPackComponent.cmake;C:\CMake\share\cmake-3.28\Modules\CheckCSourceRuns.cmake;C:\CMake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\CMake\share\cmake-3.28\Modules\FindGit.cmake;C:\CMake\share\cmake-3.28\Modules\FindOpenMP.cmake;C:\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.28\Modules\InstallRequiredSystemLibraries.cmake;C:\CMake\share\cmake-3.28\Modules\Internal\CheckSourceRuns.cmake;C:\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\CMake\share\cmake-3.28\Templates\CPackConfig.cmake.in;C:\blender-git\blender\build_files\cmake\have_features.cmake;C:\blender-git\blender\build_files\cmake\macros.cmake;C:\blender-git\blender\build_files\cmake\packaging.cmake;C:\blender-git\blender\build_files\cmake\platform\platform_old_libs_update.cmake;C:\blender-git\blender\build_files\cmake\platform\platform_win32.cmake;C:\blender-git\blender\release\windows\manifest\Blender.manifest.in;C:\blender-git\blender\release\windows\manifest\blender.exe.manifest.in;C:\blender-git\blender\source\blender\blenkernel\BKE_blender_version.h;C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3.28.0-rc5\CMakeCCompiler.cmake;C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3.28.0-rc5\CMakeCXXCompiler.cmake;C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3.28.0-rc5\CMakeRCCompiler.cmake;C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3.28.0-rc5\CMakeSystem.cmake;C:\blender-git\lib\win64_vc15\MaterialX\lib\cmake\MaterialX\MaterialXTargets-debug.cmake;C:\blender-git\lib\win64_vc15\MaterialX\lib\cmake\MaterialX\MaterialXTargets-release.cmake;C:\blender-git\lib\win64_vc15\MaterialX\lib\cmake\MaterialX\MaterialXTargets.cmake;C:\blender-git\lib\win64_vc15\openpgl\lib\cmake\openpgl-0.5.0\openpglConfig.cmake;C:\blender-git\lib\win64_vc15\openpgl\lib\cmake\openpgl-0.5.0\openpglConfigVersion.cmake;C:\blender-git\lib\win64_vc15\openpgl\lib\cmake\openpgl-0.5.0\openpgl_Exports-debug.cmake;C:\blender-git\lib\win64_vc15\openpgl\lib\cmake\openpgl-0.5.0\openpgl_Exports-release.cmake;C:\blender-git\lib\win64_vc15\openpgl\lib\cmake\openpgl-0.5.0\openpgl_Exports.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/blender-git/blender/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -SC:/blender-git/blender -BC:/blender-git/build_windows_x64_vc17_Release --check-stamp-file C:/blender-git/build_windows_x64_vc17_Release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.28\Modules\CPack.cmake;C:\CMake\share\cmake-3.28\Modules\CPackComponent.cmake;C:\CMake\share\cmake-3.28\Modules\CheckCSourceRuns.cmake;C:\CMake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\CMake\share\cmake-3.28\Modules\FindGit.cmake;C:\CMake\share\cmake-3.28\Modules\FindOpenMP.cmake;C:\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.28\Modules\InstallRequiredSystemLibraries.cmake;C:\CMake\share\cmake-3.28\Modules\Internal\CheckSourceRuns.cmake;C:\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\CMake\share\cmake-3.28\Templates\CPackConfig.cmake.in;C:\blender-git\blender\build_files\cmake\have_features.cmake;C:\blender-git\blender\build_files\cmake\macros.cmake;C:\blender-git\blender\build_files\cmake\packaging.cmake;C:\blender-git\blender\build_files\cmake\platform\platform_old_libs_update.cmake;C:\blender-git\blender\build_files\cmake\platform\platform_win32.cmake;C:\blender-git\blender\release\windows\manifest\Blender.manifest.in;C:\blender-git\blender\release\windows\manifest\blender.exe.manifest.in;C:\blender-git\blender\source\blender\blenkernel\BKE_blender_version.h;C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3.28.0-rc5\CMakeCCompiler.cmake;C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3.28.0-rc5\CMakeCXXCompiler.cmake;C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3.28.0-rc5\CMakeRCCompiler.cmake;C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\3.28.0-rc5\CMakeSystem.cmake;C:\blender-git\lib\win64_vc15\MaterialX\lib\cmake\MaterialX\MaterialXTargets-debug.cmake;C:\blender-git\lib\win64_vc15\MaterialX\lib\cmake\MaterialX\MaterialXTargets-release.cmake;C:\blender-git\lib\win64_vc15\MaterialX\lib\cmake\MaterialX\MaterialXTargets.cmake;C:\blender-git\lib\win64_vc15\openpgl\lib\cmake\openpgl-0.5.0\openpglConfig.cmake;C:\blender-git\lib\win64_vc15\openpgl\lib\cmake\openpgl-0.5.0\openpglConfigVersion.cmake;C:\blender-git\lib\win64_vc15\openpgl\lib\cmake\openpgl-0.5.0\openpgl_Exports-debug.cmake;C:\blender-git\lib\win64_vc15\openpgl\lib\cmake\openpgl-0.5.0\openpgl_Exports-release.cmake;C:\blender-git\lib\win64_vc15\openpgl\lib\cmake\openpgl-0.5.0\openpgl_Exports.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\blender-git\build_windows_x64_vc17_Release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\ZERO_CHECK.vcxproj">
+      <Project>{25603482-4DEA-3CCE-BBC8-38DB5ABD22C5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\blendthumb\BlendThumb.vcxproj">
+      <Project>{70E467C1-5006-3FBD-B8D1-37B62CEA467B}</Project>
+      <Name>BlendThumb</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\extern\audaspace\audaspace.vcxproj">
+      <Project>{8C4C8AB3-B4A1-3CE9-9B8D-F46A47037516}</Project>
+      <Name>audaspace</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\extern\audaspace\audaspace-py.vcxproj">
+      <Project>{6512064C-220B-3130-AC31-AFB67E68E1FF}</Project>
+      <Name>audaspace-py</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\animrig\bf_animrig.vcxproj">
+      <Project>{950D7AAE-E43E-354C-8E1B-44E5BFB9C0A5}</Project>
+      <Name>bf_animrig</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\asset_system\bf_asset_system.vcxproj">
+      <Project>{30BF9EB9-391B-3449-BCE9-282AF020D5A5}</Project>
+      <Name>bf_asset_system</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\io\avi\bf_avi.vcxproj">
+      <Project>{B4E4C32C-F813-3289-A65F-7B640B5652A1}</Project>
+      <Name>bf_avi</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\blenfont\bf_blenfont.vcxproj">
+      <Project>{A08F1088-47D1-3241-8749-A71A7E313E24}</Project>
+      <Name>bf_blenfont</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\blenkernel\bf_blenkernel.vcxproj">
+      <Project>{BADFFE87-B0E9-3E67-A68F-7CF9818BE1EE}</Project>
+      <Name>bf_blenkernel</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\blenlib\bf_blenlib.vcxproj">
+      <Project>{95CBDFC7-9528-357F-A681-B5A65A4A61FA}</Project>
+      <Name>bf_blenlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\blenloader\bf_blenloader.vcxproj">
+      <Project>{3EE7B40F-B7CD-3C4E-8AD8-C5913318139B}</Project>
+      <Name>bf_blenloader</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\blentranslation\bf_blentranslation.vcxproj">
+      <Project>{7F15F6C7-48E7-3333-BDE5-AFB349EFBFD0}</Project>
+      <Name>bf_blentranslation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\bmesh\bf_bmesh.vcxproj">
+      <Project>{5F77C2AD-E8CC-3D65-87B3-CCAA432D9884}</Project>
+      <Name>bf_bmesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\bf_compositor_shaders.vcxproj">
+      <Project>{50D686FE-DB4C-3734-9328-95A6442E0256}</Project>
+      <Name>bf_compositor_shaders</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\depsgraph\bf_depsgraph.vcxproj">
+      <Project>{8D7BCF10-EE8C-3972-9091-B14FD894FD9C}</Project>
+      <Name>bf_depsgraph</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesdna\intern\bf_dna.vcxproj">
+      <Project>{61CC4962-B8C1-3D6A-AAE3-B32D2F361BC7}</Project>
+      <Name>bf_dna</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesdna\intern\bf_dna_blenlib.vcxproj">
+      <Project>{B38BC4AF-F016-34AF-8D55-C97F8AAF434A}</Project>
+      <Name>bf_dna_blenlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\draw\bf_draw.vcxproj">
+      <Project>{93EADA8D-40D6-3C5F-9E1C-4E1FFD4F61C8}</Project>
+      <Name>bf_draw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\draw\bf_draw_shaders.vcxproj">
+      <Project>{A9A81491-6FF6-369A-A5BD-E99343C4AD78}</Project>
+      <Name>bf_draw_shaders</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\animation\bf_editor_animation.vcxproj">
+      <Project>{7BE29693-397F-3B81-9C36-9A20AC52DC09}</Project>
+      <Name>bf_editor_animation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\armature\bf_editor_armature.vcxproj">
+      <Project>{D7FA9C44-A0B5-315B-A690-DFA90B3864D8}</Project>
+      <Name>bf_editor_armature</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\asset\bf_editor_asset.vcxproj">
+      <Project>{9E2B54EC-BACC-353E-9ACB-3D4775588775}</Project>
+      <Name>bf_editor_asset</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\curve\bf_editor_curve.vcxproj">
+      <Project>{85329F5F-80A0-3A10-A5E5-6B1C8B81006B}</Project>
+      <Name>bf_editor_curve</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\curves\bf_editor_curves.vcxproj">
+      <Project>{F2992DC8-4573-3345-9916-F24AE94551B8}</Project>
+      <Name>bf_editor_curves</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\datafiles\bf_editor_datafiles.vcxproj">
+      <Project>{4515D875-B834-3061-8236-C81F1320A36F}</Project>
+      <Name>bf_editor_datafiles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\geometry\bf_editor_geometry.vcxproj">
+      <Project>{18C62607-C3B2-3BE0-9BDF-7A518EAC1ABB}</Project>
+      <Name>bf_editor_geometry</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\gizmo_library\bf_editor_gizmo_library.vcxproj">
+      <Project>{F6A8D258-8513-3DFB-87F1-5934CC3CAA84}</Project>
+      <Name>bf_editor_gizmo_library</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\gpencil_legacy\bf_editor_gpencil_legacy.vcxproj">
+      <Project>{406FBE07-E002-360E-AE2B-9466EDF78F76}</Project>
+      <Name>bf_editor_gpencil_legacy</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\grease_pencil\bf_editor_grease_pencil.vcxproj">
+      <Project>{D8E77D11-7611-34FC-AE5B-E4330342F993}</Project>
+      <Name>bf_editor_grease_pencil</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\interface\bf_editor_interface.vcxproj">
+      <Project>{ABA25BC6-5DDE-3855-B0F0-9422F28716BB}</Project>
+      <Name>bf_editor_interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\io\bf_editor_io.vcxproj">
+      <Project>{6405B9A3-8521-3C12-9EB8-079374D2650A}</Project>
+      <Name>bf_editor_io</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\lattice\bf_editor_lattice.vcxproj">
+      <Project>{469147DF-D784-3AD6-8CFD-BA9987BDC220}</Project>
+      <Name>bf_editor_lattice</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\mask\bf_editor_mask.vcxproj">
+      <Project>{E99AA6E4-95E5-3FB0-8EB4-C4CE397CFDA2}</Project>
+      <Name>bf_editor_mask</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\mesh\bf_editor_mesh.vcxproj">
+      <Project>{635ED674-B9EF-32FD-9A7F-9E651069CF18}</Project>
+      <Name>bf_editor_mesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\metaball\bf_editor_metaball.vcxproj">
+      <Project>{8E2B19CB-68C4-30E9-942C-E0FAFFE9125C}</Project>
+      <Name>bf_editor_metaball</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\object\bf_editor_object.vcxproj">
+      <Project>{76131620-724C-34D9-B4D3-A22E1013BCA5}</Project>
+      <Name>bf_editor_object</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\physics\bf_editor_physics.vcxproj">
+      <Project>{88FDE6C8-B54F-3BA4-BE54-359C65F17463}</Project>
+      <Name>bf_editor_physics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\render\bf_editor_render.vcxproj">
+      <Project>{01635EEC-BAF2-3190-BC9D-8F9A3B73D04B}</Project>
+      <Name>bf_editor_render</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\scene\bf_editor_scene.vcxproj">
+      <Project>{03FAFEA7-1559-36DC-B536-4891A87B9E99}</Project>
+      <Name>bf_editor_scene</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\screen\bf_editor_screen.vcxproj">
+      <Project>{9B67DC58-8BD1-3DC3-A4C0-EDBE5150EA53}</Project>
+      <Name>bf_editor_screen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\sculpt_paint\bf_editor_sculpt_paint.vcxproj">
+      <Project>{E9C9D1C8-592D-39F0-B4A9-ED7CC9CC3563}</Project>
+      <Name>bf_editor_sculpt_paint</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\sound\bf_editor_sound.vcxproj">
+      <Project>{A1E1312F-8FCB-39A5-B82D-543DAAAD3F2E}</Project>
+      <Name>bf_editor_sound</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\space_action\bf_editor_space_action.vcxproj">
+      <Project>{8BB79552-D866-32BD-820E-3530C975E65D}</Project>
+      <Name>bf_editor_space_action</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\space_api\bf_editor_space_api.vcxproj">
+      <Project>{E4EBE4F1-EC9F-3022-A3A0-76C03FE36DCE}</Project>
+      <Name>bf_editor_space_api</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\space_buttons\bf_editor_space_buttons.vcxproj">
+      <Project>{6DE009D7-6CC5-39CD-9E4A-10A3A9CCA930}</Project>
+      <Name>bf_editor_space_buttons</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\space_clip\bf_editor_space_clip.vcxproj">
+      <Project>{AF6BDF19-C902-364E-A800-9A931E9FBB94}</Project>
+      <Name>bf_editor_space_clip</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\space_console\bf_editor_space_console.vcxproj">
+      <Project>{CB3A0A02-D9CB-3111-8FCE-1C1CE43EAF77}</Project>
+      <Name>bf_editor_space_console</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\space_file\bf_editor_space_file.vcxproj">
+      <Project>{D78B5F2A-76CF-3E69-BB5A-5BC88DC703D7}</Project>
+      <Name>bf_editor_space_file</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\space_graph\bf_editor_space_graph.vcxproj">
+      <Project>{0C555B0E-D8BF-307F-A458-60BF967222FA}</Project>
+      <Name>bf_editor_space_graph</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\space_image\bf_editor_space_image.vcxproj">
+      <Project>{2880B8A5-642D-33B2-AA6B-BA0DC8842A50}</Project>
+      <Name>bf_editor_space_image</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\space_info\bf_editor_space_info.vcxproj">
+      <Project>{9B79CF2F-606A-3783-9D42-6F8FD2207FBD}</Project>
+      <Name>bf_editor_space_info</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\space_nla\bf_editor_space_nla.vcxproj">
+      <Project>{C2D06588-E3B0-3800-8CB4-86C30E2F5AF2}</Project>
+      <Name>bf_editor_space_nla</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\space_node\bf_editor_space_node.vcxproj">
+      <Project>{2AEAA88B-886C-327D-A238-BB12224E7A31}</Project>
+      <Name>bf_editor_space_node</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\space_outliner\bf_editor_space_outliner.vcxproj">
+      <Project>{85BB84D3-7107-3B3A-8D0D-A4F6F2EDA227}</Project>
+      <Name>bf_editor_space_outliner</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\space_script\bf_editor_space_script.vcxproj">
+      <Project>{9433544D-6778-3AA3-906C-0F24AB545CA1}</Project>
+      <Name>bf_editor_space_script</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\space_sequencer\bf_editor_space_sequencer.vcxproj">
+      <Project>{72352D73-F3E3-3DC5-8F76-E33E0D59E1EF}</Project>
+      <Name>bf_editor_space_sequencer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\space_spreadsheet\bf_editor_space_spreadsheet.vcxproj">
+      <Project>{9A52B6D1-EEDB-3EBE-B7B8-932BB10C3122}</Project>
+      <Name>bf_editor_space_spreadsheet</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\space_statusbar\bf_editor_space_statusbar.vcxproj">
+      <Project>{42BD1B25-635D-3B2B-A74C-AC35421FF6BE}</Project>
+      <Name>bf_editor_space_statusbar</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\space_text\bf_editor_space_text.vcxproj">
+      <Project>{58D6EE25-A73F-3FB0-A6D3-177F167A5283}</Project>
+      <Name>bf_editor_space_text</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\space_topbar\bf_editor_space_topbar.vcxproj">
+      <Project>{8CF678A0-2283-37D6-A190-A775D2A8CF42}</Project>
+      <Name>bf_editor_space_topbar</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\space_userpref\bf_editor_space_userpref.vcxproj">
+      <Project>{E5EC1B58-7B48-3B69-B200-BF7B44072111}</Project>
+      <Name>bf_editor_space_userpref</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\space_view3d\bf_editor_space_view3d.vcxproj">
+      <Project>{65BC6C16-1E22-383F-81E9-6F1A70100A36}</Project>
+      <Name>bf_editor_space_view3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\transform\bf_editor_transform.vcxproj">
+      <Project>{F8AE2862-4046-311F-BA0F-D08A7A21D4F1}</Project>
+      <Name>bf_editor_transform</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\undo\bf_editor_undo.vcxproj">
+      <Project>{66334170-3D2B-3357-A253-11C666A02318}</Project>
+      <Name>bf_editor_undo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\util\bf_editor_util.vcxproj">
+      <Project>{8383FBFB-9E3C-3902-B4D1-BF39B26CACE2}</Project>
+      <Name>bf_editor_util</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\editors\uvedit\bf_editor_uvedit.vcxproj">
+      <Project>{A3A23C18-4ED5-32E9-A217-3B3B28F5F731}</Project>
+      <Name>bf_editor_uvedit</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\freestyle\bf_freestyle.vcxproj">
+      <Project>{177E97BA-9DE8-34E5-8DC4-EFA39D5B6899}</Project>
+      <Name>bf_freestyle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\functions\bf_functions.vcxproj">
+      <Project>{EA5ACC7C-B2CB-3A3C-83C4-B4921E53C9E2}</Project>
+      <Name>bf_functions</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\geometry\bf_geometry.vcxproj">
+      <Project>{DCADEB3D-7254-3322-B49D-99EFBB9496E8}</Project>
+      <Name>bf_geometry</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\io\gpencil\bf_gpencil.vcxproj">
+      <Project>{F3F6B605-16BD-3012-B995-381563EDD8F7}</Project>
+      <Name>bf_gpencil</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\gpencil_modifiers_legacy\bf_gpencil_modifiers_legacy.vcxproj">
+      <Project>{3AFEB6D6-A514-381D-9440-9F39D401F212}</Project>
+      <Name>bf_gpencil_modifiers_legacy</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\gpu\bf_gpu.vcxproj">
+      <Project>{074251B4-F693-3243-B95D-15050E92A526}</Project>
+      <Name>bf_gpu</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\gpu\bf_gpu_shaders.vcxproj">
+      <Project>{362265EA-5721-3798-813B-661B3F03DD1D}</Project>
+      <Name>bf_gpu_shaders</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\ikplugin\bf_ikplugin.vcxproj">
+      <Project>{50A90A9A-8147-33DE-B206-B08AF3D0EF20}</Project>
+      <Name>bf_ikplugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\imbuf\bf_imbuf.vcxproj">
+      <Project>{02B84A31-4901-3240-B708-247DF509BF75}</Project>
+      <Name>bf_imbuf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\imbuf\intern\cineon\bf_imbuf_cineon.vcxproj">
+      <Project>{63D0C46C-4254-31E7-BBAE-148C62D948C9}</Project>
+      <Name>bf_imbuf_cineon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\imbuf\intern\openexr\bf_imbuf_openexr.vcxproj">
+      <Project>{699377DA-19B2-3510-A23C-CCA378BFA7AF}</Project>
+      <Name>bf_imbuf_openexr</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\imbuf\intern\oiio\bf_imbuf_openimageio.vcxproj">
+      <Project>{07C6FBEE-D085-3A01-B66B-D0A9E0210F0C}</Project>
+      <Name>bf_imbuf_openimageio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\atomic\bf_intern_atomic.vcxproj">
+      <Project>{B198092C-7E36-3ADE-BCCF-965033BEF521}</Project>
+      <Name>bf_intern_atomic</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\audaspace\bf_intern_audaspace.vcxproj">
+      <Project>{7449EB46-98CF-38E8-B3DF-221A307EF003}</Project>
+      <Name>bf_intern_audaspace</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\clog\bf_intern_clog.vcxproj">
+      <Project>{FEE536DF-366C-3A12-A596-7791FE7D34BE}</Project>
+      <Name>bf_intern_clog</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\cycles\blender\bf_intern_cycles.vcxproj">
+      <Project>{FF024EB9-6407-320E-B145-8B5AF1F5D734}</Project>
+      <Name>bf_intern_cycles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\dualcon\bf_intern_dualcon.vcxproj">
+      <Project>{7EA91866-67C3-3023-8A4E-668C7F68FA5E}</Project>
+      <Name>bf_intern_dualcon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\eigen\bf_intern_eigen.vcxproj">
+      <Project>{1F91F3E5-E24A-32B1-8E50-6EC195E0A5AC}</Project>
+      <Name>bf_intern_eigen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\ghost\bf_intern_ghost.vcxproj">
+      <Project>{F5CFF7E2-BD44-3297-B1EA-36761F8DDFC7}</Project>
+      <Name>bf_intern_ghost</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\guardedalloc\bf_intern_guardedalloc.vcxproj">
+      <Project>{3BAB1EC3-F88E-341A-8280-2C6C3AE19743}</Project>
+      <Name>bf_intern_guardedalloc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\iksolver\bf_intern_iksolver.vcxproj">
+      <Project>{BB6750DF-F3AE-35AB-886A-996AE8B2D935}</Project>
+      <Name>bf_intern_iksolver</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\itasc\bf_intern_itasc.vcxproj">
+      <Project>{4429CB0E-AE89-37C9-95A7-97431CFEA659}</Project>
+      <Name>bf_intern_itasc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\libmv\bf_intern_libmv.vcxproj">
+      <Project>{3DEC115B-480D-3989-9F1F-1DC6BA0E0649}</Project>
+      <Name>bf_intern_libmv</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\locale\bf_intern_locale.vcxproj">
+      <Project>{30356D72-5186-3F3E-AEAA-67E689B3A108}</Project>
+      <Name>bf_intern_locale</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\mantaflow\bf_intern_mantaflow.vcxproj">
+      <Project>{F8220CC1-CF6F-30CC-8B0C-7CC1EF4D890A}</Project>
+      <Name>bf_intern_mantaflow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\memutil\bf_intern_memutil.vcxproj">
+      <Project>{5614F16E-9BB4-3B78-BEF1-671DA27BC1AD}</Project>
+      <Name>bf_intern_memutil</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\mikktspace\bf_intern_mikktspace.vcxproj">
+      <Project>{35309884-B692-3029-B413-90CD4AE3A1D7}</Project>
+      <Name>bf_intern_mikktspace</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\opencolorio\bf_intern_opencolorio.vcxproj">
+      <Project>{C8A9AC2A-5850-338C-BDD0-AD102E8C2771}</Project>
+      <Name>bf_intern_opencolorio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\opensubdiv\bf_intern_opensubdiv.vcxproj">
+      <Project>{296FA468-24D5-325C-9C44-A386A3E9D8B4}</Project>
+      <Name>bf_intern_opensubdiv</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\openvdb\bf_intern_openvdb.vcxproj">
+      <Project>{1E24B1AE-6FBA-3A04-A90C-05CC880A2ADE}</Project>
+      <Name>bf_intern_openvdb</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\quadriflow\bf_intern_quadriflow.vcxproj">
+      <Project>{5F995A27-DCE1-3DED-8747-8624AD1687C5}</Project>
+      <Name>bf_intern_quadriflow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\rigidbody\bf_intern_rigidbody.vcxproj">
+      <Project>{9053AB97-B6CA-378F-B53E-EDB55CAA9FF0}</Project>
+      <Name>bf_intern_rigidbody</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\sky\bf_intern_sky.vcxproj">
+      <Project>{165B691F-A2DE-36C9-BC84-819C9B0A9BC2}</Project>
+      <Name>bf_intern_sky</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\utfconv\bf_intern_utfconv.vcxproj">
+      <Project>{B03B39B1-7135-34F4-A502-BBE8AFCB6124}</Project>
+      <Name>bf_intern_utfconv</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\io\alembic\bf_io_alembic.vcxproj">
+      <Project>{45F4FC85-164F-3597-9B4D-A71BD633F1FA}</Project>
+      <Name>bf_io_alembic</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\io\collada\bf_io_collada.vcxproj">
+      <Project>{E533B1BB-A445-308F-B69D-5AD58BB45EF3}</Project>
+      <Name>bf_io_collada</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\io\common\bf_io_common.vcxproj">
+      <Project>{528EA492-0A22-3B5A-81A6-7FE8FBECA90A}</Project>
+      <Name>bf_io_common</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\io\ply\bf_io_ply.vcxproj">
+      <Project>{3A24282E-D3B4-3DFB-A4CF-FE987D112B40}</Project>
+      <Name>bf_io_ply</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\io\stl\bf_io_stl.vcxproj">
+      <Project>{5D1C0D20-95E4-3F88-B4D7-20AE7D0DFD32}</Project>
+      <Name>bf_io_stl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\io\usd\bf_io_usd.vcxproj">
+      <Project>{E8B45F0A-FD3B-3D50-B93E-3365F66C2E9E}</Project>
+      <Name>bf_io_usd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\io\wavefront_obj\bf_io_wavefront_obj.vcxproj">
+      <Project>{458235A6-01D2-39B1-9849-CCAF8E0ACE3B}</Project>
+      <Name>bf_io_wavefront_obj</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\modifiers\bf_modifiers.vcxproj">
+      <Project>{A8A75C21-4FEE-3526-93AD-FED196B49534}</Project>
+      <Name>bf_modifiers</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\nodes\bf_nodes.vcxproj">
+      <Project>{8402155F-EBDB-3FBE-BCFE-D28F7B5A15E5}</Project>
+      <Name>bf_nodes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\nodes\composite\bf_nodes_composite.vcxproj">
+      <Project>{98EEA9A5-8158-3524-B5C1-E09017DF9D87}</Project>
+      <Name>bf_nodes_composite</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\nodes\function\bf_nodes_function.vcxproj">
+      <Project>{747D7A60-1475-32B7-97E8-BF98475038C0}</Project>
+      <Name>bf_nodes_function</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\nodes\function\bf_nodes_functions_generated.vcxproj">
+      <Project>{2D7B7A76-B8FC-3BB2-9635-B9E5649FD6DF}</Project>
+      <Name>bf_nodes_functions_generated</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\nodes\geometry\bf_nodes_geometry.vcxproj">
+      <Project>{12370D73-A602-383B-AC6C-A25BE0D1DE94}</Project>
+      <Name>bf_nodes_geometry</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\nodes\geometry\bf_nodes_geometry_generated.vcxproj">
+      <Project>{C90A632E-20E3-331E-9686-3398A3F972B7}</Project>
+      <Name>bf_nodes_geometry_generated</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\nodes\shader\bf_nodes_shader.vcxproj">
+      <Project>{E03A68E7-188A-3ED7-AF6A-128E8B121EBA}</Project>
+      <Name>bf_nodes_shader</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\nodes\texture\bf_nodes_texture.vcxproj">
+      <Project>{71F07DDC-155E-3901-B607-DB778E7F420C}</Project>
+      <Name>bf_nodes_texture</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\opencolorio\bf_ocio_shaders.vcxproj">
+      <Project>{222DA683-0303-35DB-A10A-58F86DADEA23}</Project>
+      <Name>bf_ocio_shaders</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\python\intern\bf_python.vcxproj">
+      <Project>{7C401EDA-C4C3-3DA1-9C51-3F7D4E75E5B5}</Project>
+      <Name>bf_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\python\bmesh\bf_python_bmesh.vcxproj">
+      <Project>{F6F23E0B-4385-3C21-918F-E7E9D8B8036E}</Project>
+      <Name>bf_python_bmesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\python\generic\bf_python_ext.vcxproj">
+      <Project>{67BC4337-C17E-3E9C-BD4E-FB3C0698959F}</Project>
+      <Name>bf_python_ext</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\python\gpu\bf_python_gpu.vcxproj">
+      <Project>{6A866B9F-8B20-3A41-A9CB-E7D5047AB204}</Project>
+      <Name>bf_python_gpu</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\python\mathutils\bf_python_mathutils.vcxproj">
+      <Project>{02A6D0FE-9842-314B-85EA-10A0FE7CBBFB}</Project>
+      <Name>bf_python_mathutils</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\compositor\realtime_compositor\bf_realtime_compositor.vcxproj">
+      <Project>{D2C22890-7FBE-3658-9D63-FF557F7834D3}</Project>
+      <Name>bf_realtime_compositor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\render\bf_render.vcxproj">
+      <Project>{4728532A-D59D-3D4B-A4D0-90D76342497A}</Project>
+      <Name>bf_render</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\render\hydra\bf_render_hydra.vcxproj">
+      <Project>{251AC9AE-A0B2-32DC-8122-3747FEE374D1}</Project>
+      <Name>bf_render_hydra</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\sequencer\bf_sequencer.vcxproj">
+      <Project>{1F23E1C7-F8B2-3E8D-B16B-F944C23389A4}</Project>
+      <Name>bf_sequencer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\shader_fx\bf_shader_fx.vcxproj">
+      <Project>{BF98A416-B4FE-30C4-8A8D-3041957B5FAD}</Project>
+      <Name>bf_shader_fx</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\simulation\bf_simulation.vcxproj">
+      <Project>{B077A738-C492-37B8-9D66-FC79BAAEDEF0}</Project>
+      <Name>bf_simulation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\windowmanager\bf_windowmanager.vcxproj">
+      <Project>{D1027607-9F71-3E95-9EF1-E0C28B6BF4B7}</Project>
+      <Name>bf_windowmanager</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\creator\blender.vcxproj">
+      <Project>{30288072-18F5-3FC1-A883-6563C24AEA2E}</Project>
+      <Name>blender</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\creator\blender-launcher.vcxproj">
+      <Project>{740253D2-1503-3C21-96B0-DCA1F8DA35C7}</Project>
+      <Name>blender-launcher</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\creator\buildinfo.vcxproj">
+      <Project>{10E676E5-F7B9-3EFB-99F5-D499E7442201}</Project>
+      <Name>buildinfo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\creator\buildinfoobj.vcxproj">
+      <Project>{5FA56FEB-6AB0-30A2-873B-1C8D5ADDBCC5}</Project>
+      <Name>buildinfoobj</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\cycles\bvh\cycles_bvh.vcxproj">
+      <Project>{1F81B7A1-C376-3393-886C-AB6865B64130}</Project>
+      <Name>cycles_bvh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\cycles\device\cycles_device.vcxproj">
+      <Project>{BD11F1FD-EE93-3C6C-9C28-CB6FE8B9877C}</Project>
+      <Name>cycles_device</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\cycles\graph\cycles_graph.vcxproj">
+      <Project>{779769B7-4E1F-39E7-B721-61F29FFE69B0}</Project>
+      <Name>cycles_graph</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\cycles\integrator\cycles_integrator.vcxproj">
+      <Project>{970D824F-20F4-384D-A086-87B4334348E0}</Project>
+      <Name>cycles_integrator</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\cycles\kernel\cycles_kernel.vcxproj">
+      <Project>{6D31AD67-5277-310E-926F-AF61E6DB4EEB}</Project>
+      <Name>cycles_kernel</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\cycles\kernel\osl\cycles_kernel_osl.vcxproj">
+      <Project>{656E2C32-592C-3FD4-ABF5-B1AFF731FF82}</Project>
+      <Name>cycles_kernel_osl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\cycles\kernel\osl\shaders\cycles_osl_shaders.vcxproj">
+      <Project>{FE2FB566-92ED-354D-9265-06187D5B991C}</Project>
+      <Name>cycles_osl_shaders</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\cycles\scene\cycles_scene.vcxproj">
+      <Project>{2FD61CB4-FFBE-35F0-BD34-C83A1DBC78BD}</Project>
+      <Name>cycles_scene</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\cycles\session\cycles_session.vcxproj">
+      <Project>{2D17E17E-22EB-32DA-8EF2-13835A295CE9}</Project>
+      <Name>cycles_session</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\cycles\subd\cycles_subd.vcxproj">
+      <Project>{56DD8EA5-486C-3445-B98E-B1FCB366EFF6}</Project>
+      <Name>cycles_subd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\intern\cycles\util\cycles_util.vcxproj">
+      <Project>{653115C8-AF38-3964-9EF6-68E044A26490}</Project>
+      <Name>cycles_util</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\datatoc\datatoc.vcxproj">
+      <Project>{A0633C90-F169-3D35-9DA6-21C7E6CF0689}</Project>
+      <Name>datatoc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\datatoc\datatoc_icon.vcxproj">
+      <Project>{4959E243-BB63-3D87-9473-A22111D0C96A}</Project>
+      <Name>datatoc_icon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\extern\draco\draco\draco.vcxproj">
+      <Project>{0E96C6BA-46A3-36B8-AD7E-3CF10707AACB}</Project>
+      <Name>draco</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\extern\bullet2\extern_bullet.vcxproj">
+      <Project>{359FB971-DC62-3322-827E-FF4760FE4891}</Project>
+      <Name>extern_bullet</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\extern\ceres\extern_ceres.vcxproj">
+      <Project>{BFC91B54-307E-3476-8D07-C0A95096A112}</Project>
+      <Name>extern_ceres</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\extern\clew\extern_clew.vcxproj">
+      <Project>{38698C38-6758-3477-981C-4EFC2E2D910C}</Project>
+      <Name>extern_clew</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\extern\cuew\extern_cuew.vcxproj">
+      <Project>{CC39EF25-E097-3524-BDE3-331385979E89}</Project>
+      <Name>extern_cuew</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\extern\curve_fit_nd\extern_curve_fit_nd.vcxproj">
+      <Project>{BA269875-2792-3CD2-8D32-60A3FED3E29C}</Project>
+      <Name>extern_curve_fit_nd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\extern\draco\extern_draco.vcxproj">
+      <Project>{C677E6D4-84B3-390D-80E6-229810FBD04D}</Project>
+      <Name>extern_draco</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\extern\fmtlib\extern_fmtlib.vcxproj">
+      <Project>{E1C08402-EF66-3180-9658-A1326731BB26}</Project>
+      <Name>extern_fmtlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\extern\gflags\extern_gflags.vcxproj">
+      <Project>{EFAF79F0-C547-389A-A44D-02041BF1097F}</Project>
+      <Name>extern_gflags</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\extern\glog\extern_glog.vcxproj">
+      <Project>{6D47162C-867A-3D6A-9676-7C848E23310A}</Project>
+      <Name>extern_glog</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\extern\hipew\extern_hipew.vcxproj">
+      <Project>{72933F3B-2AC0-3AD9-A5E2-21B5ADA00FE6}</Project>
+      <Name>extern_hipew</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\extern\lzma\extern_lzma.vcxproj">
+      <Project>{7DA869D9-BD0D-30D1-8A05-EC17AFC17010}</Project>
+      <Name>extern_lzma</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\extern\mantaflow\extern_mantaflow.vcxproj">
+      <Project>{B86A0530-34B1-3318-98EA-FD8BC93DA1EA}</Project>
+      <Name>extern_mantaflow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\extern\lzo\extern_minilzo.vcxproj">
+      <Project>{243603D9-3271-3F19-B6BF-5382BEF0F71E}</Project>
+      <Name>extern_minilzo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\extern\nanosvg\extern_nanosvg.vcxproj">
+      <Project>{27BB094B-D01B-3D63-A4EB-0F7F639B7AA2}</Project>
+      <Name>extern_nanosvg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\extern\quadriflow\extern_quadriflow.vcxproj">
+      <Project>{139D0866-9E60-30EB-9741-59331BC50350}</Project>
+      <Name>extern_quadriflow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\extern\rangetree\extern_rangetree.vcxproj">
+      <Project>{09C1AE5D-07EA-3344-9214-797BEA5C095D}</Project>
+      <Name>extern_rangetree</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\extern\vulkan_memory_allocator\extern_vulkan_memory_allocator.vcxproj">
+      <Project>{8BEE9F2E-532C-330D-8DA5-A1AAE73D3FD5}</Project>
+      <Name>extern_vulkan_memory_allocator</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\extern\wcwidth\extern_wcwidth.vcxproj">
+      <Project>{8132AC47-CAAC-3A65-AB5F-499525CD23F7}</Project>
+      <Name>extern_wcwidth</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesdna\intern\makesdna.vcxproj">
+      <Project>{253D52E8-DF0F-31C4-8DA0-FD37181F10AD}</Project>
+      <Name>makesdna</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\makesrna\intern\makesrna.vcxproj">
+      <Project>{DC04A97D-D91B-3A8B-8F60-BB17B7EA3CEE}</Project>
+      <Name>makesrna</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\source\blender\blentranslation\msgfmt\msgfmt.vcxproj">
+      <Project>{9BE47D42-CDA2-3C61-BF43-350849C84333}</Project>
+      <Name>msgfmt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc17_Release\extern\smaa_areatex\smaa_areatex.vcxproj">
+      <Project>{D6FEF7D1-AE33-38C9-B349-19CB22C9B4A1}</Project>
+      <Name>smaa_areatex</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

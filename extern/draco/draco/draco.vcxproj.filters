@@ -1,0 +1,837 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\animation\keyframe_animation.cc">
+      <Filter>src\draco\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\animation\keyframe_animation_decoder.cc">
+      <Filter>src\draco\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\animation\keyframe_animation_encoder.cc">
+      <Filter>src\draco\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\attributes\attribute_octahedron_transform.cc">
+      <Filter>src\draco\attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\attributes\attribute_quantization_transform.cc">
+      <Filter>src\draco\attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\attributes\attribute_transform.cc">
+      <Filter>src\draco\attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\attributes\geometry_attribute.cc">
+      <Filter>src\draco\attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\attributes\point_attribute.cc">
+      <Filter>src\draco\attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\attributes_decoder.cc">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\attributes_encoder.cc">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\kd_tree_attributes_decoder.cc">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\kd_tree_attributes_encoder.cc">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_encoder_factory.cc">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\sequential_attribute_decoder.cc">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\sequential_attribute_decoders_controller.cc">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\sequential_attribute_encoder.cc">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\sequential_attribute_encoders_controller.cc">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\sequential_integer_attribute_decoder.cc">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\sequential_integer_attribute_encoder.cc">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\sequential_normal_attribute_decoder.cc">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\sequential_normal_attribute_encoder.cc">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\sequential_quantization_attribute_decoder.cc">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\sequential_quantization_attribute_encoder.cc">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\bit_coders\adaptive_rans_bit_decoder.cc">
+      <Filter>src\draco\compression\bit_coders</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\bit_coders\adaptive_rans_bit_encoder.cc">
+      <Filter>src\draco\compression\bit_coders</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\bit_coders\direct_bit_decoder.cc">
+      <Filter>src\draco\compression\bit_coders</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\bit_coders\direct_bit_encoder.cc">
+      <Filter>src\draco\compression\bit_coders</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\bit_coders\rans_bit_decoder.cc">
+      <Filter>src\draco\compression\bit_coders</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\bit_coders\rans_bit_encoder.cc">
+      <Filter>src\draco\compression\bit_coders</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\bit_coders\symbol_bit_decoder.cc">
+      <Filter>src\draco\compression\bit_coders</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\bit_coders\symbol_bit_encoder.cc">
+      <Filter>src\draco\compression\bit_coders</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\decode.cc">
+      <Filter>src\draco\compression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\encode.cc">
+      <Filter>src\draco\compression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\entropy\shannon_entropy.cc">
+      <Filter>src\draco\compression\entropy</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\entropy\symbol_decoding.cc">
+      <Filter>src\draco\compression\entropy</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\entropy\symbol_encoding.cc">
+      <Filter>src\draco\compression\entropy</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\expert_encode.cc">
+      <Filter>src\draco\compression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\mesh\mesh_decoder.cc">
+      <Filter>src\draco\compression\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_decoder.cc">
+      <Filter>src\draco\compression\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_decoder_impl.cc">
+      <Filter>src\draco\compression\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_encoder.cc">
+      <Filter>src\draco\compression\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc">
+      <Filter>src\draco\compression\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\mesh\mesh_encoder.cc">
+      <Filter>src\draco\compression\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\mesh\mesh_sequential_decoder.cc">
+      <Filter>src\draco\compression\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\mesh\mesh_sequential_encoder.cc">
+      <Filter>src\draco\compression\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\point_cloud\algorithms\dynamic_integer_points_kd_tree_decoder.cc">
+      <Filter>src\draco\compression\point_cloud\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\point_cloud\algorithms\dynamic_integer_points_kd_tree_encoder.cc">
+      <Filter>src\draco\compression\point_cloud\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\point_cloud\algorithms\float_points_tree_decoder.cc">
+      <Filter>src\draco\compression\point_cloud\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\point_cloud\algorithms\float_points_tree_encoder.cc">
+      <Filter>src\draco\compression\point_cloud\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\point_cloud\algorithms\integer_points_kd_tree_decoder.cc">
+      <Filter>src\draco\compression\point_cloud\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\point_cloud\algorithms\integer_points_kd_tree_encoder.cc">
+      <Filter>src\draco\compression\point_cloud\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\point_cloud\point_cloud_decoder.cc">
+      <Filter>src\draco\compression\point_cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\point_cloud\point_cloud_encoder.cc">
+      <Filter>src\draco\compression\point_cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\point_cloud\point_cloud_kd_tree_decoder.cc">
+      <Filter>src\draco\compression\point_cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\point_cloud\point_cloud_kd_tree_encoder.cc">
+      <Filter>src\draco\compression\point_cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\point_cloud\point_cloud_sequential_decoder.cc">
+      <Filter>src\draco\compression\point_cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\point_cloud\point_cloud_sequential_encoder.cc">
+      <Filter>src\draco\compression\point_cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\core\bit_utils.cc">
+      <Filter>src\draco\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\core\bounding_box.cc">
+      <Filter>src\draco\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\core\cycle_timer.cc">
+      <Filter>src\draco\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\core\data_buffer.cc">
+      <Filter>src\draco\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\core\decoder_buffer.cc">
+      <Filter>src\draco\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\core\divide.cc">
+      <Filter>src\draco\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\core\draco_types.cc">
+      <Filter>src\draco\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\core\encoder_buffer.cc">
+      <Filter>src\draco\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\core\hash_utils.cc">
+      <Filter>src\draco\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\core\options.cc">
+      <Filter>src\draco\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\core\quantization_utils.cc">
+      <Filter>src\draco\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\mesh\corner_table.cc">
+      <Filter>src\draco\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\mesh\mesh.cc">
+      <Filter>src\draco\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\mesh\mesh_are_equivalent.cc">
+      <Filter>src\draco\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\mesh\mesh_attribute_corner_table.cc">
+      <Filter>src\draco\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\mesh\mesh_cleanup.cc">
+      <Filter>src\draco\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\mesh\mesh_misc_functions.cc">
+      <Filter>src\draco\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\mesh\mesh_stripifier.cc">
+      <Filter>src\draco\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\mesh\triangle_soup_mesh_builder.cc">
+      <Filter>src\draco\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\metadata\geometry_metadata.cc">
+      <Filter>src\draco\metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\metadata\metadata.cc">
+      <Filter>src\draco\metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\metadata\metadata_decoder.cc">
+      <Filter>src\draco\metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\metadata\metadata_encoder.cc">
+      <Filter>src\draco\metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\point_cloud\point_cloud.cc">
+      <Filter>src\draco\point_cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\extern\draco\draco\src\draco\point_cloud\point_cloud_builder.cc">
+      <Filter>src\draco\point_cloud</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\animation\keyframe_animation.h">
+      <Filter>src\draco\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\animation\keyframe_animation_decoder.h">
+      <Filter>src\draco\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\animation\keyframe_animation_encoder.h">
+      <Filter>src\draco\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\attributes\attribute_octahedron_transform.h">
+      <Filter>src\draco\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\attributes\attribute_quantization_transform.h">
+      <Filter>src\draco\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\attributes\attribute_transform.h">
+      <Filter>src\draco\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\attributes\attribute_transform_data.h">
+      <Filter>src\draco\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\attributes\attribute_transform_type.h">
+      <Filter>src\draco\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\attributes\geometry_attribute.h">
+      <Filter>src\draco\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\attributes\geometry_indices.h">
+      <Filter>src\draco\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\attributes\point_attribute.h">
+      <Filter>src\draco\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\attributes_decoder.h">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\attributes_decoder_interface.h">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\attributes_encoder.h">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\kd_tree_attributes_decoder.h">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\kd_tree_attributes_encoder.h">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\kd_tree_attributes_shared.h">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\linear_sequencer.h">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\mesh_attribute_indices_encoding_data.h">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\normal_compression_utils.h">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\point_d_vector.h">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\points_sequencer.h">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_constrained_multi_parallelogram_decoder.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_constrained_multi_parallelogram_encoder.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_constrained_multi_parallelogram_shared.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_data.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_decoder.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_encoder.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_geometric_normal_decoder.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_geometric_normal_encoder.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_geometric_normal_predictor_area.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_geometric_normal_predictor_base.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_multi_parallelogram_decoder.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_multi_parallelogram_encoder.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_parallelogram_decoder.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_parallelogram_encoder.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_parallelogram_shared.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_tex_coords_decoder.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_tex_coords_encoder.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_tex_coords_portable_decoder.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_tex_coords_portable_encoder.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_tex_coords_portable_predictor.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_decoder.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_decoder_factory.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_decoder_interface.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_decoding_transform.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_delta_decoder.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_delta_encoder.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_encoder.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_encoder_factory.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_encoder_interface.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_encoding_transform.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_factory.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_interface.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_normal_octahedron_canonicalized_decoding_transform.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_normal_octahedron_canonicalized_encoding_transform.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_normal_octahedron_canonicalized_transform_base.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_normal_octahedron_decoding_transform.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_normal_octahedron_encoding_transform.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_normal_octahedron_transform_base.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_wrap_decoding_transform.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_wrap_encoding_transform.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_wrap_transform_base.h">
+      <Filter>src\draco\compression\attributes\prediction_schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\sequential_attribute_decoder.h">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\sequential_attribute_decoders_controller.h">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\sequential_attribute_encoder.h">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\sequential_attribute_encoders_controller.h">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\sequential_integer_attribute_decoder.h">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\sequential_integer_attribute_encoder.h">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\sequential_normal_attribute_decoder.h">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\sequential_normal_attribute_encoder.h">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\sequential_quantization_attribute_decoder.h">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\attributes\sequential_quantization_attribute_encoder.h">
+      <Filter>src\draco\compression\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\bit_coders\adaptive_rans_bit_coding_shared.h">
+      <Filter>src\draco\compression\bit_coders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\bit_coders\adaptive_rans_bit_decoder.h">
+      <Filter>src\draco\compression\bit_coders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\bit_coders\adaptive_rans_bit_encoder.h">
+      <Filter>src\draco\compression\bit_coders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\bit_coders\direct_bit_decoder.h">
+      <Filter>src\draco\compression\bit_coders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\bit_coders\direct_bit_encoder.h">
+      <Filter>src\draco\compression\bit_coders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\bit_coders\folded_integer_bit_decoder.h">
+      <Filter>src\draco\compression\bit_coders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\bit_coders\folded_integer_bit_encoder.h">
+      <Filter>src\draco\compression\bit_coders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\bit_coders\rans_bit_decoder.h">
+      <Filter>src\draco\compression\bit_coders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\bit_coders\rans_bit_encoder.h">
+      <Filter>src\draco\compression\bit_coders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\bit_coders\symbol_bit_decoder.h">
+      <Filter>src\draco\compression\bit_coders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\bit_coders\symbol_bit_encoder.h">
+      <Filter>src\draco\compression\bit_coders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\config\compression_shared.h">
+      <Filter>src\draco\compression\config</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\config\decoder_options.h">
+      <Filter>src\draco\compression\config</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\config\draco_options.h">
+      <Filter>src\draco\compression\config</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\config\encoder_options.h">
+      <Filter>src\draco\compression\config</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\config\encoding_features.h">
+      <Filter>src\draco\compression\config</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\decode.h">
+      <Filter>src\draco\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\encode.h">
+      <Filter>src\draco\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\encode_base.h">
+      <Filter>src\draco\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\entropy\ans.h">
+      <Filter>src\draco\compression\entropy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\entropy\rans_symbol_coding.h">
+      <Filter>src\draco\compression\entropy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\entropy\rans_symbol_decoder.h">
+      <Filter>src\draco\compression\entropy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\entropy\rans_symbol_encoder.h">
+      <Filter>src\draco\compression\entropy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\entropy\shannon_entropy.h">
+      <Filter>src\draco\compression\entropy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\entropy\symbol_decoding.h">
+      <Filter>src\draco\compression\entropy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\entropy\symbol_encoding.h">
+      <Filter>src\draco\compression\entropy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\expert_encode.h">
+      <Filter>src\draco\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\mesh\mesh_decoder.h">
+      <Filter>src\draco\compression\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_decoder.h">
+      <Filter>src\draco\compression\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_decoder_impl.h">
+      <Filter>src\draco\compression\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_decoder_impl_interface.h">
+      <Filter>src\draco\compression\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_encoder.h">
+      <Filter>src\draco\compression\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.h">
+      <Filter>src\draco\compression\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl_interface.h">
+      <Filter>src\draco\compression\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_shared.h">
+      <Filter>src\draco\compression\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_traversal_decoder.h">
+      <Filter>src\draco\compression\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_traversal_encoder.h">
+      <Filter>src\draco\compression\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_traversal_predictive_decoder.h">
+      <Filter>src\draco\compression\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_traversal_predictive_encoder.h">
+      <Filter>src\draco\compression\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_traversal_valence_decoder.h">
+      <Filter>src\draco\compression\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_traversal_valence_encoder.h">
+      <Filter>src\draco\compression\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\mesh\mesh_encoder.h">
+      <Filter>src\draco\compression\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\mesh\mesh_sequential_decoder.h">
+      <Filter>src\draco\compression\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\mesh\mesh_sequential_encoder.h">
+      <Filter>src\draco\compression\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\mesh\traverser\depth_first_traverser.h">
+      <Filter>src\draco\compression\mesh\traverser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\mesh\traverser\max_prediction_degree_traverser.h">
+      <Filter>src\draco\compression\mesh\traverser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\mesh\traverser\mesh_attribute_indices_encoding_observer.h">
+      <Filter>src\draco\compression\mesh\traverser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\mesh\traverser\mesh_traversal_sequencer.h">
+      <Filter>src\draco\compression\mesh\traverser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\mesh\traverser\traverser_base.h">
+      <Filter>src\draco\compression\mesh\traverser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\point_cloud\algorithms\dynamic_integer_points_kd_tree_decoder.h">
+      <Filter>src\draco\compression\point_cloud\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\point_cloud\algorithms\dynamic_integer_points_kd_tree_encoder.h">
+      <Filter>src\draco\compression\point_cloud\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\point_cloud\algorithms\float_points_tree_decoder.h">
+      <Filter>src\draco\compression\point_cloud\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\point_cloud\algorithms\float_points_tree_encoder.h">
+      <Filter>src\draco\compression\point_cloud\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\point_cloud\algorithms\integer_points_kd_tree_decoder.h">
+      <Filter>src\draco\compression\point_cloud\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\point_cloud\algorithms\integer_points_kd_tree_encoder.h">
+      <Filter>src\draco\compression\point_cloud\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\point_cloud\algorithms\point_cloud_compression_method.h">
+      <Filter>src\draco\compression\point_cloud\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\point_cloud\algorithms\point_cloud_types.h">
+      <Filter>src\draco\compression\point_cloud\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\point_cloud\algorithms\quantize_points_3.h">
+      <Filter>src\draco\compression\point_cloud\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\point_cloud\algorithms\queuing_policy.h">
+      <Filter>src\draco\compression\point_cloud\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\point_cloud\point_cloud_decoder.h">
+      <Filter>src\draco\compression\point_cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\point_cloud\point_cloud_encoder.h">
+      <Filter>src\draco\compression\point_cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\point_cloud\point_cloud_kd_tree_decoder.h">
+      <Filter>src\draco\compression\point_cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\point_cloud\point_cloud_kd_tree_encoder.h">
+      <Filter>src\draco\compression\point_cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\point_cloud\point_cloud_sequential_decoder.h">
+      <Filter>src\draco\compression\point_cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\compression\point_cloud\point_cloud_sequential_encoder.h">
+      <Filter>src\draco\compression\point_cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\core\bit_utils.h">
+      <Filter>src\draco\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\core\bounding_box.h">
+      <Filter>src\draco\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\core\cycle_timer.h">
+      <Filter>src\draco\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\core\data_buffer.h">
+      <Filter>src\draco\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\core\decoder_buffer.h">
+      <Filter>src\draco\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\core\divide.h">
+      <Filter>src\draco\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\core\draco_index_type.h">
+      <Filter>src\draco\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\core\draco_index_type_vector.h">
+      <Filter>src\draco\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\core\draco_types.h">
+      <Filter>src\draco\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\core\draco_version.h">
+      <Filter>src\draco\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\core\encoder_buffer.h">
+      <Filter>src\draco\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\core\hash_utils.h">
+      <Filter>src\draco\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\core\macros.h">
+      <Filter>src\draco\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\core\math_utils.h">
+      <Filter>src\draco\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\core\options.h">
+      <Filter>src\draco\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\core\quantization_utils.h">
+      <Filter>src\draco\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\core\status.h">
+      <Filter>src\draco\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\core\status_or.h">
+      <Filter>src\draco\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\core\varint_decoding.h">
+      <Filter>src\draco\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\core\varint_encoding.h">
+      <Filter>src\draco\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\core\vector_d.h">
+      <Filter>src\draco\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\mesh\corner_table.h">
+      <Filter>src\draco\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\mesh\corner_table_iterators.h">
+      <Filter>src\draco\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\mesh\mesh.h">
+      <Filter>src\draco\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\mesh\mesh_are_equivalent.h">
+      <Filter>src\draco\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\mesh\mesh_attribute_corner_table.h">
+      <Filter>src\draco\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\mesh\mesh_cleanup.h">
+      <Filter>src\draco\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\mesh\mesh_misc_functions.h">
+      <Filter>src\draco\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\mesh\mesh_stripifier.h">
+      <Filter>src\draco\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\mesh\triangle_soup_mesh_builder.h">
+      <Filter>src\draco\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\mesh\valence_cache.h">
+      <Filter>src\draco\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\metadata\geometry_metadata.h">
+      <Filter>src\draco\metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\metadata\metadata.h">
+      <Filter>src\draco\metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\metadata\metadata_decoder.h">
+      <Filter>src\draco\metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\metadata\metadata_encoder.h">
+      <Filter>src\draco\metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\point_cloud\point_cloud.h">
+      <Filter>src\draco\point_cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\extern\draco\draco\src\draco\point_cloud\point_cloud_builder.h">
+      <Filter>src\draco\point_cloud</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\blender\extern\draco\draco\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{03DC2015-65E2-379B-BE87-37CF238CE6CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\draco">
+      <UniqueIdentifier>{3C27636F-7B19-345B-874A-ED7940A3BF66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\draco\animation">
+      <UniqueIdentifier>{18C44199-E0E1-32BD-BE02-D75F53A1D61E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\draco\attributes">
+      <UniqueIdentifier>{8A5B50A4-9647-340D-9A7A-00CF4914981C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\draco\compression">
+      <UniqueIdentifier>{F28692D0-3473-39AE-9B4C-2A22550283E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\draco\compression\attributes">
+      <UniqueIdentifier>{CE1E037A-582F-36F4-AB17-2A3B5941BF50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\draco\compression\attributes\prediction_schemes">
+      <UniqueIdentifier>{6E27947C-E52E-33C3-BE0C-AB813D0A0F0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\draco\compression\bit_coders">
+      <UniqueIdentifier>{3FEF9F5B-45B1-3CEC-9632-F2E599057CF6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\draco\compression\config">
+      <UniqueIdentifier>{8D6F070F-1925-3B1F-A8BD-BC05A5FAA766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\draco\compression\entropy">
+      <UniqueIdentifier>{40A70C3C-1864-3E02-8301-4653D184D2C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\draco\compression\mesh">
+      <UniqueIdentifier>{50B4334C-D95B-351A-B85E-A86B02F7C3DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\draco\compression\mesh\traverser">
+      <UniqueIdentifier>{E4AE7E42-ED52-316C-A293-E21DFC576BE9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\draco\compression\point_cloud">
+      <UniqueIdentifier>{97F9E490-8093-3199-AB77-F03D883FE53D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\draco\compression\point_cloud\algorithms">
+      <UniqueIdentifier>{398EE466-FC76-31E7-8BC5-D2E187C5BEE7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\draco\core">
+      <UniqueIdentifier>{CD6D6986-DA53-3183-8C0A-6E9E41A00EF7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\draco\mesh">
+      <UniqueIdentifier>{6E4840DC-29D5-3B24-83D7-F3D9759B2261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\draco\metadata">
+      <UniqueIdentifier>{B5A96C72-E540-3737-AE48-E7D3325A3C56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\draco\point_cloud">
+      <UniqueIdentifier>{4D6B1D09-5881-37AB-BFD4-5B0A982D3A33}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\blender\source\blender\io\ply\exporter\ply_export.cc">
+      <Filter>exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\io\ply\exporter\ply_export_data.cc">
+      <Filter>exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\io\ply\exporter\ply_export_header.cc">
+      <Filter>exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\io\ply\exporter\ply_export_load_plydata.cc">
+      <Filter>exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\io\ply\exporter\ply_file_buffer.cc">
+      <Filter>exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\io\ply\exporter\ply_file_buffer_ascii.cc">
+      <Filter>exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\io\ply\exporter\ply_file_buffer_binary.cc">
+      <Filter>exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\io\ply\importer\ply_import.cc">
+      <Filter>importer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\io\ply\importer\ply_import_buffer.cc">
+      <Filter>importer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\io\ply\importer\ply_import_data.cc">
+      <Filter>importer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\io\ply\importer\ply_import_mesh.cc">
+      <Filter>importer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\io\ply\IO_ply.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\blender\source\blender\io\ply\exporter\ply_export.hh">
+      <Filter>exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\io\ply\exporter\ply_export_data.hh">
+      <Filter>exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\io\ply\exporter\ply_export_header.hh">
+      <Filter>exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\io\ply\exporter\ply_export_load_plydata.hh">
+      <Filter>exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\io\ply\exporter\ply_file_buffer.hh">
+      <Filter>exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\io\ply\exporter\ply_file_buffer_ascii.hh">
+      <Filter>exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\io\ply\exporter\ply_file_buffer_binary.hh">
+      <Filter>exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\io\ply\importer\ply_import.hh">
+      <Filter>importer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\io\ply\importer\ply_import_buffer.hh">
+      <Filter>importer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\io\ply\importer\ply_import_data.hh">
+      <Filter>importer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\io\ply\importer\ply_import_mesh.hh">
+      <Filter>importer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\io\ply\IO_ply.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\io\ply\intern\ply_data.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\blender\source\blender\io\ply\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DCA61805-858F-3339-AB48-23982FF4ADDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EC3EFCE8-AD0A-3455-BDD6-6E7F392CC298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="exporter">
+      <UniqueIdentifier>{BE03027D-2ED2-3F19-8EAD-9642BCDE9633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="importer">
+      <UniqueIdentifier>{8F95F8E7-56BB-3E09-A062-15F488BCF2AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern">
+      <UniqueIdentifier>{4EDE82D4-1D12-38C7-B105-AB6CAFF912B4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

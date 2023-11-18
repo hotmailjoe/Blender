@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_beautify.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_bevel.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_bisect_plane.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_bridge.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_connect.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_connect_concave.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_connect_nonplanar.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_connect_pair.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_create.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_dissolve.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_dupe.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_edgenet.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_extrude.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_fill_attribute.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_fill_edgeloop.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_fill_grid.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_fill_holes.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_hull.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_inset.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_join_triangles.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_mesh_convert.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_mirror.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_normals.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_offset_edgeloops.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_planar_faces.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_poke.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_primitive.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_removedoubles.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_rotate_edges.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_smooth_laplacian.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_split_edges.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_subdivide.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_subdivide_edgering.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_symmetrize.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_triangulate.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_unsubdivide.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_utils.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\operators\bmo_wireframe.cc">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_callback_generic.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_construct.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_core.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_delete.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_edgeloop.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_interp.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_iterators.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_log.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_marking.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_mesh.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_mesh_convert.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_mesh_debug.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_mesh_duplicate.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_mesh_normals.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_mesh_partial_update.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_mesh_tessellate.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_mesh_validate.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_mods.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_opdefines.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_operators.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_polygon.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_polygon_edgenet.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_query.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_query_uv.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_structure.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_walkers.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_walkers_impl.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_beautify.cc">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_bevel.cc">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_bisect_plane.cc">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_boolean.cc">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_decimate_collapse.cc">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_decimate_dissolve.cc">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_decimate_unsubdivide.cc">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_edgenet.cc">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_edgesplit.cc">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_intersect.cc">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_intersect_edges.cc">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_path.cc">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_path_region.cc">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_path_region_uv.cc">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_path_uv.cc">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_region_match.cc">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_separate.cc">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_triangulate.cc">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_wireframe.cc">
+      <Filter>tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_callback_generic.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_construct.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_core.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_delete.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_edgeloop.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_inline.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_interp.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_iterators.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_iterators_inline.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_log.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_marking.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_mesh.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_mesh_convert.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_mesh_debug.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_mesh_duplicate.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_mesh_normals.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_mesh_partial_update.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_mesh_tessellate.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_mesh_validate.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_mods.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_operator_api_inline.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_operators.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_operators_private.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_polygon.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_polygon_edgenet.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_private.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_query.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_query_inline.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_query_uv.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_structure.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_structure_inline.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_walkers.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_walkers_private.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_error.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\intern\bmesh_operator_api.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_beautify.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_bevel.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_bisect_plane.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_boolean.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_decimate.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_edgenet.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_edgesplit.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_intersect.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_intersect_edges.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_path.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_path_region.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_path_region_uv.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_path_uv.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_region_match.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_separate.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_triangulate.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\tools\bmesh_wireframe.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\bmesh_class.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\bmesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\blender\source\blender\bmesh\bmesh_tools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\blender\source\blender\bmesh\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DCA61805-858F-3339-AB48-23982FF4ADDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern">
+      <UniqueIdentifier>{4EDE82D4-1D12-38C7-B105-AB6CAFF912B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="operators">
+      <UniqueIdentifier>{251E53AF-D745-3D0F-BC90-0B4F0F35A081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{656FCF6C-FC07-37D3-8768-FCB9C6C37C62}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
